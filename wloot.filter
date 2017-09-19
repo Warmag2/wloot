@@ -94,7 +94,7 @@ Show
     SetBackgroundColor 64 42 32
     SetBorderColor 230 214 177
     SetFontSize 40
-    PlayAlertSound 14 130
+    PlayAlertSound 16 140
 
 # Essences
 Show
@@ -104,7 +104,7 @@ Show
     SetBackgroundColor 32 64 42
     SetBorderColor 120 230 190
     SetFontSize 42
-    PlayAlertSound 9 80
+    PlayAlertSound 8 120
 
 ########################################################################
 ### Prophecy items  ####################################################
@@ -170,7 +170,7 @@ Show
     SetFontSize 42
     SetBackgroundColor 90 60 90
     SetBorderColor 255 80 0
-    PlayAlertSound 16 150
+    PlayAlertSound 15 120
 
 # Perandus coins
 Show
@@ -180,7 +180,7 @@ Show
     SetBorderColor 255 80 0
     SetTextColor 255 178 135
     SetFontSize 40
-    PlayAlertSound 8 80
+    PlayAlertSound 15 80
 
 # Talismans
 Show
@@ -188,7 +188,7 @@ Show
     SetBackgroundColor 90 20 0
     SetBorderColor 255 80 0
     SetFontSize 42
-    PlayAlertSound 16 150
+    PlayAlertSound 15 150
 
 ########################################################################
 ### League-specific and currency catch-all block #######################
@@ -242,7 +242,7 @@ Show
     BaseType "Shaped"
     SetFontSize 42
     SetBackgroundColor 0 90 0
-    PlayAlertSound 11 130
+    PlayAlertSound 2 130
 
 # Red maps
 Show
@@ -250,7 +250,7 @@ Show
     DropLevel >= 78
     SetFontSize 40
     SetBackgroundColor 100 0 0
-    PlayAlertSound 2 130
+    PlayAlertSound 2 120
 
 # Yellow maps
 Show
@@ -264,7 +264,7 @@ Show
 Show
     Class Maps
     SetFontSize 40
-    PlayAlertSound 2 90
+    PlayAlertSound 2 100
 
 # Map Fragments
 Show
@@ -273,7 +273,7 @@ Show
     SetBorderColor 240 180 240
     SetTextColor 0 0 0
     SetFontSize 40
-    PlayAlertSound 2 100
+    PlayAlertSound 11 150
 
 ########################################################################
 ### Labyrinth items ####################################################
@@ -494,7 +494,7 @@ Show
     ItemLevel >= 80
     SetTextColor 255 255 255 200
     SetBackgroundColor 0 100 0 144
-    PlayAlertSound 12 150
+    PlayAlertSound 14 150
 
 # Max base level special jewellry bases
 Show
@@ -504,7 +504,7 @@ Show
     SetTextColor 255 255 255 200
     SetBackgroundColor 0 100 0 144
     SetFontSize 40
-    PlayAlertSound 15 150
+    PlayAlertSound 14 150
 
 # Bases that can be Chance Orbed for expensive uniques, ilvl restriction matches start of mapping
 # For now UNUSED

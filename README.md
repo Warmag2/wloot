@@ -11,19 +11,19 @@ big resource hogs, the script is designed to be more lightweight than any of the
 
 #### Main features
 
-* 1. Moderately reduced clutter. White or magic items except for the very best maxlvl bases are never ever shown, not even while leveling.
-* 2. Rares are always shown. There is colour- and font size coding for chaos- and regal-recipe worthy rares and rares with good bases. Rares ineglible for chaos recipe are faded.
-* 3. Currency font size is large. I want to make currency picking easy, because I'm OCD enough to pick anything better than an orb of Alteration. Weakest currencies are faded.
-* 4. Everything is sound-coded based on type. Currency is also sound-coded based on value. Apart from the currency, there is no economic tiering.
-* 5. Recipes for chromatics, glassblowers, jewelers and chisels are displayed.
-* 6. Non-quality flasks are not shown, except for special flasks.
-* 7. Chancing recipes are NOT highlighted by default. Edit the relevant block to alter this.
+* Moderately reduced clutter. White or magic items except for the very best maxlvl bases are never ever shown, not even while leveling.
+* Rares are always shown. There is colour- and font size coding for chaos- and regal-recipe worthy rares and rares with good bases. Rares ineglible for chaos recipe are faded.
+* Currency font size is large. I want to make currency picking easy, because I'm OCD enough to pick anything better than an orb of Alteration. Weakest currencies are faded.
+* Everything is sound-coded based on type. Currency is also sound-coded based on value. Apart from the currency, there is no economic tiering.
+* Recipes for chromatics, glassblowers, jewelers and chisels are displayed.
+* Non-quality flasks are not shown, except for special flasks.
+* Chancing recipes are NOT highlighted by default. Edit the relevant block to alter this.
 
 #### Visual features
 
-* 1. From a visual design perspective, colors are used more liberally than in the base game, which may be a problem for purists.
-* 2. Jewels, uniques, rares, currency etc. use something akin to their default ingame colour scheme, except brighter. Special items which do not have a default scheme, have been coloured to be easily distinguishable.
-* 3. Most backgrounds are coloured, unlike in the base game. Mostly the background color is a darker version of the base colour.
+* From a visual design perspective, colors are used more liberally than in the base game, which may be a problem for purists.
+* Jewels, uniques, rares, currency etc. use something akin to their default ingame colour scheme, except brighter. Special items which do not have a default scheme, have been coloured to be easily distinguishable.
+* Most backgrounds are coloured, unlike in the base game. Mostly the background color is a darker version of the base colour.
 
 #### Items shown as good bases
 
@@ -39,24 +39,24 @@ big resource hogs, the script is designed to be more lightweight than any of the
 
 #### Alert Sounds
 
-**Breach items**: 8
-**Maps**: 2
-**Maps - Shaped**: 11
-**Cards**: 7
-**High currency shards**: 14 (alchemy, binding, chaos, engineer, horizon, regal)
-**Low currency shards**: 12 (ancient, annullment, exalted, harbinger)
-**Super currency**: 5 (exa, divine)
-**High currency**: 13 (ancient, annullment, harbinger)
-**Mid Currency**: 1 (blessed, chaos, fusing, gcp, regal, scour, vaal)
-**Low Currency**: 3 (jeweler/chisel/alch/chance/binding/horizon)
-**Mirror of Kalandra**: 5 (really loud)
-**Links>=6**: 4 
-**Sockets=6**: 1
-**Uniques**: 6
-**Prophecies and Silver coins**: 9
-**Special crafting bases**: 15
-**Perandus coins**: 14
-**Leaguestones and Talismans**: 16
+* **Breach items**: 8
+* **Maps**: 2
+* **Maps - Shaped**: 11
+* **Cards**: 7
+* **High currency shards**: 14 (alchemy, binding, chaos, engineer, horizon, regal)
+* **Low currency shards**: 12 (ancient, annullment, exalted, harbinger)
+* **Super currency**: 5 (exa, divine)
+* **High currency**: 13 (ancient, annullment, harbinger)
+* **Mid Currency**: 1 (blessed, chaos, fusing, gcp, regal, scour, vaal)
+* **Low Currency**: 3 (jeweler/chisel/alch/chance/binding/horizon)
+* **Mirror of Kalandra**: 5 (really loud)
+* **Links>=6**: 4 
+* **Sockets=6**: 1
+* **Uniques**: 6
+* **Prophecies and Silver coins**: 9
+* **Special crafting bases**: 15
+* **Perandus coins**: 14
+* **Leaguestones and Talismans**: 16
 
 #### Acknowledgements
 

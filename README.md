@@ -41,21 +41,24 @@ big resource hogs, the script is designed to be more lightweight than any of the
 
 * **Maps:** 2
 * **Map fragements:** 11
-* **Cards:** 7
-* **High currency shards:** 16 (alchemy, binding, chaos, engineer, horizon, regal)
-* **Low currency shards:** 12 (ancient, annullment, exalted, harbinger)
-* **Super currency:** 5 (exa, divine)
-* **High currency:** 13 (ancient, annullment, harbinger)
-* **Mid Currency:** 1 (blessed, chaos, fusing, gcp, regal, scour, vaal)
+
+* **Low currency shards:** 12 (alchemy, binding, chaos, engineer, horizon, regal)
+* **High currency shards:** 16 (ancient, annullment, exalted, harbinger)
 * **Low Currency:** 3 (jeweler/chisel/alch/chance/binding/horizon)
+* **Mid Currency:** 1 (blessed, chaos, fusing, gcp, regal, scour, vaal)
+* **High currency:** 13 (ancient, annullment, harbinger)
+* **Super currency:** 5 (exa, divine)
 * **Mirror of Kalandra:** 5 (really loud)
-* **Links>=6:** 4 
-* **Sockets=6:** 10
+
+* **Cards:** 7
 * **Uniques:** 6
 * **Prophecies and Silver coins:** 9
 * **Special crafting bases:** 14
 * **League-specific items (in base game):** 8 (essences, breach items)
 * **League-specific items (not in base game):** 15 (perandus coins, talismans, leaguestones)
+
+* **Links>=6:** 4 
+* **Sockets=6:** 10
 
 #### Acknowledgements
 

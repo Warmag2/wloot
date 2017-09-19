@@ -1,84 +1,4 @@
-﻿# Script edited with Filtration - https://github.com/ben-wallis/Filtration
-# ### Warma's Loot Filter ###
-#
-# Based on Ziggy's filter, heavily edited with Filtration and by hand
-#
-# This is an endgame filter and it is not useful while leveling or
-# racing - the script is designed to be more lightweight than any of
-# the filters I've tried so far, with the following main features:
-#
-# 1. No clutter. White or magic items except for the very best maxlvl
-# bases are never ever shown, not even while leveling.
-# 2. Currency font size is large, since I want to make currency picking
-# easy and personally I always pick currency up.
-# 3. Mid-tier currency items (alch, jeweller, chisel, chance) also play
-# a sound, albeit at lower volume.
-# 4. The highest tier life/mana/hallowed flasks are always shown for
-# transmutation attempts. The justification for this is that
-# transmuting white flasks while going from lvl60 to lvl90 instead
-# of alt-spamming for the ones you want will save you a very large
-# amount of currency in the long run.
-# This feature should be manually disabled after you have the flasks
-# you need.
-# 5. Only most basic recipes (chisels, gems+5, flasks+5) are shown.
-# 6. I see little reason to invest visually in distinguishing the
-# chaos/regal recipe while picking things up. There is a brightness
-# difference between these types, but no color difference, since
-# typically you do not really care. Instead, the thing we care about
-# when picking up rares is the base type, which is why:
-# 7. Best bases for rare items are highlighted with a purple border and
-# a dulled purple background (for the 300+IIR people out there).
-#
-# Additionally, another discrepancy with typical filters is that:
-#
-# A. Chance recipes are NOT highlighted by default. You can enable a
-# block showing the most expensive targets manually if necessary.
-# The reasoning for this is, that in my experience, the speed at
-# which you encounter chance bases vastly exceeds the speed at which
-# you encounter chance orbs and you only want to switch this from
-# time to time, until you are out of orbs again.
-#
-# From a visual design perspective, colors are used more liberally than
-# in the base game, which may be a problem for purists.
-#
-# Jewels, uniques, rares, currency etc. use something akin to their
-# default ingame colour scheme, except brighter. Talismans, which don't
-# have a default scheme, are purple.
-#
-# All of the more valuable item types such as jewelry, divination cards
-# and better currency items also use a coloured background which is a
-# darker version of their main in-game colour.
-#
-# A looser and tighter definitions of good base items are on the
-# following lines - use whichever you wish.
-# The point is that the first one has all the approximately equal
-# alternatives which can provide really good items and the latter one
-# only has the absolutely most powerful bases.
-#
-# BaseType "Siege Axe" "Reaver Axe" "Butcher Axe" "Vaal Hatchet" "Royal Axe" "Infernal Axe" "Runic Hatchet" "Ezomyte Axe" "Vaal Axe" "Despot Axe" "Void Axe" "Fleshripper" "Thicket Bow" "Ranger Bow" "Assassin Bow" "Spine Bow" "Imperial Bow" "Harbinger Bow" "Maraketh Bow" "Great White Claw" "Throat Stabber" "Hellion's Paw" "Eye Gouger" "Vaal Claw" "Imperial Claw" "Terror Claw" "Gemini Claw" "Copper Kris" "Golden Kris" "Ambusher" "Ezomyte Dagger" "Platinum Kris" "Imperial Skean" "Demon Dagger" "Sai" "Gavel" "Legion Hammer" "Pernarch" "Auric Mace" "Nightmare Mace" "Behemoth Mace" "Crystal Sceptre" "Abyssal Sceptre" "Opal Sceptre" "Platinum Sceptre" "Vaal Sceptre" "Carnal Sceptre" "Void Sceptre" "Sambar Sceptre" "Piledriver" "Meatgrinder" "Imperial Maul" "Terror Maul" "Coronal Maul" "Lathi" "Ezomyte Staff" "Maelström Staff" "Imperial Staff" "Judgement Staff" "Eclipse Staff" "Corsair Sword" "Gladius" "Legion Sword" "Vaal Blade" "Eternal Sword" "Midnight Blade" "Tiger Hook" "Tempered Foil" "Pecoraro" "Spiraled Foil" "Vaal Rapier" "Jewelled Foil" "Harpy Rapier" "Dragoon Sword" "Reaver Sword" "Ezomyte Blade" "Vaal Greatsword" "Lion Sword" "Infernal Sword" "Exquisite Blade" "Imbued Wand" "Opal Wand" "Tornado Wand" "Prophecy Wand" "Profane Wand" "Ezomyte Burgonet" "Royal Burgonet" "Eternal Burgonet" "Silken Hood" "Sinner Tricorne" "Lion Pelt" "Mind Cage" "Hubris Circlet" "Pig-Faced Bascinet" "Nightmare Bascinet" "Prophet Crown" "Praetor Crown" "Vaal Mask" "Deicide Mask" "Astral Plate" "Gladiator Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Occultist's Vestment" "Widowsilk Robe" "Vaal Regalia" "Full Dragonscale" "General's Brigandine" "Triumphant Lamellar" "Saint's Hauberk" "Saintly Chainmail" "Sadist Garb" "Carnal Armour" "Sacrificial Garb" "Vaal Gauntlets" "Titan Gauntlets" "Stealth Gloves" "Slink Gloves" "Arcanist Gloves" "Sorcerer Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Vaal Greaves" "Titan Greaves" "Stealth Boots" "Slink Boots" "Arcanist Slippers" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Ezomyte Tower Shield" "Colossal Tower Shield" "Pinnacle Tower Shield" "Vaal Buckler" "Crusader Buckler" "Imperial Buckler" "Fossilised Spirit Shield" "Vaal Spirit Shield" "Harmonic Spirit Shield" "Titanium Spirit Shield" "Spiny Round Shield" "Cardinal Round Shield" "Elegant Round Shield" "Branded Kite Shield" "Champion Kite Shield" "Mosaic Kite Shield" "Archon Kite Shield" "Ezomyte Spiked Shield" "Mirrored Spiked Shield" "Supreme Spiked Shield" "Bone Helmet" "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves" "Two-Toned Boots" 
-# BaseType "Siege Axe" "Runic Hatchet" "Despot Axe" "Fleshripper" "Thicket Bow" "Imperial Bow" "Harbinger Bow" "Imperial Claw" "Gemini Claw" "Imperial Skean" "Platinum Kris" "Sai" "Nightmare Mace" "Behemoth Mace" "Void Sceptre" "Sambar Sceptre" "Piledriver" "Coronal Maul" "Lathi" "Eclipse Staff" "Corsair Sword" "Eternal Sword" "Tiger Hook" "Jewelled Foil" "Harpy Rapier" "Dragoon Sword" "Reaver Sword" "Exquisite Blade" "Imbued Wand" "Opal Wand" "Profane Wand" "Royal Burgonet" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Pig-Faced Bascinet" "Nightmare Bascinet" "Prophet Crown" "Praetor Crown" "Vaal Mask" "Deicide Mask" "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Vaal Regalia" "Triumphant Lamellar" "Saint's Hauberk" "Saintly Chainmail" "Sadist Garb" "Carnal Armour" "Sacrificial Garb" "Titan Gauntlets" "Slink Gloves" "Sorcerer Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Bone Helmet" "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves" "Two-Toned Boots"
-#
-# ### Alert Sounds ###
-# Breach items 8
-# Maps 2
-# Cards 7
-# High currency shards 13 (alchemy, binding, chaos, engineer, horizon, regal)
-# Low currency shards 11 (ancient, annullment, exalted, harbinger)
-# Super currency 5 (exa, divine)
-# High currency 4 (ancient, annullment, harbinger)
-# Mid Currency 1 (blessed, chaos, fusing, gcp, regal, scour, vaal)
-# Low Currency 3 (jeweler/chisel/alch/chance/binding/horizon)
-# Mirror of Kalandra 5 (really loud)
-# Links>=6 = 15
-# Sockets=6 1
-# Uniques 6
-# Prophecies and Silver coins 9
-# Special crafting bases 12
-# Perandus coins 14
-# Leaguestones and Talismans 16
-# ### End description ###
-
-########################################################################
+﻿########################################################################
 ### Currency ###########################################################
 ########################################################################
 
@@ -124,7 +44,7 @@ Show
     SetBackgroundColor 64 42 32
     SetBorderColor 230 214 177
     SetFontSize 42
-    PlayAlertSound 4 90
+    PlayAlertSound 13 150
 
 # Cartographer's Currency
 Show
@@ -134,7 +54,7 @@ Show
     SetBackgroundColor 48 36 28
     SetBorderColor 225 205 160
     SetFontSize 42
-    PlayAlertSound 4 90
+    PlayAlertSound 13 150
 
 # Super-tier currency
 Show
@@ -164,7 +84,7 @@ Show
     SetBackgroundColor 48 36 28
     SetBorderColor 225 195 150
     SetFontSize 38
-    PlayAlertSound 11 120
+    PlayAlertSound 12 110
 
 # Good currency shards
 Show
@@ -174,7 +94,7 @@ Show
     SetBackgroundColor 64 42 32
     SetBorderColor 230 214 177
     SetFontSize 40
-    PlayAlertSound 13 120
+    PlayAlertSound 14 130
 
 # Essences
 Show
@@ -260,7 +180,7 @@ Show
     SetBorderColor 255 80 0
     SetTextColor 255 178 135
     SetFontSize 40
-    PlayAlertSound 14 100
+    PlayAlertSound 8 80
 
 # Talismans
 Show
@@ -322,7 +242,7 @@ Show
     BaseType "Shaped"
     SetFontSize 42
     SetBackgroundColor 0 90 0
-    PlayAlertSound 2 130
+    PlayAlertSound 11 130
 
 # Red maps
 Show
@@ -330,7 +250,7 @@ Show
     DropLevel >= 78
     SetFontSize 40
     SetBackgroundColor 100 0 0
-    PlayAlertSound 2 120
+    PlayAlertSound 2 130
 
 # Yellow maps
 Show
@@ -338,13 +258,13 @@ Show
     DropLevel >= 73
     SetFontSize 40
     SetBackgroundColor 80 70 0
-    PlayAlertSound 2 100
+    PlayAlertSound 2 110
 
 # Normal maps + Anything I missed
 Show
     Class Maps
     SetFontSize 40
-    PlayAlertSound 2 80
+    PlayAlertSound 2 90
 
 # Map Fragments
 Show
@@ -377,7 +297,7 @@ Show
     SetBackgroundColor 20 20 20
     SetBorderColor 200 200 200
     SetFontSize 42
-    PlayAlertSound 15 200
+    PlayAlertSound 4 150
 
 Show
     LinkedSockets >= 6
@@ -386,7 +306,7 @@ Show
     SetBackgroundColor 0 15 31
     SetBorderColor 136 136 255
     SetFontSize 42
-    PlayAlertSound 15 200
+    PlayAlertSound 4 150
 
 Show
     LinkedSockets >= 6
@@ -395,7 +315,7 @@ Show
     SetBackgroundColor 30 30 0
     SetBorderColor 255 255 60
     SetFontSize 42
-    PlayAlertSound 15 200
+    PlayAlertSound 4 150
 
 Show
     LinkedSockets >= 6
@@ -404,7 +324,7 @@ Show
     SetBackgroundColor 38 20 3
     SetBorderColor 255 140 53
     SetFontSize 42
-    PlayAlertSound 15 200
+    PlayAlertSound 4 150
 
 ########################################################################
 ### Unique block #######################################################
@@ -584,7 +504,7 @@ Show
     SetTextColor 255 255 255 200
     SetBackgroundColor 0 100 0 144
     SetFontSize 40
-    PlayAlertSound 12 150
+    PlayAlertSound 15 150
 
 # Bases that can be Chance Orbed for expensive uniques, ilvl restriction matches start of mapping
 # For now UNUSED

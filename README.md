@@ -35,7 +35,7 @@ big resource hogs, the script is designed to be more lightweight than any of the
 
 #### Items considered special jewellry bases
 
-"Blue Pearl Amulet" "Breach" "Crystal Belt" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt"
+"Blue Pearl Amulet" "Crystal Belt" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt"
 
 #### Alert Sounds
 

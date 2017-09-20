@@ -498,7 +498,7 @@ Show
 
 # Max base level special jewellry bases
 Show
-    BaseType "Blue Pearl Amulet" "Breach" "Crystal Belt" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt"
+    BaseType "Blue Pearl Amulet" "Crystal Belt" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt"
     Rarity <= Magic
     ItemLevel >= 68
     SetTextColor 255 255 255 200

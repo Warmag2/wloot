@@ -27,7 +27,53 @@ big resource hogs, the script is designed to be more lightweight than any of the
 
 #### Items shown as good bases
 
-"Siege Axe" "Reaver Axe" "Butcher Axe" "Vaal Hatchet" "Royal Axe" "Infernal Axe" "Runic Hatchet" "Ezomyte Axe" "Vaal Axe" "Despot Axe" "Void Axe" "Fleshripper" "Thicket Bow" "Ranger Bow" "Assassin Bow" "Spine Bow" "Imperial Bow" "Harbinger Bow" "Maraketh Bow" "Great White Claw" "Throat Stabber" "Hellion's Paw" "Eye Gouger" "Vaal Claw" "Imperial Claw" "Terror Claw" "Gemini Claw" "Copper Kris" "Golden Kris" "Ambusher" "Ezomyte Dagger" "Platinum Kris" "Imperial Skean" "Demon Dagger" "Sai" "Gavel" "Legion Hammer" "Pernarch" "Auric Mace" "Nightmare Mace" "Behemoth Mace" "Crystal Sceptre" "Abyssal Sceptre" "Opal Sceptre" "Platinum Sceptre" "Vaal Sceptre" "Carnal Sceptre" "Void Sceptre" "Sambar Sceptre" "Piledriver" "Meatgrinder" "Imperial Maul" "Terror Maul" "Coronal Maul" "Lathi" "Ezomyte Staff" "Maelström Staff" "Imperial Staff" "Judgement Staff" "Eclipse Staff" "Corsair Sword" "Gladius" "Legion Sword" "Vaal Blade" "Eternal Sword" "Midnight Blade" "Tiger Hook" "Tempered Foil" "Pecoraro" "Spiraled Foil" "Vaal Rapier" "Jewelled Foil" "Harpy Rapier" "Dragoon Sword" "Reaver Sword" "Ezomyte Blade" "Vaal Greatsword" "Lion Sword" "Infernal Sword" "Exquisite Blade" "Imbued Wand" "Opal Wand" "Tornado Wand" "Prophecy Wand" "Profane Wand" "Ezomyte Burgonet" "Royal Burgonet" "Eternal Burgonet" "Silken Hood" "Sinner Tricorne" "Lion Pelt" "Mind Cage" "Hubris Circlet" "Pig-Faced Bascinet" "Nightmare Bascinet" "Prophet Crown" "Praetor Crown" "Vaal Mask" "Deicide Mask" "Astral Plate" "Gladiator Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Occultist's Vestment" "Widowsilk Robe" "Vaal Regalia" "Full Dragonscale" "General's Brigandine" "Triumphant Lamellar" "Saint's Hauberk" "Saintly Chainmail" "Sadist Garb" "Carnal Armour" "Sacrificial Garb" "Vaal Gauntlets" "Titan Gauntlets" "Stealth Gloves" "Slink Gloves" "Arcanist Gloves" "Sorcerer Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Vaal Greaves" "Titan Greaves" "Stealth Boots" "Slink Boots" "Arcanist Slippers" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Ezomyte Tower Shield" "Colossal Tower Shield" "Pinnacle Tower Shield" "Vaal Buckler" "Crusader Buckler" "Imperial Buckler" "Fossilised Spirit Shield" "Vaal Spirit Shield" "Harmonic Spirit Shield" "Titanium Spirit Shield" "Spiny Round Shield" "Cardinal Round Shield" "Elegant Round Shield" "Branded Kite Shield" "Champion Kite Shield" "Mosaic Kite Shield" "Archon Kite Shield" "Ezomyte Spiked Shield" "Mirrored Spiked Shield" "Supreme Spiked Shield" "Bone Helmet" "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves" "Two-Toned Boots" 
+"Siege Axe" "Vaal Hatchet" "Runic Hatchet"
+"Ezomyte Axe" "Vaal Axe" "Fleshripper"
+"Thicket Bow" "Imperial Bow" "Harbinger Bow"
+"Eye Gouger" "Imperial Claw" "Terror Claw" "Gemini Claw"
+"Ambusher" "Platinum Kris" "Imperial Skean" "Sai"
+"Legion Hammer" "Nightmare Mace" "Behemoth Mace"
+"Opal Sceptre" "Void Sceptre" "Sambar Sceptre"
+"Piledriver" "Meatgrinder" "Terror Maul" "Coronal Maul"
+"Lathi" "Judgement Staff" "Eclipse Staff"
+"Corsair Sword" "Eternal Sword" "Tiger Hook"
+"Spiraled Foil" "Jewelled Foil" "Dragoon Sword"
+"Reaver Sword" "Lion Sword" "Exquisite Blade"
+"Imbued Wand" "Opal Wand" "Prophecy Wand" "Profane Wand"
+"Royal Burgonet" "Eternal Burgonet"
+"Sinner Tricorne" "Lion Pelt"
+"Hubris Circlet"
+"Pig-Faced Bascinet" "Nightmare Bascinet"
+"Prophet Crown" "Praetor Crown"
+"Vaal Mask" "Deicide Mask"
+"Astral Plate" "Glorious Plate"
+"Zodiac Leather" "Assassin's Garb"
+"Vaal Regalia"
+"Full Dragonscale" "Triumphant Lamellar"
+"Saint's Hauberk" "Saintly Chainmail"
+"Sadist Garb" "Carnal Armour"
+"Sacrificial Garb"
+"Vaal Greaves" "Titan Greaves"
+"Stealth Boots" "Slink Boots"
+"Sorcerer Boots"
+"Dragonscale Boots"
+"Crusader Boots"
+"Murder Boots"
+"Vaal Gauntlets" "Titan Gauntlets"
+"Stealth Gloves" "Slink Gloves"
+"Sorcerer Gloves"
+"Dragonscale Gauntlets"
+"Crusader Gloves"
+"Murder Mitts"
+"Titanium Spirit Shield"
+
+### Special bases ###
+
+"Bone Helmet" "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves" "Two-Toned Boots"
+
+### Items not shown as good bases but which are regardless top of their class
+
+"Ezomyte Tower Shield" "Colossal Tower Shield" "Pinnacle Tower Shield" "Vaal Buckler" "Crusader Buckler" "Imperial Buckler" "Fossilised Spirit Shield" "Vaal Spirit Shield" "Harmonic Spirit Shield" "Titanium Spirit Shield" "Spiny Round Shield" "Cardinal Round Shield" "Elegant Round Shield" "Branded Kite Shield" "Champion Kite Shield" "Mosaic Kite Shield" "Archon Kite Shield" "Ezomyte Spiked Shield" "Mirrored Spiked Shield" "Supreme Spiked Shield"
 
 #### Items shown as craftworthy bases
 

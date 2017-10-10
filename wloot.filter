@@ -385,7 +385,7 @@ Show
     SocketGroup "RGB"
     BaseType "Bone Helmet" "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves" "Two-Toned Boots"
     SetTextColor 255 255 48
-    SetBackgroundColor 70 40 0
+    SetBackgroundColor 128 96 0
     SetBorderColor 220 0 0
     SetFontSize 36
 
@@ -400,7 +400,7 @@ Show
     Rarity = Rare
     BaseType "Siege Axe" "Vaal Hatchet" "Runic Hatchet" "Ezomyte Axe" "Vaal Axe" "Fleshripper" "Thicket Bow" "Imperial Bow" "Harbinger Bow" "Eye Gouger" "Imperial Claw" "Terror Claw" "Gemini Claw" "Ambusher" "Platinum Kris" "Imperial Skean" "Sai" "Legion Hammer" "Nightmare Mace" "Behemoth Mace" "Opal Sceptre" "Void Sceptre" "Sambar Sceptre" "Piledriver" "Meatgrinder" "Terror Maul" "Coronal Maul" "Lathi" "Judgement Staff" "Eclipse Staff" "Corsair Sword" "Eternal Sword" "Tiger Hook" "Spiraled Foil" "Jewelled Foil" "Dragoon Sword" "Reaver Sword" "Lion Sword" "Exquisite Blade" "Imbued Wand" "Opal Wand" "Prophecy Wand" "Profane Wand" "Royal Burgonet" "Eternal Burgonet" "Sinner Tricorne" "Lion Pelt" "Hubris Circlet" "Pig-Faced Bascinet" "Nightmare Bascinet" "Prophet Crown" "Praetor Crown" "Vaal Mask" "Deicide Mask" "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Vaal Regalia" "Full Dragonscale" "Triumphant Lamellar" "Saint's Hauberk" "Saintly Chainmail" "Sadist Garb" "Carnal Armour" "Sacrificial Garb" "Vaal Greaves" "Titan Greaves" "Stealth Boots" "Slink Boots" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Vaal Gauntlets" "Titan Gauntlets" "Stealth Gloves" "Slink Gloves" "Sorcerer Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Titanium Spirit Shield"
     ItemLevel >= 60
-    SetTextColor 255 255 48
+    SetTextColor 240 240 48
     SetBackgroundColor 0 60 0
     SetBorderColor 0 220 0
     SetFontSize 36
@@ -411,7 +411,7 @@ Show
     BaseType "Blue Pearl Amulet" "Crystal Belt" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt"
     ItemLevel >= 60
     SetTextColor 255 255 48
-    SetBackgroundColor 90 60 0
+    SetBackgroundColor 128 96 0
     SetBorderColor 255 255 48
     SetFontSize 38
     PlayAlertSound 14 150
@@ -431,7 +431,7 @@ Show
     Rarity = Rare
     BaseType "Bone Helmet" "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves" "Two-Toned Boots"
     SetTextColor 255 255 48
-    SetBackgroundColor 70 40 0
+    SetBackgroundColor 128 96 0
     SetBorderColor 230 180 0
     SetFontSize 36
     PlayAlertSound 14 150

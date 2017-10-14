@@ -66,6 +66,7 @@ big resource hogs, the script is designed to be more lightweight than any of the
 "Crusader Gloves"
 "Murder Mitts"
 "Titanium Spirit Shield"
+"Spike-Point Arrow Quiver" "Broadhead Arrow Quiver"
 
 ### Special bases ###
 

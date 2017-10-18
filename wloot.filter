@@ -584,8 +584,7 @@ Show
     SetFontSize 36
 
 # Other Gems
-# Strict
-Show
+Hide
     Class Gem
     SetFontSize 26
 

@@ -19,7 +19,7 @@ Hide
 # Strict
 Show
     Class Currency
-    BaseType "Portal Scroll" "Scroll of Wisdom" "Armourer's Scrap" "Blacksmith's Whetstone" "Alchemy Shard"
+    BaseType "Portal Scroll" "Scroll of Wisdom" "Armourer's Scrap" "Alchemy Shard"
     SetTextColor 219 190 147 200
     SetBackgroundColor 24 18 14 144
     SetFontSize 36
@@ -27,7 +27,7 @@ Show
 # Shit-tier currency
 Show
     Class Currency
-    BaseType "Chromatic Orb" "Glassblower's Bauble" "Orb of Alteration" "Orb of Augmentation" "Orb of Transmutation"
+    BaseType "Blacksmith's Whetstone" "Chromatic Orb" "Glassblower's Bauble" "Orb of Alteration" "Orb of Augmentation" "Orb of Transmutation"
     SetTextColor 219 190 147
     SetFontSize 38
 

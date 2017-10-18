@@ -559,7 +559,7 @@ Show
     Class Gem
     Quality >= 5
     BaseType "Added Chaos Damage" "Empower" "Enhance" "Enlighten" "Portal" "Vaal Breach" "Vaal Discipline" "Vaal Grace" "Vaal Haste"
-    SetBackgroundColor 0 64 64
+    SetBackgroundColor 0 96 96
     SetBorderColor 0 128 128
     SetFontSize 40
 
@@ -567,14 +567,14 @@ Show
 Show
     Class Gem
     BaseType "Added Chaos Damage" "Empower" "Enhance" "Enlighten" "Portal" "Vaal Breach" "Vaal Discipline" "Vaal Grace" "Vaal Haste"
-    SetBorderColor 0 128 128
+    SetBackgroundColor 0 96 96
     SetFontSize 40
 
 # Quality Gems
 Show
     Class Gem
     Quality >= 5
-    SetBackgroundColor 0 64 64
+    SetBorderColor 0 128 128
     SetFontSize 36
 
 # Other Gems

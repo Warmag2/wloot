@@ -16,8 +16,7 @@ Hide
     SetFontSize 36
 
 # Do not pick up -tier currency
-# Strict
-Show
+Hide
     Class Currency
     BaseType "Portal Scroll" "Scroll of Wisdom" "Armourer's Scrap" "Blacksmith's Whetstone"
     SetTextColor 219 190 147 200
@@ -414,8 +413,7 @@ Show
     SetBorderColor 220 0 0
 
 # Other chromatic items
-# Strict
-Show
+Hide
     SocketGroup "RGB"
     SetBackgroundColor 33 30 26
     SetBorderColor 220 0 0
@@ -462,16 +460,14 @@ Show
     PlayAlertSound 14 150
 
 # All other chaos recipe qualified rares
-# Strict
-Show
+Hide
     Rarity = Rare
     ItemLevel >= 60
     SetTextColor 220 220 50
     SetBorderColor 220 220 50
 
 # Fade all other rares not listed above
-# Strict
-Show
+Hide
     Rarity = Rare
     SetTextColor 254 254 118 200
     SetBackgroundColor 0 0 0 144
@@ -482,16 +478,14 @@ Show
 ########################################################################
 
 # Glassblower's Baubles
-# Strict
-Show
+Hide
     Class Flasks
     Quality >= 5
     SetBackgroundColor 33 30 26
     SetBorderColor 138 129 109
 
 # Useful Flasks
-# Strict
-Show
+Hide
     Class "Utility Flasks"
 
 # Chisel Recipe (20% Hammer + Any Endgame Map)

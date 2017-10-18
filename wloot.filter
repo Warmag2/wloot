@@ -19,7 +19,7 @@ Hide
 # Strict
 Show
     Class Currency
-    BaseType "Portal Scroll" "Scroll of Wisdom" "Armourer's Scrap" "Blacksmith's Whetstone"
+    BaseType "Portal Scroll" "Scroll of Wisdom" "Armourer's Scrap" "Blacksmith's Whetstone" "Alchemy Shard"
     SetTextColor 219 190 147 200
     SetBackgroundColor 24 18 14 144
     SetFontSize 36
@@ -560,10 +560,19 @@ Show
 ### Gems ###############################################################
 ########################################################################
 
+# Valuable Gems with quality
+Show
+    Class Gem
+    Quality >= 5
+    BaseType "Added Chaos Damage" "Empower" "Enhance" "Enlighten" "Portal" "Vaal Breach" "Vaal Discipline" "Vaal Grace" "Vaal Haste"
+    SetBackgroundColor 0 64 64
+    SetBorderColor 0 128 128
+    SetFontSize 40
+
 # Valuable Gems
 Show
     Class Gem
-    BaseType "Added Chaos Damage" "Empower" "Enhance" "Enlighten" "Portal" "Vaal Breach"
+    BaseType "Added Chaos Damage" "Empower" "Enhance" "Enlighten" "Portal" "Vaal Breach" "Vaal Discipline" "Vaal Grace" "Vaal Haste"
     SetBorderColor 0 128 128
     SetFontSize 40
 
@@ -571,10 +580,11 @@ Show
 Show
     Class Gem
     Quality >= 5
-    SetBorderColor 0 128 128
+    SetBackgroundColor 0 64 64
     SetFontSize 36
 
 # Other Gems
+# Strict
 Show
     Class Gem
     SetFontSize 26

@@ -228,10 +228,11 @@ Show
 
 Show
     Rarity = Rare
-    Class Abyss Jewel
+    Class "Abyss Jewel"
     SetBackgroundColor 34 44 64
     SetBorderColor 135 158 255
     SetFontSize 38
+    PlayAlertSound 15 100
 
 Show
     Rarity = Rare

@@ -228,6 +228,13 @@ Show
 
 Show
     Rarity = Rare
+    Class Abyss Jewel
+    SetBackgroundColor 34 44 64
+    SetBorderColor 135 158 255
+    SetFontSize 38
+
+Show
+    Rarity = Rare
     Class Jewel
     SetBackgroundColor 34 34 64
     SetBorderColor 135 135 254
@@ -252,7 +259,7 @@ Show
 #Shaped maps
 Show
     Class Maps
-    BaseType "Shaped"
+    ShapedMap True
     SetFontSize 42
     SetBackgroundColor 0 90 0
     PlayAlertSound 2 130
@@ -379,7 +386,25 @@ Show
     SetFontSize 40
     PlayAlertSound 10 100
 
-# Chromatic Items with good bases
+# Shaper bases
+Show
+    Rarity <= Rare
+    ShaperItem True
+    SetBackgroundColor 60 0 0
+    SetBorderColor 200 200 200
+    SetFontSize 42
+    PlayAlertSound 14 100
+
+# Elder bases
+Show
+    Rarity <= Rare
+    ElderItem True
+    SetBackgroundColor 60 0 0
+    SetBorderColor 200 200 200
+    SetFontSize 42
+    PlayAlertSound 14 100
+
+# Rare chromatic Items with good bases
 Show
     Rarity = Rare
     SocketGroup "RGB"
@@ -387,7 +412,7 @@ Show
     SetBackgroundColor 0 60 0
     SetBorderColor 220 0 0
 
-# Chromatic items with special bases
+# Rare chromatic items with special bases
 Show
     Rarity = Rare
     SocketGroup "RGB"
@@ -431,7 +456,7 @@ Show
 # Rare jewellry with special bases
 Show
     Rarity = Rare
-    BaseType "Blue Pearl Amulet" "Crystal Belt" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt"
+    BaseType "Blue Pearl Amulet" "Crystal Belt" "Marble Amulet" "Opal Ring" "Steel Ring" "Stygian Vise" "Vanguard Belt"
     ItemLevel >= 60
     SetTextColor 255 255 48
     SetBackgroundColor 128 96 0
@@ -454,7 +479,7 @@ Show
     Rarity = Rare
     BaseType "Bone Helmet" "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves" "Two-Toned Boots"
     SetTextColor 255 255 48
-    SetBackgroundColor 128 96 0
+    SetBackgroundColor 96 64 0
     SetBorderColor 230 180 0
     SetFontSize 36
     PlayAlertSound 14 150
@@ -531,7 +556,7 @@ Show
 
 # Max base level special jewellry bases
 Show
-    BaseType "Blue Pearl Amulet" "Crystal Belt" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt"
+    BaseType "Blue Pearl Amulet" "Crystal Belt" "Marble Amulet" "Opal Ring" "Steel Ring" "Stygian Vise" "Vanguard Belt"
     Rarity <= Magic
     ItemLevel >= 68
     SetTextColor 255 255 255 200

@@ -15,18 +15,10 @@ Hide
     SetBackgroundColor 24 18 14 144
     SetFontSize 34
 
-# Can be left on the ground -tier currency
-Show
-    Class Currency
-    BaseType "Portal Scroll" "Scroll of Wisdom" "Armourer's Scrap" "Alteration Shard"
-    SetTextColor 219 190 147 200
-    SetBackgroundColor 24 18 14 144
-    SetFontSize 34
-
 # Shit-tier currency
 Show
     Class Currency
-    BaseType "Blacksmith's Whetstone" "Orb of Transmutation"
+    BaseType "Portal Scroll" "Scroll of Wisdom" "Armourer's Scrap" "Alteration Shard" "Blacksmith's Whetstone" "Orb of Transmutation"
     SetTextColor 219 190 147 200
     SetBackgroundColor 24 18 14 144
     SetFontSize 36
@@ -43,25 +35,26 @@ Show
     Class Currency
     BaseType "Cartographer's Chisel" "Engineer's Orb" "Jeweller's Orb" "Orb of Alchemy" "Orb of Binding" "Orb of Chance" "Orb of Horizons"
     SetTextColor 225 195 150
+    SetBackgroundColor 64 56 42
     SetBorderColor 225 195 150
     SetFontSize 40
-    PlayAlertSound 3 70
+    PlayAlertSound 3 75
 
 # Mid-tier currency
 Show
     Class Currency
     BaseType "Chaos Orb" "Gemcutter's Prism" "Regal Orb" "Vaal Orb" "Orb of Fusing" "Orb of Scouring" "Blessed Orb" "Orb of Regret" "Stacked Deck"
-    SetTextColor 225 195 150
+    SetTextColor 240 224 187
     SetBackgroundColor 96 72 56
-    SetBorderColor 225 195 150
+    SetBorderColor 230 214 177
     SetFontSize 40
-    PlayAlertSound 1 80
+    PlayAlertSound 1 90
 
 # High-tier currency
 Show
     Class Currency
-    BaseType "Orb of Annulment" "Harbinger's Orb" "Ancient Orb"
-    SetTextColor 230 214 177
+    BaseType "Ancient Orb" "Harbinger's Orb" "Orb of Annulment" "Unshaping Orb"
+    SetTextColor 240 224 187
     SetBackgroundColor 128 86 64
     SetBorderColor 230 214 177
     SetFontSize 42
@@ -70,10 +63,10 @@ Show
 # Cartographer's Currency
 Show
     Class Currency
-    BaseType "Cartographer's Sextant" "Cartographer's Seal" "Unshaping Orb"
-    SetTextColor 225 205 160
+    BaseType "Cartographer's Sextant" "Cartographer's Seal"
+    SetTextColor 240 224 187
     SetBackgroundColor 128 72 56
-    SetBorderColor 225 205 160
+    SetBorderColor 230 214 177
     SetFontSize 42
     PlayAlertSound 13 150
 
@@ -81,9 +74,9 @@ Show
 Show
     Class Currency
     BaseType "Exalted Orb" "Eternal Orb" "Divine Orb"
-    SetTextColor 240 224 187
-    SetBackgroundColor 144 96 72
-    SetBorderColor 240 224 187
+    SetTextColor 0 0 0
+    SetBackgroundColor 192 144 112
+    SetBorderColor 255 240 200
     SetFontSize 45
     PlayAlertSound 5 150
 

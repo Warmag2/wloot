@@ -55,7 +55,7 @@ Show
     Class Currency
     BaseType "Ancient Orb" "Harbinger's Orb" "Orb of Annulment" "Unshaping Orb"
     SetTextColor 240 224 187
-    SetBackgroundColor 128 86 64
+    SetBackgroundColor 112 86 64
     SetBorderColor 230 214 177
     SetFontSize 42
     PlayAlertSound 13 150
@@ -65,7 +65,7 @@ Show
     Class Currency
     BaseType "Cartographer's Sextant" "Cartographer's Seal"
     SetTextColor 240 224 187
-    SetBackgroundColor 128 86 64
+    SetBackgroundColor 112 86 64
     SetBorderColor 230 214 177
     SetFontSize 42
     PlayAlertSound 13 150
@@ -106,7 +106,7 @@ Show
     Class Currency
     BaseType "Ancient Shard" "Annulment Shard" "Exalted Shard" "Harbinger's Shard"
     SetTextColor 230 214 177
-    SetBackgroundColor 128 84 64
+    SetBackgroundColor 112 84 64
     SetBorderColor 230 214 177
     SetFontSize 40
     PlayAlertSound 16 140

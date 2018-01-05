@@ -13,20 +13,28 @@ Hide
     BaseType "Transmutation Shard"
     SetTextColor 219 190 147 200
     SetBackgroundColor 24 18 14 144
-    SetFontSize 36
+    SetFontSize 34
 
 # Can be left on the ground -tier currency
-Hide
+Show
     Class Currency
     BaseType "Portal Scroll" "Scroll of Wisdom" "Armourer's Scrap" "Alteration Shard"
     SetTextColor 219 190 147 200
     SetBackgroundColor 24 18 14 144
-    SetFontSize 36
+    SetFontSize 34
 
 # Shit-tier currency
 Show
     Class Currency
-    BaseType "Blacksmith's Whetstone" "Chromatic Orb" "Glassblower's Bauble" "Orb of Alteration" "Orb of Augmentation" "Orb of Transmutation" "Alchemy Shard"
+    BaseType "Blacksmith's Whetstone" "Orb of Transmutation"
+    SetTextColor 219 190 147 200
+    SetBackgroundColor 24 18 14 144
+    SetFontSize 36
+
+# Dubious currency
+Show
+    Class Currency
+    BaseType "Chromatic Orb" "Glassblower's Bauble" "Orb of Alteration" "Orb of Augmentation" "Alchemy Shard"
     SetTextColor 219 190 147
     SetFontSize 38
 
@@ -44,7 +52,7 @@ Show
     Class Currency
     BaseType "Chaos Orb" "Gemcutter's Prism" "Regal Orb" "Vaal Orb" "Orb of Fusing" "Orb of Scouring" "Blessed Orb" "Orb of Regret" "Stacked Deck"
     SetTextColor 225 195 150
-    SetBackgroundColor 48 36 28
+    SetBackgroundColor 96 72 56
     SetBorderColor 225 195 150
     SetFontSize 40
     PlayAlertSound 1 80
@@ -54,7 +62,7 @@ Show
     Class Currency
     BaseType "Orb of Annulment" "Harbinger's Orb" "Ancient Orb"
     SetTextColor 230 214 177
-    SetBackgroundColor 64 42 32
+    SetBackgroundColor 128 86 64
     SetBorderColor 230 214 177
     SetFontSize 42
     PlayAlertSound 13 150
@@ -64,7 +72,7 @@ Show
     Class Currency
     BaseType "Cartographer's Sextant" "Cartographer's Seal" "Unshaping Orb"
     SetTextColor 225 205 160
-    SetBackgroundColor 48 36 28
+    SetBackgroundColor 128 72 56
     SetBorderColor 225 205 160
     SetFontSize 42
     PlayAlertSound 13 150
@@ -74,7 +82,7 @@ Show
     Class Currency
     BaseType "Exalted Orb" "Eternal Orb" "Divine Orb"
     SetTextColor 240 224 187
-    SetBackgroundColor 72 48 36
+    SetBackgroundColor 144 96 72
     SetBorderColor 240 224 187
     SetFontSize 45
     PlayAlertSound 5 150
@@ -83,8 +91,9 @@ Show
 Show
     Class Currency
     BaseType "Mirror Shard" "Mirror of Kalandra"
-    SetTextColor 255 240 200
-    SetBackgroundColor 102 76 52
+    #SetTextColor 255 240 200
+    SetTextColor 0 0 0
+    SetBackgroundColor 204 152 104
     SetBorderColor 255 240 200
     SetFontSize 45
     PlayAlertSound 5 300
@@ -94,7 +103,7 @@ Show
     Class Currency
     BaseType "Alchemy Shard" "Binding Shard" "Horizon Shard" "Engineer's Shard" "Chaos Shard" "Regal Shard"
     SetTextColor 225 195 150
-    SetBackgroundColor 48 36 28
+    SetBackgroundColor 96 72 56
     SetBorderColor 225 195 150
     SetFontSize 38
     PlayAlertSound 12 110
@@ -104,7 +113,7 @@ Show
     Class Currency
     BaseType "Ancient Shard" "Annulment Shard" "Exalted Shard" "Harbinger's Shard"
     SetTextColor 230 214 177
-    SetBackgroundColor 64 42 32
+    SetBackgroundColor 128 84 64
     SetBorderColor 230 214 177
     SetFontSize 40
     PlayAlertSound 16 140

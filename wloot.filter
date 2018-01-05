@@ -65,7 +65,7 @@ Show
     Class Currency
     BaseType "Cartographer's Sextant" "Cartographer's Seal"
     SetTextColor 240 224 187
-    SetBackgroundColor 128 72 56
+    SetBackgroundColor 128 86 64
     SetBorderColor 230 214 177
     SetFontSize 42
     PlayAlertSound 13 150

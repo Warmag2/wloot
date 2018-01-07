@@ -10,7 +10,7 @@
 # Currency which should not be picked up under any circumstances
 Hide
     Class Currency
-    BaseType "Transmutation Shard"
+    BaseType "Alteration Shard" "Transmutation Shard"
     SetTextColor 219 190 147 200
     SetBackgroundColor 24 18 14 144
     SetFontSize 34
@@ -18,15 +18,23 @@ Hide
 # Shit-tier currency
 Show
     Class Currency
-    BaseType "Portal Scroll" "Scroll of Wisdom" "Armourer's Scrap" "Alteration Shard" "Blacksmith's Whetstone" "Orb of Transmutation"
+    BaseType "Portal Scroll" "Scroll of Wisdom" "Armourer's Scrap" "Blacksmith's Whetstone" "Orb of Augmentation" "Orb of Transmutation"
     SetTextColor 219 190 147 200
     SetBackgroundColor 24 18 14 144
     SetFontSize 36
 
+# MultiShit-tier currency
+Show
+    Class Currency
+    BaseType "Blacksmith's Whetstone" "Orb of Augmentation" "Orb of Transmutation"
+    SetTextColor 219 190 147 200
+    SetBackgroundColor 24 18 14 160
+    SetFontSize 38
+
 # Dubious currency
 Show
     Class Currency
-    BaseType "Chromatic Orb" "Glassblower's Bauble" "Orb of Alteration" "Orb of Augmentation" "Alchemy Shard"
+    BaseType "Chromatic Orb" "Glassblower's Bauble" "Orb of Alteration" "Alchemy Shard"
     SetTextColor 219 190 147
     SetFontSize 38
 

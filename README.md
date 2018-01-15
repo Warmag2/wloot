@@ -65,7 +65,8 @@ big resource hogs, the script is designed to be more lightweight than any of the
 "Dragonscale Gauntlets"
 "Crusader Gloves"
 "Murder Mitts"
-"Titanium Spirit Shield"
+"Crusader Buckler" "Imperial Buckler"
+"Fossilised Spirit Shield" "Harmonic Spirit Shield" "Titanium Spirit Shield"
 "Spike-Point Arrow Quiver" "Broadhead Arrow Quiver"
 
 ### Special bases ###
@@ -74,7 +75,7 @@ big resource hogs, the script is designed to be more lightweight than any of the
 
 ### Items not shown as good bases but which are regardless top of their class
 
-"Ezomyte Tower Shield" "Colossal Tower Shield" "Pinnacle Tower Shield" "Vaal Buckler" "Crusader Buckler" "Imperial Buckler" "Fossilised Spirit Shield" "Vaal Spirit Shield" "Harmonic Spirit Shield" "Titanium Spirit Shield" "Spiny Round Shield" "Cardinal Round Shield" "Elegant Round Shield" "Branded Kite Shield" "Champion Kite Shield" "Mosaic Kite Shield" "Archon Kite Shield" "Ezomyte Spiked Shield" "Mirrored Spiked Shield" "Supreme Spiked Shield"
+"Ezomyte Tower Shield" "Pinnacle Tower Shield" "Spiny Round Shield" "Elegant Round Shield" "Champion Kite Shield" "Mosaic Kite Shield" "Archon Kite Shield" "Ezomyte Spiked Shield" "Mirrored Spiked Shield" "Supreme Spiked Shield"
 
 #### Items shown as craftworthy bases
 
@@ -82,7 +83,7 @@ big resource hogs, the script is designed to be more lightweight than any of the
 
 #### Items considered special jewellry bases
 
-"Blue Pearl Amulet" "Crystal Belt" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt"
+"Blue Pearl Amulet" "Crystal Belt" "Marble Amulet" "Opal Ring" "Steel Ring" "Stygian Vise" "Vanguard Belt"
 
 #### Alert Sounds
 

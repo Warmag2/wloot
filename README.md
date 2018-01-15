@@ -73,9 +73,9 @@ big resource hogs, the script is designed to be more lightweight than any of the
 
 "Bone Helmet" "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves" "Two-Toned Boots"
 
-### Items not shown as good bases but which are regardless top of their class
+### Items not shown as good bases but which are regardless good in their class
 
-"Ezomyte Tower Shield" "Pinnacle Tower Shield" "Spiny Round Shield" "Elegant Round Shield" "Champion Kite Shield" "Mosaic Kite Shield" "Archon Kite Shield" "Ezomyte Spiked Shield" "Mirrored Spiked Shield" "Supreme Spiked Shield"
+"Hydrascale Boots" "Legion Boots" "Assassin's Boots7" "Hydrascale Gauntlets" "Legion Gloves" "Assassin's Mitts" "Ezomyte Tower Shield" "Pinnacle Tower Shield" "Spiny Round Shield" "Elegant Round Shield" "Champion Kite Shield" "Mosaic Kite Shield" "Archon Kite Shield" "Ezomyte Spiked Shield" "Mirrored Spiked Shield" "Supreme Spiked Shield"
 
 #### Items shown as craftworthy bases
 

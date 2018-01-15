@@ -393,7 +393,7 @@ Show
 Show
     Rarity = Rare
     Sockets = 6
-    BaseType "Hydrascale Boots" "Legion Boots" "Assassin's Boots7" "Hydrascale Gauntlets" "Legion Gloves" "Assassin's Mitts" "Ezomyte Tower Shield" "Pinnacle Tower Shield" "Spiny Round Shield" "Elegant Round Shield" "Champion Kite Shield" "Mosaic Kite Shield" "Archon Kite Shield" "Ezomyte Spiked Shield" "Mirrored Spiked Shield" "Supreme Spiked Shield"
+    BaseType "Hydrascale Boots" "Legion Boots" "Assassin's Boots" "Hydrascale Gauntlets" "Legion Gloves" "Assassin's Mitts" "Ezomyte Tower Shield" "Pinnacle Tower Shield" "Spiny Round Shield" "Elegant Round Shield" "Champion Kite Shield" "Mosaic Kite Shield" "Archon Kite Shield" "Ezomyte Spiked Shield" "Mirrored Spiked Shield" "Supreme Spiked Shield"
     SetBackgroundColor 0 60 0
     SetBorderColor 200 200 200
     SetFontSize 30
@@ -437,7 +437,7 @@ Show
 Show
     Rarity = Rare
     SocketGroup "RGB"
-    BaseType "Hydrascale Boots" "Legion Boots" "Assassin's Boots7" "Hydrascale Gauntlets" "Legion Gloves" "Assassin's Mitts" "Ezomyte Tower Shield" "Pinnacle Tower Shield" "Spiny Round Shield" "Elegant Round Shield" "Champion Kite Shield" "Mosaic Kite Shield" "Archon Kite Shield" "Ezomyte Spiked Shield" "Mirrored Spiked Shield" "Supreme Spiked Shield"
+    BaseType "Hydrascale Boots" "Legion Boots" "Assassin's Boots" "Hydrascale Gauntlets" "Legion Gloves" "Assassin's Mitts" "Ezomyte Tower Shield" "Pinnacle Tower Shield" "Spiny Round Shield" "Elegant Round Shield" "Champion Kite Shield" "Mosaic Kite Shield" "Archon Kite Shield" "Ezomyte Spiked Shield" "Mirrored Spiked Shield" "Supreme Spiked Shield"
     SetBackgroundColor 0 30 0
     SetBorderColor 220 0 0
 
@@ -485,7 +485,7 @@ Show
 # Chaos recipe qualified Tier 2 bases
 Show
     Rarity = Rare
-    BaseType "Hydrascale Boots" "Legion Boots" "Assassin's Boots7" "Hydrascale Gauntlets" "Legion Gloves" "Assassin's Mitts" "Ezomyte Tower Shield" "Pinnacle Tower Shield" "Spiny Round Shield" "Elegant Round Shield" "Champion Kite Shield" "Mosaic Kite Shield" "Archon Kite Shield" "Ezomyte Spiked Shield" "Mirrored Spiked Shield" "Supreme Spiked Shield"
+    BaseType "Hydrascale Boots" "Legion Boots" "Assassin's Boots" "Hydrascale Gauntlets" "Legion Gloves" "Assassin's Mitts" "Ezomyte Tower Shield" "Pinnacle Tower Shield" "Spiny Round Shield" "Elegant Round Shield" "Champion Kite Shield" "Mosaic Kite Shield" "Archon Kite Shield" "Ezomyte Spiked Shield" "Mirrored Spiked Shield" "Supreme Spiked Shield"
     ItemLevel >= 60
     SetTextColor 240 240 48
     SetBackgroundColor 0 30 0

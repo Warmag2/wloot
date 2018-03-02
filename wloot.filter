@@ -61,17 +61,7 @@ Show
 # High-tier currency
 Show
     Class Currency
-    BaseType "Ancient Orb" "Harbinger's Orb" "Orb of Annulment" "Unshaping Orb"
-    SetTextColor 240 224 187
-    SetBackgroundColor 112 86 64
-    SetBorderColor 230 214 177
-    SetFontSize 42
-    PlayAlertSound 13 150
-
-# Cartographer's Currency
-Show
-    Class Currency
-    BaseType "Cartographer's Sextant" "Cartographer's Seal"
+    BaseType "Cartographer's Sextant" "Cartographer's Seal" "Harbinger's Orb" "Unshaping Orb"
     SetTextColor 240 224 187
     SetBackgroundColor 112 86 64
     SetBorderColor 230 214 177
@@ -81,17 +71,17 @@ Show
 # Super-tier currency
 Show
     Class Currency
-    BaseType "Exalted Orb" "Eternal Orb" "Divine Orb"
+    BaseType "Ancient Orb" "Exalted Orb" "Divine Orb" "Orb of Annulment"
     SetTextColor 0 0 0
     SetBackgroundColor 192 144 112
     SetBorderColor 255 240 200
     SetFontSize 45
     PlayAlertSound 5 150
 
-# Mirror of Kalandra
+# Mirror of Kalandra and Eternal Orb
 Show
     Class Currency
-    BaseType "Mirror Shard" "Mirror of Kalandra"
+    BaseType "Eternal Orb" "Mirror Shard" "Mirror of Kalandra"
     #SetTextColor 255 240 200
     SetTextColor 0 0 0
     SetBackgroundColor 204 152 104
@@ -212,6 +202,43 @@ Show
     SetBorderColor 255 80 0
     SetFontSize 42
     PlayAlertSound 15 150
+
+# Bestiary league items
+Show
+    Class Currency
+    BaseType "Simple Rope Net" "Reinforced Rope Net" "Strong Rope Net" "Simple Iron Net" "Reinforced Iron Net" "Strong Iron Net" "Simple Steel Net"
+    SetTextColor 120 220 50
+    SetBackgroundColor 42 64 22
+    SetBorderColor 120 220 50
+    SetFontSize 36
+Show
+    BaseType "Reinforced Steel Net"
+    SetTextColor 130 230 60
+    SetBackgroundColor 52 80 31
+    SetBorderColor 130 230 60
+    SetFontSize 40
+    PlayAlertSound 12 120
+Show
+    BaseType "Strong Steel Net"
+    SetTextColor 140 240 70
+    SetBackgroundColor 62 94 42
+    SetBorderColor 140 240 70
+    SetFontSize 42
+    PlayAlertSound 16 130
+Show
+    BaseType "Thaumaturgical Net"
+    SetTextColor 150 250 90
+    SetBackgroundColor 62 94 42
+    SetBorderColor 150 250 90
+    SetFontSize 42
+    PlayAlertSound 16 140
+Show
+    BaseType "Bestiary Orb" "Imprinted Bestiary Orb"
+    SetTextColor 160 255 110
+    SetBackgroundColor 62 94 42
+    SetBorderColor 160 255 110
+    PlayAlertSound 15 150
+    SetFontSize 45
 
 ########################################################################
 ### League-specific and currency catch-all block #######################

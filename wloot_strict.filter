@@ -226,7 +226,7 @@ Show
     SetFontSize 42
     PlayAlertSound 16 130
 Show
-    BaseType "Necromantic Net"
+    BaseType "Necromancy Net"
     SetTextColor 150 250 90
     SetBackgroundColor 62 94 42
     SetBorderColor 150 250 90

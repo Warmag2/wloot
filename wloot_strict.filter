@@ -204,29 +204,29 @@ Show
     PlayAlertSound 15 150
 
 # Bestiary league items
-Show
+Hide
     Class Currency
-    BaseType "Simple Rope Net" "Reinforced Rope Net" "Strong Rope Net" "Simple Iron Net" "Reinforced Iron Net" "Strong Iron Net" "Simple Steel Net"
+    BaseType "Simple Rope Net" "Reinforced Rope Net" "Strong Rope Net" "Simple Iron Net" "Reinforced Iron Net" "Strong Iron Net" "Simple Steel Net" "Reinforced Steel Net"
     SetTextColor 120 220 50
     SetBackgroundColor 42 64 22
     SetBorderColor 120 220 50
     SetFontSize 36
 Show
-    BaseType "Reinforced Steel Net"
+    BaseType "Strong Steel Net"
     SetTextColor 130 230 60
     SetBackgroundColor 52 80 31
     SetBorderColor 130 230 60
     SetFontSize 40
     PlayAlertSound 12 120
 Show
-    BaseType "Strong Steel Net"
+    BaseType "Thaumaturgical Net"
     SetTextColor 140 240 70
     SetBackgroundColor 62 94 42
     SetBorderColor 140 240 70
     SetFontSize 42
     PlayAlertSound 16 130
 Show
-    BaseType "Thaumaturgical Net"
+    BaseType "Necromantic Net"
     SetTextColor 150 250 90
     SetBackgroundColor 62 94 42
     SetBorderColor 150 250 90

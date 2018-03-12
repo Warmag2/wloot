@@ -258,18 +258,28 @@ Show
 # Jewels
 Show
     Rarity < Rare
-    Class Jewel
+    Class "Abyss Jewel"
+    Itemlevel >=84
     SetBackgroundColor 34 34 64
     SetBorderColor 135 135 254
-    SetFontSize 36
+    SetFontSize 38
+    PlayAlertSound 15 100
 
 Show
     Rarity = Rare
     Class "Abyss Jewel"
+    Itemlevel >=84
     SetBackgroundColor 34 44 64
     SetBorderColor 135 158 255
-    SetFontSize 38
+    SetFontSize 40
     PlayAlertSound 15 100
+
+Show
+    Rarity < Rare
+    Class Jewel
+    SetBackgroundColor 34 34 64
+    SetBorderColor 135 135 254
+    SetFontSize 36
 
 Show
     Rarity = Rare

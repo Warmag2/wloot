@@ -240,6 +240,31 @@ Show
     PlayAlertSound 15 150
     SetFontSize 45
 
+# Incursion league items
+Show
+    Class Currency
+    BaseType "Vial of"
+    SetTextColor 140 240 70
+    SetBackgroundColor 62 94 42
+    SetBorderColor 140 240 70
+    SetFontSize 42
+    PlayAlertSound 16 130
+
+Show
+    BaseType "Stone of Passage"
+    SetTextColor 150 250 90
+    SetBackgroundColor 62 94 42
+    SetBorderColor 150 250 90
+    SetFontSize 42
+    PlayAlertSound 16 140
+Show
+    BaseType "Flashpowder Keg"
+    SetTextColor 160 255 110
+    SetBackgroundColor 62 94 42
+    SetBorderColor 160 255 110
+    PlayAlertSound 15 150
+    SetFontSize 45
+
 ########################################################################
 ### League-specific and currency catch-all block #######################
 ########################################################################

@@ -47,6 +47,7 @@ Show
     SetBorderColor 225 195 150
     SetFontSize 40
     PlayAlertSound 3 75
+    MinimapIcon 2 Yellow Star
 
 # Mid-tier currency
 Show
@@ -57,6 +58,7 @@ Show
     SetBorderColor 230 214 177
     SetFontSize 40
     PlayAlertSound 1 90
+    MinimapIcon 1 Yellow Diamond
 
 # High-tier currency
 Show
@@ -67,6 +69,7 @@ Show
     SetBorderColor 230 214 177
     SetFontSize 42
     PlayAlertSound 13 150
+    MinimapIcon 0 Yellow Hexagon
 
 # Super-tier currency
 Show
@@ -77,6 +80,7 @@ Show
     SetBorderColor 255 240 200
     SetFontSize 45
     PlayAlertSound 5 150
+    MinimapIcon 0 Yellow Circle
 
 # Mirror of Kalandra and Eternal Orb
 Show
@@ -88,6 +92,7 @@ Show
     SetBorderColor 255 240 200
     SetFontSize 45
     PlayAlertSound 5 300
+    MinimapIcon 0 Yellow Circle
 
 # Valid currency shards
 Show
@@ -98,6 +103,7 @@ Show
     SetBorderColor 225 195 150
     SetFontSize 38
     PlayAlertSound 12 110
+    MinimapIcon 0 Yellow Star
 
 # Good currency shards
 Show
@@ -108,6 +114,7 @@ Show
     SetBorderColor 230 214 177
     SetFontSize 40
     PlayAlertSound 16 140
+    MinimapIcon 1 Yellow Star
 
 # Essences
 Show
@@ -131,6 +138,7 @@ Show
     SetTextColor 255 115 185
     SetFontSize 45
     PlayAlertSound 9 120
+    MinimapIcon 0 Brown Circle
 
 Show
     Class Currency
@@ -140,6 +148,7 @@ Show
     SetTextColor 255 115 185
     SetFontSize 42
     PlayAlertSound 9 100
+    MinimapIcon 0 Brown Circle
 
 ########################################################################
 ### League-specific items  #############################################
@@ -154,6 +163,7 @@ Show
     SetBorderColor 255 80 0
     SetTextColor 255 255 255
     PlayAlertSound 8 150
+    MinimapIcon 0 Red Circle
 
 Show
     Class Currency
@@ -163,6 +173,7 @@ Show
     SetBorderColor 255 80 0
     SetTextColor 255 178 135
     PlayAlertSound 8 80
+    MinimapIcon 1 Red Diamond
 
 Show
     Class "Misc Map Items"
@@ -194,6 +205,7 @@ Show
     SetTextColor 255 178 135
     SetFontSize 40
     PlayAlertSound 15 80
+    MinimapIcon 2 Red Star
 
 # Talismans
 Show
@@ -202,6 +214,7 @@ Show
     SetBorderColor 255 80 0
     SetFontSize 42
     PlayAlertSound 15 150
+    MinimapIcon 1 Red Hexagon
 
 # Bestiary league items
 # Strict
@@ -325,6 +338,7 @@ Show
     SetBorderColor 0 181 247
     SetFontSize 36
     PlayAlertSound 7 80
+    MinimapIcon 1 Blue Square
 
 ########################################################################
 ### Maps and fragments #################################################

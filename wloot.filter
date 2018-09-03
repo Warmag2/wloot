@@ -108,7 +108,7 @@ Show
     SetBorderColor 225 195 150
     SetFontSize 38
     PlayAlertSound 12 110
-    MinimapIcon 0 Yellow Diamond
+    MinimapIcon 2 Yellow Diamond
     PlayEffect Yellow Temp
 
 # Good currency shards
@@ -537,8 +537,9 @@ Show
 ### Special Mods #######################################################
 ########################################################################
 
+Show
     Identified True
-    Rarity Rare
+    Rarity = Rare
     HasExplicitMod "of Crafting" "of Spellcraft" "of Weaponcraft" "of the Underground" "Subterranean" "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Puhuarte" "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's"
     SetFontSize 45
     SetTextColor 255 255 255 200
@@ -548,8 +549,9 @@ Show
     MinimapIcon 1 Green Triangle
     PlayEffect Blue
 
+Show
     Identified True
-    Rarity Magic
+    Rarity = Magic
     HasExplicitMod "of Crafting" "of Spellcraft" "of Weaponcraft" "of the Underground" "Subterranean" "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Puhuarte" "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's"
     SetFontSize 45
     SetBackgroundColor 0 100 0 144
@@ -557,8 +559,9 @@ Show
     MinimapIcon 1 Green Triangle
     PlayEffect Blue
 
+Show
     Identified True
-    Rarity Normal
+    Rarity = Normal
     HasExplicitMod "of Crafting" "of Spellcraft" "of Weaponcraft" "of the Underground" "Subterranean" "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Puhuarte" "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's"
     SetFontSize 45
     SetBackgroundColor 0 100 0 144

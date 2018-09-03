@@ -376,7 +376,7 @@ Show
 # Regular Divination Cards
 Show
     Class Card
-    BaseType "Audacity" "Blessing of God" "Blind Venture" "Earth Drinker" "Gemcutter's Promise" "Glimmer of Hope" "Harmony of Souls" "Hope" "Hubris" "Humility" "Jack in the Box" "Lingering Remnants" "Lost Worlds" "Lucky Connections" "Lucky Deck" "Merciless Armament" "No Traces" "Rats" "Rebirth" "Scholar of the Seas" "Shard of Fate" "Standoff" "The Admirer" "The Aesthete" "The Avenger" "The Beast" "The Blazing Fire" "The Body" "The Chains that Bind" "The Cursed King" "The Dark Mage" "The Darkest Dream" "The Demoness" "The Dreamland" "The Encroaching Darkness" "The Fletcher" "The Forsaken" "The Gladiator" "The Insatiable" "The Inventor" "The Jester" "The Lion" "The One With All" "The Penitent" "The Poet" "The Porcupine" "The Realm" "The Road to Power" "The Soul" "The Standoff" "The Surveyor" "The Sword King's Salute" "The Traitor" "The Trial" "The Tyrant" "The Warlord" "The Wrath" "The Wretched" "Treasure Hunter" "Valley of Steel Boxes" "Vinia's Token" "The Cacophony" "The Innocent"
+    BaseType "Audacity" "Blessing of God" "Blind Venture" "Earth Drinker" "Gemcutter's Promise" "Glimmer of Hope" "Harmony of Souls" "Hope" "Hubris" "Humility" "Jack in the Box" "Lingering Remnants" "Lost Worlds" "Lucky Connections" "Lucky Deck" "Merciless Armament" "No Traces" "Rats" "Rebirth" "Scholar of the Seas" "Shard of Fate" "Standoff" "The Admirer" "The Aesthete" "The Avenger" "The Beast" "The Blazing Fire" "The Body" "The Chains that Bind" "The Cursed King" "The Dark Mage" "The Darkest Dream" "The Demoness" "The Dreamland" "The Encroaching Darkness" "The Fletcher" "The Forsaken" "The Gladiator" "The Insatiable" "The Inventor" "The Jester" "The Lion" "The One With All" "The Penitent" "The Poet" "The Porcupine" "The Realm" "The Road to Power" "The Soul" "The Standoff" "The Surveyor" "The Sword King's Salute" "The Traitor" "The Trial" "The Tyrant" "The Warlord" "The Wrath" "The Wretched" "Treasure Hunter" "Valley of Steel Boxes" "Vinia's Token" "The Cacophony" "The Innocent" "Three Voices"
     SetBackgroundColor 0 45 62
     SetBorderColor 0 181 247
     SetFontSize 36
@@ -389,7 +389,7 @@ Show
     Class Card
     SetBackgroundColor 0 45 62
     SetBorderColor 0 170 232
-    SetFontSize 32
+    SetFontSize 36
     PlayAlertSound 7 80
     MinimapIcon 2 Blue Square
     PlayEffect Blue Temp
@@ -482,6 +482,8 @@ Show
     SetBorderColor 200 200 200
     SetFontSize 42
     PlayAlertSound 4 150
+    MinimapIcon 1 Yellow Hexagon
+    PlayEffect Yellow
 
 Show
     LinkedSockets >= 6
@@ -491,6 +493,8 @@ Show
     SetBorderColor 136 136 255
     SetFontSize 42
     PlayAlertSound 4 150
+    MinimapIcon 0 Yellow Hexagon
+    PlayEffect Yellow
 
 Show
     LinkedSockets >= 6
@@ -500,6 +504,8 @@ Show
     SetBorderColor 255 255 60
     SetFontSize 42
     PlayAlertSound 4 150
+    MinimapIcon 0 Yellow Hexagon
+    PlayEffect Yellow
 
 Show
     LinkedSockets >= 6
@@ -509,6 +515,8 @@ Show
     SetBorderColor 255 140 53
     SetFontSize 42
     PlayAlertSound 4 150
+    MinimapIcon 0 Brown Star
+    PlayEffect Brown
 
 ########################################################################
 ### Unique block #######################################################
@@ -581,6 +589,8 @@ Show
     SetBorderColor 200 200 200
     SetFontSize 40
     PlayAlertSound 10 100
+    MinimapIcon 1 Yellow Diamond
+    PlayEffect Yellow
 
 # 6 Sockets for 7 Jewellers, Tier 2 bases
 Show
@@ -591,6 +601,8 @@ Show
     SetBorderColor 200 200 200
     SetFontSize 30
     PlayAlertSound 10 100
+    MinimapIcon 1 Yellow Diamond
+    PlayEffect Yellow
 
 # 6 Sockets for 7 Jewellers, everything else
 Show
@@ -599,6 +611,8 @@ Show
     SetBorderColor 200 200 200
     SetFontSize 40
     PlayAlertSound 10 100
+    MinimapIcon 1 Yellow Diamond
+    PlayEffect Yellow
 
 # Shaper bases
 Show

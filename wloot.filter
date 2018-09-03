@@ -47,7 +47,7 @@ Show
     SetBorderColor 225 195 150
     SetFontSize 40
     PlayAlertSound 3 75
-    MinimapIcon 2 Yellow Diamond
+    MinimapIcon 1 Yellow Diamond
     PlayEffect Yellow Temp
 
 # Mid-tier currency
@@ -371,7 +371,7 @@ Show
     SetBorderColor 0 187 255
     SetFontSize 40
     PlayAlertSound 7 120
-    MinimapIcon 2 Blue Square
+    MinimapIcon 0 Blue Square
     PlayEffect Blue
 
 # Regular Divination Cards
@@ -392,7 +392,7 @@ Show
     SetBorderColor 0 170 232
     SetFontSize 32
     PlayAlertSound 7 80
-    MinimapIcon 0 Blue Square
+    MinimapIcon 2 Blue Square
     PlayEffect Blue Temp
 
 ########################################################################
@@ -444,7 +444,7 @@ Show
     Class Maps
     SetFontSize 40
     PlayAlertSound 2 100
-    MinimapIcon 2 White Square
+    MinimapIcon 1 White Square
     PlayEffect White
 
 # Map Fragments

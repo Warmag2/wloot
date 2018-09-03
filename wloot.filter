@@ -542,9 +542,9 @@ Show
     Rarity = Rare
     HasExplicitMod "of Crafting" "of Spellcraft" "of Weaponcraft" "of the Underground" "Subterranean" "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Puhuarte" "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's"
     SetFontSize 45
-    SetTextColor 255 255 255 200
-    SetBackgroundColor 0 100 0 144
-    SetBorderColor 138 129 109 200
+    SetTextColor 255 255 48
+    SetBackgroundColor 96 64 0
+    SetBorderColor 230 180 0
     PlayAlertSound 14 150
     MinimapIcon 1 Green Triangle
     PlayEffect Blue
@@ -554,7 +554,7 @@ Show
     Rarity = Magic
     HasExplicitMod "of Crafting" "of Spellcraft" "of Weaponcraft" "of the Underground" "Subterranean" "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Puhuarte" "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's"
     SetFontSize 45
-    SetBackgroundColor 0 100 0 144
+    SetBackgroundColor 96 64 0
     PlayAlertSound 14 150
     MinimapIcon 1 Green Triangle
     PlayEffect Blue
@@ -564,7 +564,7 @@ Show
     Rarity = Normal
     HasExplicitMod "of Crafting" "of Spellcraft" "of Weaponcraft" "of the Underground" "Subterranean" "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Puhuarte" "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's"
     SetFontSize 45
-    SetBackgroundColor 0 100 0 144
+    SetBackgroundColor 96 64 0
     PlayAlertSound 14 150
     MinimapIcon 1 Green Triangle
     PlayEffect Blue

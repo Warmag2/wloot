@@ -5,9 +5,12 @@ A semi-minimal loot filter without intrusive visuals.
 #### Concept
 
 This loot filter is designed to be rather minimal - it only deviates slightly from the game's initial visual style and
-aims to not show almost all items which could be of any value. It shows all rares and most relevant crafting recipes,
-but further highlights more useful itemns. In addition, as it was designed during the era when loot filters were still
-big resource hogs, the script is designed to be more lightweight than any of the other filters I've tried so far
+aims to show almost all items which could be of any value. It shows all rares and most relevant crafting recipes,
+but further highlights more useful itemns.
+
+In addition, as it was designed during the era when loot filters were still big resource hogs, the script is designed
+to be more lightweight than any of the other filters I've tried so far. This means that there is only light economic
+filtering implemented at the moment - currently only for Divination Cards.
 
 #### Main features
 
@@ -18,12 +21,13 @@ big resource hogs, the script is designed to be more lightweight than any of the
 * Recipes for chromatics, glassblowers, jewelers and chisels are displayed.
 * Non-quality flasks are not shown, except for special flasks.
 * Chancing recipes are NOT highlighted by default. Edit the relevant block to alter this.
+* Strict version hides all but the best rares, some crafting recipes and some currency shards.
 
 #### Visual features
 
-* From a visual design perspective, colors are used more liberally than in the base game, which may be a problem for purists.
+* From a visual design perspective, colors are used more liberally than in the base game, which may be a problem for purists. However, they are made to be distinctive and color by item type exclusively. Brighness signifies value within a type.
 * Jewels, uniques, rares, currency etc. use something akin to their default ingame colour scheme, except brighter. Special items which do not have a default scheme, have been coloured to be easily distinguishable.
-* Most backgrounds are coloured, unlike in the base game. Mostly the background color is a darker version of the base colour.
+* Most backgrounds are coloured, unlike in the base game. Typically the background color is a darker version of the base colour.
 
 #### Items shown as good bases
 
@@ -99,7 +103,7 @@ big resource hogs, the script is designed to be more lightweight than any of the
 * **Cards:** 7
 * **Uniques:** 6
 * **Prophecies and Silver coins:** 9
-* **Special crafting bases:** 14
+* **Special crafting bases or items with craft-enabling or rare mods:** 14
 * **League-specific items (in base game):** 8 (essences, breach items)
 * **League-specific items (not in base game):** 15 (perandus coins, talismans, leaguestones)
 * **Links>=6:** 4 
@@ -108,3 +112,4 @@ big resource hogs, the script is designed to be more lightweight than any of the
 #### Acknowledgements
 
 Initally based on Ziggy's filter as it were in 2015. Heavily edited with Filtration and later on by hand.
+Economic tiering for Divination Cards is taken from Neversink's filter and slightly edited to match my preferences. It will likely be updated by hand in the future.

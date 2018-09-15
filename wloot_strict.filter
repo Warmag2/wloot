@@ -136,6 +136,22 @@ Show
     PlayEffect Green
 
 ########################################################################
+### Delve currency #####################################################
+########################################################################
+
+# Essences
+Show
+    Class Currency
+    BaseType "Fossil" "Resonator"
+    SetTextColor 120 230 190
+    SetBackgroundColor 32 64 42
+    SetBorderColor 120 230 190
+    SetFontSize 42
+    PlayAlertSound 8 120
+    MinimapIcon 1 Green Triangle
+    PlayEffect Green
+
+########################################################################
 ### Prophecy items  ####################################################
 ########################################################################
 
@@ -356,11 +372,10 @@ Show
 # Strict
 Hide
     Class Card
-    BaseType "Carrion Crow"
+    BaseType "Carrion Crow" "Struck by Lightning" "The Hermit" "The King's Blade" "Thunderous Skies"
     SetBackgroundColor 0 45 62
     SetBorderColor 0 181 247
-    SetFontSize 36
-    PlayAlertSound 7 80
+    SetFontSize 32
 
 # Good Divination Cards
 Show
@@ -466,7 +481,7 @@ Show
     SetFontSize 40
     SetBackgroundColor 50 0 40
     SetBorderColor 225 96 180
-    MinimapIcon 0 Red Diamond
+    MinimapIcon 0 Red Square
     PlayEffect Red
 
 ########################################################################

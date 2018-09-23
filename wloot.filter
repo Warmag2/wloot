@@ -850,7 +850,7 @@ Show
 Show
     Class Gem
     Quality >= 5
-    BaseType "Added Chaos Damage" "Empower" "Enhance" "Enlighten" "Portal" "Vaal Breach" "Vaal Discipline" "Vaal Grace" "Vaal Haste"
+    BaseType "Added Chaos Damage" "Detonate Mines" "Empower" "Enhance" "Enlighten" "Portal" "Vaal Breach" "Vaal Discipline" "Vaal Grace" "Vaal Haste"
     SetBackgroundColor 0 96 96
     SetBorderColor 0 128 128
     SetFontSize 40
@@ -858,7 +858,7 @@ Show
 # Valuable Gems
 Show
     Class Gem
-    BaseType "Added Chaos Damage" "Empower" "Enhance" "Enlighten" "Portal" "Vaal Breach" "Vaal Discipline" "Vaal Grace" "Vaal Haste"
+    BaseType "Added Chaos Damage" "Detonate Mines" "Empower" "Enhance" "Enlighten" "Portal" "Vaal Breach" "Vaal Discipline" "Vaal Grace" "Vaal Haste"
     SetBackgroundColor 0 96 96
     SetFontSize 40
 

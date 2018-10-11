@@ -142,7 +142,7 @@ Show
 # Essences
 Show
     Class Currency
-    BaseType "Fossil" "Resonator"
+    BaseType "Fossil" "Chaotic Resonator"
     SetTextColor 120 230 190
     SetBackgroundColor 32 64 42
     SetBorderColor 120 230 190
@@ -150,6 +150,16 @@ Show
     PlayAlertSound 8 120
     MinimapIcon 1 Green Triangle
     PlayEffect Green
+
+# Strict
+Show
+    Class Currency
+    BaseType "Alchemical Resonator"
+    SetTextColor 120 230 190
+    SetBackgroundColor 32 64 42
+    SetBorderColor 120 230 190
+    SetFontSize 42
+    PlayAlertSound 8 120
 
 ########################################################################
 ### Prophecy items  ####################################################

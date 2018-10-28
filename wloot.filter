@@ -139,7 +139,18 @@ Show
 ### Delve currency #####################################################
 ########################################################################
 
-# Essences
+# Resonators
+Show
+    Class Currency
+    BaseType "Prime Chaotic Resonator" "Prime Alchemical Resonator"
+    SetTextColor 120 230 190
+    SetBackgroundColor 32 64 42
+    SetBorderColor 120 230 190
+    SetFontSize 42
+    PlayAlertSound 5 120
+    MinimapIcon 1 Green Hexagon
+    PlayEffect Green
+
 Show
     Class Currency
     BaseType "Fossil" "Chaotic Resonator"
@@ -383,7 +394,7 @@ Show
 # Strict
 Hide
     Class Card
-    BaseType "Carrion Crow" "Struck by Lightning" "The Hermit" "The King's Blade" "Thunderous Skies"
+    BaseType "Carrion Crow" "Struck by Lightning" "The Hermit" "The King's Blade" "Thunderous Skies" "The Sigil" "The Surgeon"
     SetBackgroundColor 0 45 62
     SetBorderColor 0 181 247
     SetFontSize 32

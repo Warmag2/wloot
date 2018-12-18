@@ -456,7 +456,8 @@ Show
     ShapedMap True
     MapTier >= 11
     SetFontSize 42
-    SetBackgroundColor 0 128 0
+    SetBackgroundColor 0 96 0
+    SetBorderColor 128 0 0
     PlayAlertSound 2 130
     MinimapIcon 0 White Square
     PlayEffect White
@@ -468,6 +469,7 @@ Show
     MapTier >= 6
     SetFontSize 42
     SetBackgroundColor 0 96 0
+    SetBorderColor 120 105 0
     PlayAlertSound 2 120
     MinimapIcon 1 White Square
     PlayEffect White
@@ -477,7 +479,7 @@ Show
     Class Maps
     ShapedMap True
     SetFontSize 42
-    SetBackgroundColor 0 64 0
+    SetBackgroundColor 0 96 0
     PlayAlertSound 2 110
     MinimapIcon 1 White Square
     PlayEffect White
@@ -516,7 +518,7 @@ Show
     BaseType "Rusted"
     SetBackgroundColor 255 255 255 144
     SetBorderColor 240 240 240
-    SetTextColor 240 240 240
+    SetTextColor 0 0 0
     SetFontSize 36
     PlayAlertSound 13 130
     MinimapIcon 0 White Square

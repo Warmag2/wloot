@@ -489,7 +489,7 @@ Show
 # Scarab
 Show
     Class "Map Fragment"
-    BaseType "Rusted Scarab"
+    BaseType "Rusted"
     SetBackgroundColor 255 255 255 128
     SetBorderColor 240 240 240
     SetTextColor 240 240 240
@@ -500,7 +500,7 @@ Show
 
 Show
     Class "Map Fragment"
-    BaseType "Polished Scarab"
+    BaseType "Polished"
     SetBackgroundColor 255 255 255 192
     SetBorderColor 240 240 240
     SetTextColor 240 240 240
@@ -511,7 +511,7 @@ Show
 
 Show
     Class "Map Fragment"
-    BaseType "Gilded Scarab"
+    BaseType "Gilded"
     SetBackgroundColor 255 255 255 228
     SetBorderColor 240 240 240
     SetTextColor 240 240 240

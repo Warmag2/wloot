@@ -469,7 +469,7 @@ Show
     SetFontSize 42
     SetBackgroundColor 0 128 0
     PlayAlertSound 2 120
-    MinimapIcon 0 White Square
+    MinimapIcon 1 White Square
     PlayEffect White
 
 #Shaped maps
@@ -479,7 +479,7 @@ Show
     SetFontSize 42
     SetBackgroundColor 0 96 0
     PlayAlertSound 2 110
-    MinimapIcon 0 White Square
+    MinimapIcon 1 White Square
     PlayEffect White
 
 # Red maps

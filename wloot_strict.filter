@@ -65,19 +65,19 @@ Show
 # High-tier currency
 Show
     Class Currency
-    BaseType "Cartographer's Sextant" "Cartographer's Seal" "Harbinger's Orb" "Unshaping Orb"
+    BaseType "Cartographer's Sextant" "Cartographer's Seal" "Unshaping Orb"
     SetTextColor 240 224 187
     SetBackgroundColor 112 86 64
     SetBorderColor 230 214 177
     SetFontSize 42
     PlayAlertSound 13 150
-    MinimapIcon 0 Yellow Hexagon
+    MinimapIcon 1 Yellow Hexagon
     PlayEffect Yellow
 
 # Super-tier currency
 Show
     Class Currency
-    BaseType "Ancient Orb" "Exalted Orb" "Divine Orb" "Orb of Annulment"
+    BaseType "Ancient Orb" "Exalted Orb" "Divine Orb" "Harbinger's Orb" "Orb of Annulment"
     SetTextColor 0 0 0
     SetBackgroundColor 192 144 112
     SetBorderColor 255 240 200
@@ -134,6 +134,11 @@ Show
     PlayAlertSound 8 120
     MinimapIcon 1 Green Triangle
     PlayEffect Green
+
+#######################################################################
+### Map-modifying Items ############################################
+#######################################################################
+
 
 ########################################################################
 ### Delve currency #####################################################
@@ -400,7 +405,7 @@ Hide
 # Good Divination Cards
 Show
     Class Card
-    BaseType "Bowyer's Dream" "Chaotic Disposition" "Emperor of Purity" "Left to Fate" "Perfection" "Saint's Treasure" "The Breach" "The Cartographer" "The Dapper Prodigy" "The Dragon" "The Dreamer" "The Ethereal" "The Hale Heart" "The Hoarder" "The Jeweller's Boon" "The Obscured" "The Polymath" "The Risk" "The Thaumaturgist" "The Throne" "The Undisputed" "The Valley of Steel Boxes" "The Vast" "The Void" "Time-Lost Relic" "The Wilted Rose" "The Price of Protection" "The Twilight Moon" "Abandoned Wealth" "Heterochromia" "House of Mirrors" "Hunter's Reward" "Immortal Resolve" "Last Hope" "Mawr Blaidd" "Polymath" "Pride Before the Fall" "Spark and the Flame" "The Artist" "The Brittle Emperor" "The Celestial Justicar" "The Celestial Stone" "The Doctor" "The Dragon's Heart" "The Enlightened" "The Fiend" "The Formless Sea" "The Hunger" "The Immortal" "The Iron Bard" "The King's Heart" "The Last One Standing" "The Master" "The Mayor" "The Offering" "The Professor" "The Queen" "The Saint's Treasure" "The Samurai's Eye" "The Sephirot" "The Spark and the Flame" "The Undaunted" "The Valkyrie" "The Wind" "The Wolf" "The Wolven King's Bite" "The World Eater" "Wealth and Power" "Beauty Through Death" "The Endless Darkness" "Boon of the First Ones"
+    BaseType "Bowyer's Dream" "Chaotic Disposition" "A Dab of Ink" "Emperor of Purity" "Left to Fate" "Perfection" "Saint's Treasure" "The Breach" "The Cartographer" "The Dapper Prodigy" "The Dragon" "The Dreamer" "The Ethereal" "The Hale Heart" "The Hoarder" "The Jeweller's Boon" "The Obscured" "The Polymath" "The Risk" "The Thaumaturgist" "The Throne" "The Undisputed" "The Valley of Steel Boxes" "The Vast" "The Void" "Time-Lost Relic" "The Wilted Rose" "The Price of Protection" "The Twilight Moon" "Abandoned Wealth" "Heterochromia" "House of Mirrors" "Hunter's Reward" "Immortal Resolve" "Last Hope" "Mawr Blaidd" "Polymath" "Pride Before the Fall" "Spark and the Flame" "The Artist" "The Brittle Emperor" "The Celestial Justicar" "The Celestial Stone" "The Doctor" "The Dragon's Heart" "The Enlightened" "The Fiend" "The Formless Sea" "The Hunger" "The Immortal" "The Iron Bard" "The King's Heart" "The Last One Standing" "The Master" "The Mayor" "The Nurse" "The Offering" "The Professor" "The Queen" "The Saint's Treasure" "The Samurai's Eye" "The Sephirot" "The Spark and the Flame" "The Undaunted" "The Valkyrie" "The Wind" "The Wolf" "The Wolven King's Bite" "The World Eater" "Wealth and Power" "Beauty Through Death" "The Endless Darkness" "Boon of the First Ones"
     SetBackgroundColor 0 68 93
     SetBorderColor 0 187 255
     SetFontSize 40
@@ -481,9 +486,43 @@ Show
     MinimapIcon 1 White Square
     PlayEffect White
 
+# Scarab
+Show
+    Class "Map Fragment"
+    BaseItem "Rusted Scarab"
+    SetBackgroundColor 255 255 255 128
+    SetBorderColor 240 240 240
+    SetTextColor 240 240 240
+    SetFontSize 36
+    PlayAlertSound 13 130
+    MinimapIcon 0 White Square
+    PlayEffect White
+
+Show
+    Class "Map Fragment"
+    BaseItem "Polished Scarab"
+    SetBackgroundColor 255 255 255 192
+    SetBorderColor 240 240 240
+    SetTextColor 240 240 240
+    SetFontSize 38
+    PlayAlertSound 13 140
+    MinimapIcon 0 White Square
+    PlayEffect White
+
+Show
+    Class "Map Fragment"
+    BaseItem "Gilded Scarab"
+    SetBackgroundColor 255 255 255 228
+    SetBorderColor 240 240 240
+    SetTextColor 240 240 240
+    SetFontSize 40
+    PlayAlertSound 13 150
+    MinimapIcon 0 White Square
+    PlayEffect White
+
 # Map Fragments
 Show
-    Class "Map Fragments" "Labyrinth Map Item"
+    Class "Map Fragment" "Labyrinth Map Item"
     SetBackgroundColor 160 120 160
     SetBorderColor 240 180 240
     SetTextColor 0 0 0
@@ -582,33 +621,33 @@ Show
 Show
     Identified True
     Rarity = Rare
-    HasExplicitMod "of Crafting" "of Spellcraft" "of Weaponcraft" "of the Underground" "Subterranean" "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Puhuarte" "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's"
+    HasExplicitMod "of Crafting" "of Spellcraft" "of Weaponcraft" "of the Underground" "Subterranean" "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Puhuarte" "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's" "of Janus' Veil" "of Hillock's Veil" "of Jorgin's Veil" "of Cameria's Veil" "of Aisling's Veil" "of Riker's Veil" "of the Veil" "Veiled" "Leo's Veiled" "Catarina's Veiled" "Elreon's Veiled" "Vorici's Veiled" "Haku's Veiled" "Tora's Veiled" "Vagan's Veiled" "Guff's Veiled" "It That Fled's Veiled" "Gravicius' Veiled" "Korell's Veiled "Rin's Veiled"
     SetFontSize 45
     SetTextColor 255 255 48
     SetBackgroundColor 96 64 0
     SetBorderColor 230 180 0
     PlayAlertSound 14 150
-    MinimapIcon 1 Green Triangle
+    MinimapIcon 0 Green Triangle
     PlayEffect Blue
 
 Show
     Identified True
     Rarity = Magic
-    HasExplicitMod "of Crafting" "of Spellcraft" "of Weaponcraft" "of the Underground" "Subterranean" "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Puhuarte" "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's"
+    HasExplicitMod "of Crafting" "of Spellcraft" "of Weaponcraft" "of the Underground" "Subterranean" "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Puhuarte" "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's" "of Janus' Veil" "of Hillock's Veil" "of Jorgin's Veil" "of Cameria's Veil" "of Aisling's Veil" "of Riker's Veil" "of the Veil" "Veiled" "Leo's Veiled" "Catarina's Veiled" "Elreon's Veiled" "Vorici's Veiled" "Haku's Veiled" "Tora's Veiled" "Vagan's Veiled" "Guff's Veiled" "It That Fled's Veiled" "Gravicius' Veiled" "Korell's Veiled "Rin's Veiled"
     SetFontSize 45
     SetBackgroundColor 96 64 0
     PlayAlertSound 14 150
-    MinimapIcon 1 Green Triangle
+    MinimapIcon 0 Green Triangle
     PlayEffect Blue
 
 Show
     Identified True
     Rarity = Normal
-    HasExplicitMod "of Crafting" "of Spellcraft" "of Weaponcraft" "of the Underground" "Subterranean" "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Puhuarte" "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's"
+    HasExplicitMod "of Crafting" "of Spellcraft" "of Weaponcraft" "of the Underground" "Subterranean" "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Puhuarte" "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's" "of Janus' Veil" "of Hillock's Veil" "of Jorgin's Veil" "of Cameria's Veil" "of Aisling's Veil" "of Riker's Veil" "of the Veil" "Veiled" "Leo's Veiled" "Catarina's Veiled" "Elreon's Veiled" "Vorici's Veiled" "Haku's Veiled" "Tora's Veiled" "Vagan's Veiled" "Guff's Veiled" "It That Fled's Veiled" "Gravicius' Veiled" "Korell's Veiled "Rin's Veiled"
     SetFontSize 45
     SetBackgroundColor 96 64 0
     PlayAlertSound 14 150
-    MinimapIcon 1 Green Triangle
+    MinimapIcon 0 Green Triangle
     PlayEffect Blue
 
 ########################################################################
@@ -816,6 +855,9 @@ Hide
     ItemLevel >= 86
     SetTextColor 255 255 255 200
     SetBackgroundColor 0 100 0 144
+    PlayAlertSound 14 150
+    MinimapIcon 1 Green Triangle
+    PlayEffect Blue
 
 # Max base level normal armour that can be used for crafting
 Hide
@@ -824,16 +866,21 @@ Hide
     ItemLevel >= 86
     SetTextColor 255 255 255 200
     SetBackgroundColor 0 100 0 144
+    PlayAlertSound 14 150
+    MinimapIcon 1 Green Triangle
+    PlayEffect Blue
 
 # Good enough level special armour that can be used for crafting
 Show
     Rarity <= Magic
     BaseType "Bone Helmet" "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves" "Two-Toned Boots"
-    ItemLevel >= 80
+    ItemLevel >= 86
     SetTextColor 255 255 255 200
     SetBackgroundColor 0 100 0 144
     SetBorderColor 138 129 109 200
     PlayAlertSound 14 150
+    MinimapIcon 0 Green Triangle
+    PlayEffect Blue
 
 # Max base level special jewellry bases
 Show
@@ -845,6 +892,9 @@ Show
     SetBorderColor 138 129 109 200
     SetFontSize 40
     PlayAlertSound 14 150
+    MinimapIcon 1 Green Triangle
+    PlayEffect Blue
+
 
 # Bases that can be Chance Orbed for expensive uniques, ilvl restriction matches start of mapping
 # For now UNUSED

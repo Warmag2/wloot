@@ -454,7 +454,7 @@ Show
     ShapedMap True
     MapTier >= 11
     SetFontSize 42
-    SetBackgroundColor 0 160 0
+    SetBackgroundColor 0 128 0
     PlayAlertSound 2 130
     MinimapIcon 0 White Square
     PlayEffect White
@@ -465,7 +465,7 @@ Show
     ShapedMap True
     MapTier >= 6
     SetFontSize 42
-    SetBackgroundColor 0 128 0
+    SetBackgroundColor 0 96 0
     PlayAlertSound 2 120
     MinimapIcon 1 White Square
     PlayEffect White
@@ -475,7 +475,7 @@ Show
     Class Maps
     ShapedMap True
     SetFontSize 42
-    SetBackgroundColor 0 96 0
+    SetBackgroundColor 0 64 0
     PlayAlertSound 2 110
     MinimapIcon 1 White Square
     PlayEffect White

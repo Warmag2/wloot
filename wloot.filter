@@ -454,16 +454,38 @@ Show
 Show
     Class Maps
     ShapedMap True
+    MapTier >= 11
     SetFontSize 42
-    SetBackgroundColor 0 90 0
+    SetBackgroundColor 0 160 0
     PlayAlertSound 2 130
+    MinimapIcon 0 White Square
+    PlayEffect White
+
+#Shaped maps
+Show
+    Class Maps
+    ShapedMap True
+    MapTier >= 6
+    SetFontSize 42
+    SetBackgroundColor 0 128 0
+    PlayAlertSound 2 120
+    MinimapIcon 0 White Square
+    PlayEffect White
+
+#Shaped maps
+Show
+    Class Maps
+    ShapedMap True
+    SetFontSize 42
+    SetBackgroundColor 0 96 0
+    PlayAlertSound 2 110
     MinimapIcon 0 White Square
     PlayEffect White
 
 # Red maps
 Show
     Class Maps
-    DropLevel >= 78
+    MapTier >= 11
     SetFontSize 40
     SetBackgroundColor 100 0 0
     PlayAlertSound 2 120
@@ -473,7 +495,7 @@ Show
 # Yellow maps
 Show
     Class Maps
-    DropLevel >= 73
+    MapTier >= 6
     SetFontSize 40
     SetBackgroundColor 80 70 0
     PlayAlertSound 2 110
@@ -492,7 +514,7 @@ Show
 Show
     Class "Map Fragment"
     BaseType "Rusted"
-    SetBackgroundColor 255 255 255 128
+    SetBackgroundColor 255 255 255 144
     SetBorderColor 240 240 240
     SetTextColor 240 240 240
     SetFontSize 36
@@ -503,9 +525,9 @@ Show
 Show
     Class "Map Fragment"
     BaseType "Polished"
-    SetBackgroundColor 255 255 255 192
+    SetBackgroundColor 255 255 255 180
     SetBorderColor 240 240 240
-    SetTextColor 240 240 240
+    SetTextColor 0 0 0
     SetFontSize 38
     PlayAlertSound 13 140
     MinimapIcon 0 White Square
@@ -514,9 +536,9 @@ Show
 Show
     Class "Map Fragment"
     BaseType "Gilded"
-    SetBackgroundColor 255 255 255 228
+    SetBackgroundColor 255 255 255 212
     SetBorderColor 240 240 240
-    SetTextColor 240 240 240
+    SetTextColor 0 0 0
     SetFontSize 40
     PlayAlertSound 13 150
     MinimapIcon 0 White Square

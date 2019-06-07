@@ -255,6 +255,16 @@ Show
     MinimapIcon 0 White Square
     PlayEffect White
 
+# Incubators
+Show
+    Class Incubator
+    SetFontSize 42
+    SetBackgroundColor 90 20 0
+    SetBorderColor 255 80 0
+    SetTextColor 255 178 135
+    MinimapIcon 1 Red Diamond
+    PlayEffect Red
+
 # Perandus coins
 Show
     Class Currency

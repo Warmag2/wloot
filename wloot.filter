@@ -387,6 +387,7 @@ Show
     SetFontSize 40
     PlayAlertSound 15 100
 
+# Strict
 Show
     Rarity < Rare
     Class Jewel
@@ -417,7 +418,7 @@ Hide
 # Good Divination Cards
 Show
     Class Card
-    BaseType "Bowyer's Dream" "Chaotic Disposition" "A Dab of Ink" "Emperor of Purity" "Left to Fate" "Perfection" "Saint's Treasure" "The Breach" "The Cartographer" "The Dapper Prodigy" "The Dragon" "The Dreamer" "The Ethereal" "The Hale Heart" "The Hoarder" "The Jeweller's Boon" "The Obscured" "The Polymath" "The Risk" "The Thaumaturgist" "The Throne" "The Undisputed" "The Valley of Steel Boxes" "The Vast" "The Void" "Time-Lost Relic" "The Wilted Rose" "The Price of Protection" "The Twilight Moon" "Abandoned Wealth" "Heterochromia" "House of Mirrors" "Hunter's Reward" "Immortal Resolve" "Last Hope" "Mawr Blaidd" "Polymath" "Pride Before the Fall" "Spark and the Flame" "The Artist" "The Brittle Emperor" "The Celestial Justicar" "The Celestial Stone" "The Doctor" "The Dragon's Heart" "The Enlightened" "The Fiend" "The Formless Sea" "The Hunger" "The Immortal" "The Iron Bard" "The King's Heart" "The Last One Standing" "The Master" "The Mayor" "The Nurse" "The Offering" "The Professor" "The Queen" "The Saint's Treasure" "The Samurai's Eye" "The Sephirot" "The Spark and the Flame" "The Undaunted" "The Valkyrie" "The Wind" "The Wolf" "The Wolven King's Bite" "The World Eater" "Wealth and Power" "Beauty Through Death" "The Endless Darkness" "Boon of the First Ones"
+    BaseType "Bowyer's Dream" "Chaotic Disposition" "A Dab of Ink" "Emperor of Purity" "Left to Fate" "Perfection" "Saint's Treasure" "The Breach" "The Cartographer" "The Dapper Prodigy" "The Dreamer" "The Ethereal" "The Hale Heart" "The Hoarder" "The Jeweller's Boon" "The Obscured" "The Polymath" "The Risk" "The Thaumaturgist" "The Throne" "The Undisputed" "The Valley of Steel Boxes" "The Vast" "The Void" "Time-Lost Relic" "The Wilted Rose" "The Price of Protection" "The Twilight Moon" "Abandoned Wealth" "Heterochromia" "House of Mirrors" "Hunter's Reward" "Immortal Resolve" "Last Hope" "Mawr Blaidd" "Polymath" "Pride Before the Fall" "Spark and the Flame" "The Artist" "The Brittle Emperor" "The Celestial Justicar" "The Celestial Stone" "The Doctor" "The Dragon's Heart" "The Enlightened" "The Fiend" "The Formless Sea" "The Hunger" "The Immortal" "The Iron Bard" "The King's Heart" "The Last One Standing" "The Master" "The Mayor" "The Nurse" "The Offering" "The Professor" "The Queen" "The Saint's Treasure" "The Samurai's Eye" "The Sephirot" "The Spark and the Flame" "The Undaunted" "The Valkyrie" "The Wind" "The Wolf" "The Wolven King's Bite" "The World Eater" "Wealth and Power" "Beauty Through Death" "The Endless Darkness" "Boon of the First Ones"
     SetBackgroundColor 0 68 93
     SetBorderColor 0 187 255
     SetFontSize 40
@@ -428,7 +429,7 @@ Show
 # Regular Divination Cards
 Show
     Class Card
-    BaseType "Audacity" "Blessing of God" "Blind Venture" "Earth Drinker" "Gemcutter's Promise" "Glimmer of Hope" "Harmony of Souls" "Hope" "Hubris" "Humility" "Jack in the Box" "Lingering Remnants" "Lost Worlds" "Lucky Connections" "Lucky Deck" "Merciless Armament" "No Traces" "Rats" "Rebirth" "Scholar of the Seas" "Shard of Fate" "Standoff" "The Admirer" "The Aesthete" "The Avenger" "The Beast" "The Blazing Fire" "The Body" "The Chains that Bind" "The Cursed King" "The Dark Mage" "The Darkest Dream" "The Demoness" "The Dreamland" "The Encroaching Darkness" "The Fletcher" "The Forsaken" "The Gladiator" "The Insatiable" "The Inventor" "The Jester" "The Lion" "The One With All" "The Penitent" "The Poet" "The Porcupine" "The Realm" "The Road to Power" "The Soul" "The Standoff" "The Surveyor" "The Sword King's Salute" "The Traitor" "The Trial" "The Tyrant" "The Warlord" "The Wrath" "The Wretched" "Treasure Hunter" "Valley of Steel Boxes" "Vinia's Token" "The Cacophony" "The Innocent" "Three Voices"
+    BaseType "Audacity" "Blessing of God" "Blind Venture" "Earth Drinker" "Gemcutter's Promise" "Glimmer of Hope" "Harmony of Souls" "Hope" "Hubris" "Humility" "Jack in the Box" "Lingering Remnants" "Lost Worlds" "Lucky Connections" "Lucky Deck" "Merciless Armament" "No Traces" "Rats" "Rebirth" "Scholar of the Seas" "Shard of Fate" "Standoff" "The Admirer" "The Aesthete" "The Avenger" "The Beast" "The Blazing Fire" "The Body" "The Chains that Bind" "The Cursed King" "The Dark Mage" "The Darkest Dream" "The Demoness" "The Dragon" "The Dreamland" "The Encroaching Darkness" "The Fletcher" "The Forsaken" "The Gladiator" "The Insatiable" "The Inventor" "The Jester" "The Lion" "The One With All" "The Penitent" "The Poet" "The Porcupine" "The Realm" "The Road to Power" "The Soul" "The Standoff" "The Surveyor" "The Sword King's Salute" "The Traitor" "The Trial" "The Tyrant" "The Warlord" "The Wrath" "The Wretched" "Treasure Hunter" "Valley of Steel Boxes" "Vinia's Token" "The Cacophony" "The Innocent" "Three Voices"
     SetBackgroundColor 0 45 62
     SetBorderColor 0 181 247
     SetFontSize 36
@@ -769,6 +770,7 @@ Show
     SetFontSize 36
 
 # Small chromatic items
+# Strict
 Show
     Width <= 1
     SocketGroup "RGB"
@@ -776,6 +778,7 @@ Show
     SetBorderColor 220 0 0
 
 # Small chromatic items
+#Srict
 Show
     Height <= 2
     Width = 2
@@ -875,6 +878,7 @@ Show
     Class "Utility Flasks"
 
 # Chisel Recipe (20% Hammer + Any Endgame Map)
+# Strict
 Show
     Rarity = Normal
     BaseType "Gavel" "Stone Hammer" "Rock Breaker"
@@ -882,6 +886,7 @@ Show
     SetBorderColor 138 129 109
 
 # Chisel Recipe (20% Hammer + Any Endgame Map)
+# Strict
 Show
     Quality >= 12
     Rarity = Magic
@@ -955,7 +960,7 @@ Show
 Show
     Class Gem
     Quality >= 5
-    BaseType "Added Chaos Damage" "Detonate Mines" "Empower" "Enhance" "Enlighten" "Portal" "Vaal Breach" "Vaal Discipline" "Vaal Grace" "Vaal Haste"
+    BaseType "Added Chaos Damage" "Empower" "Enhance" "Enlighten" "Portal" "Vaal Breach" "Vaal Discipline" "Vaal Grace" "Vaal Haste"
     SetBackgroundColor 0 96 96
     SetBorderColor 0 128 128
     SetFontSize 40
@@ -963,7 +968,7 @@ Show
 # Valuable Gems
 Show
     Class Gem
-    BaseType "Added Chaos Damage" "Detonate Mines" "Empower" "Enhance" "Enlighten" "Portal" "Vaal Breach" "Vaal Discipline" "Vaal Grace" "Vaal Haste"
+    BaseType "Added Chaos Damage" "Empower" "Enhance" "Enlighten" "Portal" "Vaal Breach" "Vaal Discipline" "Vaal Grace" "Vaal Haste"
     SetBackgroundColor 0 96 96
     SetFontSize 40
 

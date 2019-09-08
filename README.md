@@ -75,7 +75,7 @@ filtering implemented at the moment - currently only for Divination Cards.
 
 ### Special bases ###
 
-"Bone Helmet" "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves" "Two-Toned Boots"
+"Bone Helmet" "Convoking Wand" "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves" "Two-Toned Boots"
 
 ### Items not shown as good bases but which are regardless good in their class
 
@@ -87,7 +87,7 @@ filtering implemented at the moment - currently only for Divination Cards.
 
 #### Items considered special jewellry bases
 
-"Blue Pearl Amulet" "Crystal Belt" "Marble Amulet" "Opal Ring" "Steel Ring" "Stygian Vise" "Vanguard Belt"
+"Blue Pearl Amulet" "Cerulean Ring" "Crystal Belt" "Marble Amulet" "Opal Ring" "Steel Ring" "Stygian Vise" "Vanguard Belt" "Vermillion Ring"
 
 #### Alert Sounds
 

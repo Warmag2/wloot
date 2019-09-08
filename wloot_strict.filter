@@ -216,7 +216,7 @@ Show
 Show
     Class Currency
     BaseType "Sepia Oil"
-    SetFontSize 34
+    SetFontSize 35
     SetBackgroundColor 94 101 83
     SetBorderColor 140 152 124
     SetTextColor 234 253 206
@@ -227,7 +227,7 @@ Show
 Show
     Class Currency
     BaseType "Amber Oil"
-    SetFontSize 35
+    SetFontSize 36
     SetBackgroundColor 100 108 88
     SetBorderColor 150 162 132
     SetTextColor 234 253 206
@@ -238,7 +238,7 @@ Show
 Show
     Class Currency
     BaseType "Verdant Oil"
-    SetFontSize 36
+    SetFontSize 37
     SetBackgroundColor 106 115 94
     SetBorderColor 159 172 140
     SetTextColor 234 253 206
@@ -249,7 +249,7 @@ Show
 Show
     Class Currency
     BaseType "Teal Oil"
-    SetFontSize 37
+    SetFontSize 38
     SetBackgroundColor 112 122 99
     SetBorderColor 169 182 149
     SetTextColor 234 253 206
@@ -260,7 +260,7 @@ Show
 Show
     Class Currency
     BaseType "Azure Oil"
-    SetFontSize 38
+    SetFontSize 39
     SetBackgroundColor 119 128 105
     SetBorderColor 178 192 156
     SetTextColor 234 253 206
@@ -271,7 +271,7 @@ Show
 Show
     Class Currency
     BaseType "Violet Oil"
-    SetFontSize 39
+    SetFontSize 40
     SetBackgroundColor 125 135 110
     SetBorderColor 188 203 165
     SetTextColor 234 253 206
@@ -282,7 +282,7 @@ Show
 Show
     Class Currency
     BaseType "Crimson Oil"
-    SetFontSize 40
+    SetFontSize 41
     SetBackgroundColor 131 142 116
     SetBorderColor 196 213 173
     SetTextColor 234 253 206
@@ -293,7 +293,7 @@ Show
 Show
     Class Currency
     BaseType "Black Oil"
-    SetFontSize 41
+    SetFontSize 42
     SetBackgroundColor 138 149 121
     SetBorderColor 206 223 182
     SetTextColor 234 253 206
@@ -304,7 +304,7 @@ Show
 Show
     Class Currency
     BaseType "Opalescent Oil"
-    SetFontSize 42
+    SetFontSize 43
     SetBackgroundColor 144 155 127
     SetBorderColor 216 233 190
     SetTextColor 234 253 206
@@ -315,7 +315,7 @@ Show
 Show
     Class Currency
     BaseType "Silver Oil"
-    SetFontSize 43
+    SetFontSize 44
     SetBackgroundColor 150 162 132
     SetBorderColor 225 243 198
     SetTextColor 234 253 206
@@ -326,7 +326,7 @@ Show
 Show
     Class Currency
     BaseType "Golden Oil"
-    SetFontSize 44
+    SetFontSize 45
     SetBackgroundColor 156 169 138
     SetBorderColor 234 253 206
     SetTextColor 234 253 206

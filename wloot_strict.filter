@@ -657,8 +657,8 @@ Show
 Show
     Class "Map Fragment"
     BaseType "Rusted"
-    SetBackgroundColor 255 255 255 144
-    SetBorderColor 240 240 240
+    SetBackgroundColor 255 255 164 144
+    SetBorderColor 240 240 108
     SetTextColor 0 0 0
     SetFontSize 36
     PlayAlertSound 13 130
@@ -668,8 +668,8 @@ Show
 Show
     Class "Map Fragment"
     BaseType "Polished"
-    SetBackgroundColor 255 255 255 180
-    SetBorderColor 240 240 240
+    SetBackgroundColor 255 255 192 180
+    SetBorderColor 240 240 136
     SetTextColor 0 0 0
     SetFontSize 38
     PlayAlertSound 13 140
@@ -679,8 +679,8 @@ Show
 Show
     Class "Map Fragment"
     BaseType "Gilded"
-    SetBackgroundColor 255 255 255 212
-    SetBorderColor 240 240 240
+    SetBackgroundColor 255 255 224 212
+    SetBorderColor 240 240 164
     SetTextColor 0 0 0
     SetFontSize 40
     PlayAlertSound 13 150
@@ -780,6 +780,42 @@ Show
     PlayAlertSound 6 80
     MinimapIcon 1 Brown Star
     PlayEffect Brown
+
+########################################################################
+### Enchanted items ####################################################
+########################################################################
+
+Show
+    Identified True
+    Rarity = Rare
+    AnyEnchantment True
+    SetFontSize 45
+    SetTextColor 255 255 48
+    SetBackgroundColor 32 32 96
+    SetBorderColor 230 180 0
+    PlayAlertSound 14 150
+    MinimapIcon 0 Green Triangle
+    PlayEffect Blue
+
+Show
+    Identified True
+    Rarity = Magic
+    AnyEnchantment True
+    SetFontSize 45
+    SetBackgroundColor 32 32 96
+    PlayAlertSound 14 150
+    MinimapIcon 0 Green Triangle
+    PlayEffect Blue
+
+Show
+    Identified True
+    Rarity = Normal
+    AnyEnchantment True
+    SetFontSize 45
+    SetBackgroundColor 32 32 96
+    PlayAlertSound 14 150
+    MinimapIcon 0 Green Triangle
+    PlayEffect Blue
 
 ########################################################################
 ### Special Mods #######################################################

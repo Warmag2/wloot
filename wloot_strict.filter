@@ -10,7 +10,7 @@
 # Currency which should not be picked up under any circumstances
 Hide
     Class Currency
-    BaseType "Alteration Shard" "Transmutation Shard"
+    BaseType "Transmutation Shard"
     SetTextColor 219 190 147 200
     SetBackgroundColor 24 18 14 144
     SetFontSize 34
@@ -18,7 +18,7 @@ Hide
 # Shit-tier currency
 Show
     Class Currency
-    BaseType "Portal Scroll" "Scroll of Wisdom" "Armourer's Scrap" "Blacksmith's Whetstone" "Orb of Transmutation"
+    BaseType "Armourer's Scrap" "Portal Scroll" "Scroll of Wisdom"
     SetTextColor 219 190 147 200
     SetBackgroundColor 24 18 14 144
     SetFontSize 36
@@ -102,7 +102,7 @@ Show
 # Valid currency shards
 Show
     Class Currency
-    BaseType "Alchemy Shard" "Binding Shard" "Horizon Shard" "Engineer's Shard" "Chaos Shard" "Regal Shard"
+    BaseType "Alchemy Shard" "Alteration Shard" "Binding Shard" "Horizon Shard" "Engineer's Shard" "Chaos Shard" "Regal Shard"
     SetTextColor 225 195 150
     SetBackgroundColor 96 72 56
     SetBorderColor 225 195 150
@@ -591,37 +591,26 @@ Show
     MinimapIcon 0 White Square
     PlayEffect White
 
-#Shaped maps
+#High shaped maps
 Show
     Class Maps
     ShapedMap True
     MapTier >= 11
     SetFontSize 42
-    SetBackgroundColor 100 0 0
+    SetBackgroundColor 50 100 0
     SetBorderColor 0 144 0
     PlayAlertSound 2 130
     MinimapIcon 0 White Square
     PlayEffect White
 
-#Shaped maps
+#Mid shaped maps
 Show
     Class Maps
     ShapedMap True
     MapTier >= 6
     SetFontSize 42
-    SetBackgroundColor 80 70 0
-    SetBorderColor 0 144 0
+    SetBackgroundColor 0 100 0
     PlayAlertSound 2 120
-    MinimapIcon 1 White Square
-    PlayEffect White
-
-#Shaped maps
-Show
-    Class Maps
-    ShapedMap True
-    SetFontSize 42
-    SetBorderColor 0 144 0
-    PlayAlertSound 2 110
     MinimapIcon 1 White Square
     PlayEffect White
 

@@ -26,7 +26,7 @@ Show
 # MultiShit-tier currency
 Show
     Class Currency
-    BaseType "Blacksmith's Whetstone" "Orb of Transmutation"
+    BaseType "Alteration Shard" "Blacksmith's Whetstone" "Orb of Augmentation" "Orb of Transmutation"
     SetTextColor 219 190 147 200
     SetBackgroundColor 24 18 14 160
     SetFontSize 38
@@ -34,8 +34,9 @@ Show
 # Dubious currency
 Show
     Class Currency
-    BaseType "Alchemy Shard" "Chromatic Orb" "Glassblower's Bauble" "Orb of Alteration" "Orb of Augmentation"
+    BaseType "Chromatic Orb" "Glassblower's Bauble" "Orb of Alteration"
     SetTextColor 219 190 147
+    SetBackgroundColor 48 36 28 176
     SetFontSize 38
 
 # Low-tier currency
@@ -90,7 +91,6 @@ Show
 Show
     Class Currency
     BaseType "Eternal Orb" "Mirror Shard" "Mirror of Kalandra"
-    #SetTextColor 255 240 200
     SetTextColor 0 0 0
     SetBackgroundColor 204 152 104
     SetBorderColor 255 240 200
@@ -102,7 +102,7 @@ Show
 # Valid currency shards
 Show
     Class Currency
-    BaseType "Alchemy Shard" "Alteration Shard" "Binding Shard" "Horizon Shard" "Engineer's Shard" "Chaos Shard" "Regal Shard"
+    BaseType "Alchemy Shard" "Binding Shard" "Horizon Shard" "Engineer's Shard" "Chaos Shard" "Regal Shard"
     SetTextColor 225 195 150
     SetBackgroundColor 96 72 56
     SetBorderColor 225 195 150

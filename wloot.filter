@@ -1019,7 +1019,7 @@ Show
     SetFontSize 28
 
 ########################################################################
-### Crafting ###########################################################
+### Crafting and recipes ###############################################
 ########################################################################
 
 # Glassblower's Baubles
@@ -1052,29 +1052,7 @@ Show
     SetBackgroundColor 33 30 26
     SetBorderColor 138 129 109
 
-# Max base level normal weapons that can be used for crafting
-Hide
-    Rarity <= Magic
-    BaseType "Siege Axe" "Runic Hatchet" "Despot Axe" "Fleshripper" "Thicket Bow" "Imperial Bow" "Harbinger Bow" "Imperial Claw" "Gemini Claw" "Imperial Skean" "Platinum Kris" "Sai" "Nightmare Mace" "Behemoth Mace" "Void Sceptre" "Sambar Sceptre" "Piledriver" "Coronal Maul" "Lathi" "Eclipse Staff" "Corsair Sword" "Eternal Sword" "Tiger Hook" "Jewelled Foil" "Harpy Rapier" "Dragoon Sword" "Reaver Sword" "Exquisite Blade" "Imbued Wand" "Opal Wand" "Profane Wand"
-    ItemLevel >= 86
-    SetTextColor 255 255 255 200
-    SetBackgroundColor 0 100 0 144
-    PlayAlertSound 14 150
-    MinimapIcon 1 Green Triangle
-    PlayEffect Blue
-
-# Max base level normal armour that can be used for crafting
-Hide
-    Rarity <= Magic
-    BaseType "Royal Burgonet" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Pig-Faced Bascinet" "Nightmare Bascinet" "Prophet Crown" "Praetor Crown" "Vaal Mask" "Deicide Mask" "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Vaal Regalia" "Triumphant Lamellar" "Saint's Hauberk" "Saintly Chainmail" "Sadist Garb" "Carnal Armour" "Sacrificial Garb" "Titan Gauntlets" "Slink Gloves" "Sorcerer Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots"
-    ItemLevel >= 86
-    SetTextColor 255 255 255 200
-    SetBackgroundColor 0 100 0 144
-    PlayAlertSound 14 150
-    MinimapIcon 1 Green Triangle
-    PlayEffect Blue
-
-# Good enough level special armour that can be used for crafting
+# Good enough level special armour and weapons which can be used for crafting
 Show
     Rarity <= Magic
     BaseType "Bone Helmet" "Convoking Wand" "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves" "Two-Toned Boots"
@@ -1086,7 +1064,7 @@ Show
     MinimapIcon 0 Green Triangle
     PlayEffect Blue
 
-# Max base level special jewellry bases
+# Special jewellry bases
 Show
     BaseType "Blue Pearl Amulet" "Cerulean Ring" "Crystal Belt" "Marble Amulet" "Opal Ring" "Steel Ring" "Stygian Vise" "Vanguard Belt" "Vermillion Ring"
     Rarity <= Magic

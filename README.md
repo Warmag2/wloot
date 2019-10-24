@@ -75,11 +75,11 @@ filtering implemented at the moment - currently only for Divination Cards.
 
 ### Special bases ###
 
-"Bone Helmet" "Convoking Wand" "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves" "Two-Toned Boots"
+"Bone Helmet" "Convoking Wand" "Fingerless Silk Gloves" "Gripped Gloves" "Sacrificial Garb" "Spiked Gloves" "Two-Toned Boots"
 
 ### Items not shown as good bases but which are regardless decent in their class
 
-"Hydrascale Boots" "Legion Boots" "Assassin's Boots" "Hydrascale Gauntlets" "Legion Gloves" "Assassin's Mitts" "Ezomyte Tower Shield" "Crusader Buckler" "Imperial Buckler" "Cardinal Round Shield" "Champion Kite Shield" "Archon Kite Shield" "Mirrored Spiked Shield" "Supreme Spiked Shield" "Broadhead Arrow Quiver"
+"Hydrascale Boots" "Legion Boots" "Assassin's Boots" "Hydrascale Gauntlets" "Legion Gloves" "Assassin's Mitts" "Ezomyte Tower Shield" "Crusader Buckler" "Imperial Buckler" "Cardinal Round Shield" "Champion Kite Shield" "Archon Kite Shield" "Mirrored Spiked Shield" "Supreme Spiked Shield"
 
 #### Items shown as good bases
 

@@ -922,7 +922,7 @@ Show
 Show
     Rarity = Rare
     SocketGroup "RGB"
-    BaseType "Bone Helmet" "Convoking Wand" "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves" "Two-Toned Boots"
+    BaseType "Bone Helmet" "Convoking Wand" "Fingerless Silk Gloves" "Gripped Gloves" "Sacrificial Garb" "Spiked Gloves" "Two-Toned Boots"
     SetTextColor 255 255 48
     SetBackgroundColor 128 96 0
     SetBorderColor 220 0 0

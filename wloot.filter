@@ -858,7 +858,7 @@ Show
     Rarity = Rare
     Sockets = 6
     BaseType "Siege Axe" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Thicket Bow" "Imperial Bow" "Maraketh Bow" "Harbinger Bow" "Imperial Claw" "Gemini Claw" "Ambusher" "Platinum Kris" "Imperial Skean" "Sai" "Auric Mace" "Nightmare Mace" "Behemoth Mace" "Piledriver" "Meatgrinder" "Coronal Maul" "Opal Sceptre" "Void Sceptre" "Sambar Sceptre" "Vaal Sceptre" "Lathi" "Eclipse Staff" "Maelström Staff" "Judgement Staff" "Corsair Sword" "Eternal Sword" "Tiger Hook" "Harpy Rapier" "Spiraled Foil" "Jewelled Foil" "Reaver Sword" "Exquisite Blade" "Imbued Wand" "Opal Wand" "Prophecy Wand" "Profane Wand" "Royal Burgonet" "Eternal Burgonet" "Sinner Tricorne" "Lion Pelt" "Hubris Circlet" "Pig-Faced Bascinet" "Nightmare Bascinet" "Praetor Crown" "Deicide Mask" "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Vaal Regalia" "Full Dragonscale" "Triumphant Lamellar" "Saintly Chainmail" "Sadist Garb" "Carnal Armour" "Vaal Greaves" "Titan Greaves" "Stealth Boots" "Slink Boots" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Vaal Gauntlets" "Titan Gauntlets" "Stealth Gloves" "Slink Gloves" "Sorcerer Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Colossal Tower Shield" "Fossilised Spirit Shield" "Harmonic Spirit Shield" "Titanium Spirit Shield" "Spike-Point Arrow Quiver" "Broadhead Arrow Quiver"
-    SetBackgroundColor 0 60 0
+    SetBackgroundColor 0 72 0
     SetBorderColor 200 200 200
     SetFontSize 40
     PlayAlertSound 10 100
@@ -870,7 +870,7 @@ Show
     Rarity = Rare
     Sockets = 6
     BaseType "Hydrascale Boots" "Legion Boots" "Assassin's Boots" "Hydrascale Gauntlets" "Legion Gloves" "Assassin's Mitts" "Ezomyte Tower Shield" "Crusader Buckler" "Imperial Buckler" "Cardinal Round Shield" "Champion Kite Shield" "Archon Kite Shield" "Mirrored Spiked Shield" "Supreme Spiked Shield"
-    SetBackgroundColor 0 96 64 192
+    SetBackgroundColor 0 72 16 128
     SetBorderColor 200 200 200
     SetFontSize 30
     PlayAlertSound 10 100
@@ -910,7 +910,7 @@ Show
     Rarity = Rare
     SocketGroup "RGB"
     BaseType "Siege Axe" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Thicket Bow" "Imperial Bow" "Maraketh Bow" "Harbinger Bow" "Imperial Claw" "Gemini Claw" "Ambusher" "Platinum Kris" "Imperial Skean" "Sai" "Auric Mace" "Nightmare Mace" "Behemoth Mace" "Piledriver" "Meatgrinder" "Coronal Maul" "Opal Sceptre" "Void Sceptre" "Sambar Sceptre" "Vaal Sceptre" "Lathi" "Eclipse Staff" "Maelström Staff" "Judgement Staff" "Corsair Sword" "Eternal Sword" "Tiger Hook" "Harpy Rapier" "Spiraled Foil" "Jewelled Foil" "Reaver Sword" "Exquisite Blade" "Imbued Wand" "Opal Wand" "Prophecy Wand" "Profane Wand" "Royal Burgonet" "Eternal Burgonet" "Sinner Tricorne" "Lion Pelt" "Hubris Circlet" "Pig-Faced Bascinet" "Nightmare Bascinet" "Praetor Crown" "Deicide Mask" "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Vaal Regalia" "Full Dragonscale" "Triumphant Lamellar" "Saintly Chainmail" "Sadist Garb" "Carnal Armour" "Vaal Greaves" "Titan Greaves" "Stealth Boots" "Slink Boots" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Vaal Gauntlets" "Titan Gauntlets" "Stealth Gloves" "Slink Gloves" "Sorcerer Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Colossal Tower Shield" "Fossilised Spirit Shield" "Harmonic Spirit Shield" "Titanium Spirit Shield" "Spike-Point Arrow Quiver" "Broadhead Arrow Quiver"
-    SetBackgroundColor 0 60 0
+    SetBackgroundColor 0 72 0
     SetBorderColor 220 0 0
 
 # Rare chromatic Items with Tier 2 bases
@@ -918,7 +918,7 @@ Show
     Rarity = Rare
     SocketGroup "RGB"
     BaseType "Hydrascale Boots" "Legion Boots" "Assassin's Boots" "Hydrascale Gauntlets" "Legion Gloves" "Assassin's Mitts" "Ezomyte Tower Shield" "Crusader Buckler" "Imperial Buckler" "Cardinal Round Shield" "Champion Kite Shield" "Archon Kite Shield" "Mirrored Spiked Shield" "Supreme Spiked Shield"
-    SetBackgroundColor 0 96 64 192
+    SetBackgroundColor 0 72 16 128
     SetBorderColor 220 0 0
 
 # Rare chromatic items with special bases

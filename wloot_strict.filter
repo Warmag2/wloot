@@ -866,7 +866,7 @@ Show
 Show
     Rarity = Rare
     Sockets = 6
-    BaseType "Hydrascale Boots" "Legion Boots" "Assassin's Boots" "Hydrascale Gauntlets" "Legion Gloves" "Assassin's Mitts" "Ezomyte Tower Shield" "Crusader Buckler" "Imperial Buckler" "Cardinal Round Shield" "Champion Kite Shield" "Archon Kite Shield" "Mirrored Spiked Shield" "Supreme Spiked Shield"
+    BaseType "Hydrascale Boots" "Legion Boots" "Assassin's Boots" "Hydrascale Gauntlets" "Legion Gloves" "Assassin's Mitts"
     SetBackgroundColor 0 72 16 128
     SetBorderColor 200 200 200
     SetFontSize 30
@@ -914,7 +914,7 @@ Show
 Show
     Rarity = Rare
     SocketGroup "RGB"
-    BaseType "Hydrascale Boots" "Legion Boots" "Assassin's Boots" "Hydrascale Gauntlets" "Legion Gloves" "Assassin's Mitts" "Ezomyte Tower Shield" "Crusader Buckler" "Imperial Buckler" "Cardinal Round Shield" "Champion Kite Shield" "Archon Kite Shield" "Mirrored Spiked Shield" "Supreme Spiked Shield"
+    BaseType "Hydrascale Boots" "Legion Boots" "Assassin's Boots" "Hydrascale Gauntlets" "Legion Gloves" "Assassin's Mitts"
     SetBackgroundColor 0 72 16 128
     SetBorderColor 220 0 0
 
@@ -961,12 +961,12 @@ Show
     SetFontSize 36
 
 # Chaos recipe qualified Tier 2 bases
-Hide
+Show
     Rarity = Rare
-    BaseType "Hydrascale Boots" "Legion Boots" "Assassin's Boots" "Hydrascale Gauntlets" "Legion Gloves" "Assassin's Mitts" "Ezomyte Tower Shield" "Crusader Buckler" "Imperial Buckler" "Cardinal Round Shield" "Champion Kite Shield" "Archon Kite Shield" "Mirrored Spiked Shield" "Supreme Spiked Shield"
+    BaseType "Hydrascale Boots" "Legion Boots" "Assassin's Boots" "Hydrascale Gauntlets" "Legion Gloves" "Assassin's Mitts"
     ItemLevel >= 60
     SetTextColor 240 240 48
-    SetBackgroundColor 0 96 64 192
+    SetBackgroundColor 0 72 16 128
     SetBorderColor 0 220 0
     SetFontSize 36
 

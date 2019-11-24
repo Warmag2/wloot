@@ -34,7 +34,7 @@ Show
 # Dubious currency
 Show
     Class Currency
-    BaseType "Chromatic Orb" "Glassblower's Bauble" "Orb of Alteration"
+    BaseType "Chromatic Orb" "Glassblower's Bauble" "Jeweller's Orb" "Orb of Chance"
     SetTextColor 219 190 147
     SetBackgroundColor 48 36 28 176
     SetFontSize 38
@@ -42,7 +42,7 @@ Show
 # Low-tier currency
 Show
     Class Currency
-    BaseType "Cartographer's Chisel" "Engineer's Orb" "Jeweller's Orb" "Orb of Alchemy" "Orb of Binding" "Orb of Chance" "Orb of Horizons" "Orb of Scouring"
+    BaseType "Orb of Alteration" "Cartographer's Chisel" "Engineer's Orb" "Orb of Alchemy" "Orb of Binding" "Orb of Horizons" "Orb of Scouring"
     SetTextColor 225 195 150
     SetBackgroundColor 64 56 42
     SetBorderColor 225 195 150

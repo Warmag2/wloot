@@ -66,7 +66,7 @@ Show
 # High-tier currency
 Show
     Class Currency
-    BaseType "Cartographer's Sextant" "Cartographer's Seal" "Unshaping Orb"
+    BaseType "Sextant" "Cartographer's Seal" "Unshaping Orb"
     SetTextColor 240 224 187
     SetBackgroundColor 112 86 64
     SetBorderColor 230 214 177
@@ -678,7 +678,7 @@ Show
 
 # Map Fragments
 Show
-    Class "Map Fragment" "Labyrinth Map Item"
+    Class "Map Fragment" "Labyrinth Map Item" "Atlas Region Upgrade Item"
     SetBackgroundColor 160 120 160
     SetBorderColor 240 180 240
     SetTextColor 0 0 0
@@ -884,19 +884,10 @@ Show
     MinimapIcon 1 Yellow Diamond
     PlayEffect Yellow
 
-# Shaper bases
+# Influenced bases
 Show
     Rarity <= Rare
-    ShaperItem True
-    SetBackgroundColor 60 0 0
-    SetBorderColor 200 200 200
-    SetFontSize 42
-    PlayAlertSound 14 100
-
-# Elder bases
-Show
-    Rarity <= Rare
-    ElderItem True
+    HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
     SetBackgroundColor 60 0 0
     SetBorderColor 200 200 200
     SetFontSize 42
@@ -1074,6 +1065,14 @@ Show
 ########################################################################
 ### Gems ###############################################################
 ########################################################################
+
+# Awakened Gems
+Show
+    Class Gem
+    BaseType "Awakened"
+    SetBackgroundColor 0 96 96
+    SetBorderColor 0 128 128
+    SetFontSize 60
 
 # Valuable Gems with quality
 Show

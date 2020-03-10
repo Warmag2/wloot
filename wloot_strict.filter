@@ -16,9 +16,9 @@ Hide
     SetFontSize 34
 
 # Shit-tier currency
-Show
+Hide
     Class Currency
-    BaseType "Armourer's Scrap" "Portal Scroll" "Scroll of Wisdom"
+    BaseType "Armourer's Scrap" "Portal Scroll" "Scroll of Wisdom" "Binding Shard" "Horizon Shard"
     SetTextColor 219 190 147 200
     SetBackgroundColor 24 18 14 144
     SetFontSize 36
@@ -26,7 +26,7 @@ Show
 # MultiShit-tier currency
 Show
     Class Currency
-    BaseType "Alteration Shard" "Blacksmith's Whetstone" "Orb of Augmentation" "Orb of Transmutation"
+    BaseType "Alteration Shard" "Alchemy Shard" "Blacksmith's Whetstone" "Orb of Augmentation" "Orb of Transmutation"
     SetTextColor 219 190 147 200
     SetBackgroundColor 24 18 14 160
     SetFontSize 38
@@ -102,7 +102,7 @@ Show
 # Valid currency shards
 Show
     Class Currency
-    BaseType "Alchemy Shard" "Binding Shard" "Horizon Shard" "Engineer's Shard" "Chaos Shard" "Regal Shard"
+    BaseType "Engineer's Shard" "Chaos Shard" "Regal Shard"
     SetTextColor 225 195 150
     SetBackgroundColor 96 72 56
     SetBorderColor 225 195 150
@@ -136,13 +136,13 @@ Show
     PlayEffect Green
 
 ########################################################################
-### Delve currency #####################################################
+### Delve and Metamorph currency #######################################
 ########################################################################
 
 # Resonators
 Show
     Class Currency
-    BaseType "Prime Chaotic Resonator" "Prime Alchemical Resonator"
+    BaseType "Prime Chaotic Resonator" "Prime Alchemical Resonator" "Prismatic Catalyst" "Fertile Catalyst" "Tempering Catalyst"
     SetTextColor 120 230 190
     SetBackgroundColor 32 64 42
     SetBorderColor 120 230 190
@@ -153,7 +153,7 @@ Show
 
 Show
     Class Currency
-    BaseType "Fossil" "Chaotic Resonator"
+    BaseType "Fossil" "Chaotic Resonator" "Catalyst"
     SetTextColor 120 230 190
     SetBackgroundColor 32 64 42
     SetBorderColor 120 230 190

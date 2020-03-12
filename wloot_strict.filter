@@ -18,7 +18,7 @@ Hide
 # Shit-tier currency
 Hide
     Class Currency
-    BaseType "Armourer's Scrap" "Portal Scroll" "Scroll of Wisdom" "Binding Shard" "Engineer's Shard"
+    BaseType "Armourer's Scrap" "Scroll of Wisdom" "Binding Shard" "Engineer's Shard"
     SetTextColor 219 190 147 200
     SetBackgroundColor 24 18 14 144
     SetFontSize 36
@@ -26,7 +26,7 @@ Hide
 # MultiShit-tier currency
 Show
     Class Currency
-    BaseType "Alteration Shard" "Alchemy Shard" "Blacksmith's Whetstone" "Orb of Augmentation" "Orb of Transmutation"
+    BaseType "Portal Scroll" "Alteration Shard" "Alchemy Shard" "Blacksmith's Whetstone" "Orb of Augmentation" "Orb of Transmutation"
     SetTextColor 219 190 147 200
     SetBackgroundColor 24 18 14 160
     SetFontSize 38

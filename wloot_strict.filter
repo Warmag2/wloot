@@ -540,7 +540,7 @@ Show
 # Strict
 Hide
     Class Card
-    BaseType "Carrion Crow" "Struck by Lightning" "The Hermit" "The King's Blade" "Thunderous Skies" "The Sigil" "The Surgeon"
+    BaseType "Carrion Crow" "Struck by Lightning" "The Hermit" "The King's Blade" "Thunderous Skies" "The Sigil" "The Surgeon" "Turn the Other Cheek"
     SetBackgroundColor 0 45 62
     SetBorderColor 0 181 247
     SetFontSize 32

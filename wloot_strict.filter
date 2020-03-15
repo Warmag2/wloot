@@ -66,7 +66,7 @@ Show
 # High-tier currency
 Show
     Class Currency
-    BaseType "Sextant" "Cartographer's Seal" "Unshaping Orb"
+    BaseType "Sextant" "Cartographer's Seal" "Unshaping Orb" "Delirium Orb"
     SetTextColor 240 224 187
     SetBackgroundColor 112 86 64
     SetBorderColor 230 214 177
@@ -513,6 +513,13 @@ Show
     Rarity = Rare
     Class "Abyss Jewel"
     ItemLevel >= 83
+    SetBackgroundColor 34 44 64
+    SetBorderColor 135 158 255
+    SetFontSize 40
+    PlayAlertSound 15 100
+
+Show
+    BaseType "Cluster Jewel"
     SetBackgroundColor 34 44 64
     SetBorderColor 135 158 255
     SetFontSize 40

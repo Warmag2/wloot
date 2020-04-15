@@ -452,7 +452,7 @@ Show
     SetFontSize 42
     PlayAlertSound 16 140
 Show
-    BaseType "Bestiary Orb" "Imprinted Bestiary Orb"
+    BaseType "Bestiary Orb" "Imprinted Bestiary Orb" "Imprint"
     SetTextColor 160 255 110
     SetBackgroundColor 62 94 42
     SetBorderColor 160 255 110
@@ -828,7 +828,7 @@ Show
 Show
     Identified True
     Rarity = Rare
-    HasExplicitMod "of Crafting" "of Spellcraft" "of Weaponcraft" "of the Underground" "Subterranean" "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Puhuarte" "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's" "of Janus' Veil" "of Hillock's Veil" "of Jorgin's Veil" "of Cameria's Veil" "of Aisling's Veil" "of Riker's Veil" "of the Veil" "Veiled" "Leo's Veiled" "Catarina's Veiled" "Elreon's Veiled" "Vorici's Veiled" "Haku's Veiled" "Tora's Veiled" "Vagan's Veiled" "Guff's Veiled" "It That Fled's Veiled" "Gravicius' Veiled" "Korell's Veiled" "Rin's Veiled"
+    HasExplicitMod "of Crafting" "of Spellcraft" "of Weaponcraft" "of the Underground" "Subterranean" "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Puhuarte" "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's" "of Janus' Veil" "of Hillock's Veil" "of Jorgin's Veil" "of Cameria's Veil" "of Aisling's Veil" "of Riker's Veil" "of the Veil" "Veiled" "Leo's Veiled" "Catarina's Veiled" "Elreon's Veiled" "Vorici's Veiled" "Haku's Veiled" "Tora's Veiled" "Vagan's Veiled" "Guff's Veiled" "It That Fled's Veiled" "Gravicius' Veiled" "Korell's Veiled" "Rin's Veiled" "Prime" "Merciless" "Dictator's" "Flaring" "of Celebration" "Resplendent" "Athlete's" "Unassailable" "Hellion's" "Unfaltering" "Seraphim's" "Fecund" "Blazing" "Vigorous" "Incandescent" "Runic" "of Unmaking"
     SetFontSize 45
     SetTextColor 255 255 48
     SetBackgroundColor 96 64 0
@@ -840,7 +840,7 @@ Show
 Show
     Identified True
     Rarity = Magic
-    HasExplicitMod "of Crafting" "of Spellcraft" "of Weaponcraft" "of the Underground" "Subterranean" "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Puhuarte" "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's" "of Janus' Veil" "of Hillock's Veil" "of Jorgin's Veil" "of Cameria's Veil" "of Aisling's Veil" "of Riker's Veil" "of the Veil" "Veiled" "Leo's Veiled" "Catarina's Veiled" "Elreon's Veiled" "Vorici's Veiled" "Haku's Veiled" "Tora's Veiled" "Vagan's Veiled" "Guff's Veiled" "It That Fled's Veiled" "Gravicius' Veiled" "Korell's Veiled" "Rin's Veiled"
+    HasExplicitMod "of Crafting" "of Spellcraft" "of Weaponcraft" "of the Underground" "Subterranean" "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Puhuarte" "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's" "of Janus' Veil" "of Hillock's Veil" "of Jorgin's Veil" "of Cameria's Veil" "of Aisling's Veil" "of Riker's Veil" "of the Veil" "Veiled" "Leo's Veiled" "Catarina's Veiled" "Elreon's Veiled" "Vorici's Veiled" "Haku's Veiled" "Tora's Veiled" "Vagan's Veiled" "Guff's Veiled" "It That Fled's Veiled" "Gravicius' Veiled" "Korell's Veiled" "Rin's Veiled" "Prime" "Merciless" "Dictator's" "Flaring" "of Celebration" "Resplendent" "Athlete's" "Unassailable" "Hellion's" "Unfaltering" "Seraphim's" "Fecund" "Blazing" "Vigorous" "Incandescent" "Runic" "of Unmaking"
     SetFontSize 45
     SetBackgroundColor 96 64 0
     PlayAlertSound 14 150
@@ -850,7 +850,7 @@ Show
 Show
     Identified True
     Rarity = Normal
-    HasExplicitMod "of Crafting" "of Spellcraft" "of Weaponcraft" "of the Underground" "Subterranean" "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Puhuarte" "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's" "of Janus' Veil" "of Hillock's Veil" "of Jorgin's Veil" "of Cameria's Veil" "of Aisling's Veil" "of Riker's Veil" "of the Veil" "Veiled" "Leo's Veiled" "Catarina's Veiled" "Elreon's Veiled" "Vorici's Veiled" "Haku's Veiled" "Tora's Veiled" "Vagan's Veiled" "Guff's Veiled" "It That Fled's Veiled" "Gravicius' Veiled" "Korell's Veiled" "Rin's Veiled"
+    HasExplicitMod "of Crafting" "of Spellcraft" "of Weaponcraft" "of the Underground" "Subterranean" "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Puhuarte" "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's" "of Janus' Veil" "of Hillock's Veil" "of Jorgin's Veil" "of Cameria's Veil" "of Aisling's Veil" "of Riker's Veil" "of the Veil" "Veiled" "Leo's Veiled" "Catarina's Veiled" "Elreon's Veiled" "Vorici's Veiled" "Haku's Veiled" "Tora's Veiled" "Vagan's Veiled" "Guff's Veiled" "It That Fled's Veiled" "Gravicius' Veiled" "Korell's Veiled" "Rin's Veiled" "Prime" "Merciless" "Dictator's" "Flaring" "of Celebration" "Resplendent" "Athlete's" "Unassailable" "Hellion's" "Unfaltering" "Seraphim's" "Fecund" "Blazing" "Vigorous" "Incandescent" "Runic" "of Unmaking"
     SetFontSize 45
     SetBackgroundColor 96 64 0
     PlayAlertSound 14 150
@@ -913,6 +913,7 @@ Show
     SetBorderColor 220 0 0
 
 # Rare chromatic Items with Tier 2 bases
+# Strict
 Show
     Rarity = Rare
     SocketGroup "RGB"
@@ -939,7 +940,7 @@ Show
     SetBorderColor 220 0 0
 
 # Small chromatic items
-#Srict
+# Strict
 Show
     Height <= 2
     Width = 2
@@ -955,6 +956,7 @@ Show
     SetBorderColor 220 0 0
 
 # Chaos recipe qualified good bases
+# Strict
 Show
     Rarity = Rare
     BaseType "Siege Axe" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Thicket Bow" "Imperial Bow" "Maraketh Bow" "Harbinger Bow" "Imperial Claw" "Gemini Claw" "Ambusher" "Platinum Kris" "Imperial Skean" "Sai" "Auric Mace" "Nightmare Mace" "Behemoth Mace" "Piledriver" "Meatgrinder" "Coronal Maul" "Opal Sceptre" "Void Sceptre" "Sambar Sceptre" "Vaal Sceptre" "Lathi" "Eclipse Staff" "Maelström Staff" "Judgement Staff" "Corsair Sword" "Eternal Sword" "Tiger Hook" "Harpy Rapier" "Spiraled Foil" "Jewelled Foil" "Reaver Sword" "Exquisite Blade" "Imbued Wand" "Opal Wand" "Prophecy Wand" "Profane Wand" "Royal Burgonet" "Eternal Burgonet" "Sinner Tricorne" "Lion Pelt" "Hubris Circlet" "Pig-Faced Bascinet" "Nightmare Bascinet" "Praetor Crown" "Deicide Mask" "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Vaal Regalia" "Full Dragonscale" "Triumphant Lamellar" "Saintly Chainmail" "Sadist Garb" "Carnal Armour" "Vaal Greaves" "Titan Greaves" "Stealth Boots" "Slink Boots" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Vaal Gauntlets" "Titan Gauntlets" "Stealth Gloves" "Slink Gloves" "Sorcerer Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Colossal Tower Shield" "Fossilised Spirit Shield" "Harmonic Spirit Shield" "Titanium Spirit Shield" "Spike-Point Arrow Quiver" "Broadhead Arrow Quiver"
@@ -965,6 +967,7 @@ Show
     SetFontSize 36
 
 # Chaos recipe qualified Tier 2 bases
+# Strict
 Show
     Rarity = Rare
     BaseType "Hydrascale Boots" "Legion Boots" "Assassin's Boots" "Hydrascale Gauntlets" "Legion Gloves" "Assassin's Mitts"
@@ -1097,7 +1100,7 @@ Show
 Show
     Class Gem
     Quality >= 5
-    BaseType "Added Chaos Damage" "Empower" "Enhance" "Enlighten" "Portal" "Vaal Breach"
+    BaseType "Empower" "Enhance" "Enlighten" "Portal" "Vaal Breach"
     SetBackgroundColor 0 96 96
     SetBorderColor 0 128 128
     SetFontSize 40
@@ -1105,7 +1108,7 @@ Show
 # Valuable Gems
 Show
     Class Gem
-    BaseType "Added Chaos Damage" "Empower" "Enhance" "Enlighten" "Portal" "Vaal Breach"
+    BaseType "Empower" "Enhance" "Enlighten" "Portal" "Vaal Breach"
     SetBackgroundColor 0 96 96
     SetFontSize 40
 

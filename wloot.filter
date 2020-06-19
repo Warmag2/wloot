@@ -79,7 +79,7 @@ Show
 # Super-tier currency
 Show
     Class Currency
-    BaseType "Ancient Orb" "Exalted Orb" "Divine Orb" "Harbinger's Orb" "Orb of Annulment"
+    BaseType "Ancient Orb" "Exalted Orb" "Divine Orb" "Harbinger's Orb" "Orb of Annulment" "Awakener's Orb"
     SetTextColor 0 0 0
     SetBackgroundColor 192 144 112
     SetBorderColor 255 240 200

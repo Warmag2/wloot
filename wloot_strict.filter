@@ -948,7 +948,7 @@ Hide
     SetBorderColor 220 0 0
 
 # Chaos recipe qualified good bases
-Hide
+Show
     Rarity = Rare
     BaseType "Siege Axe" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Thicket Bow" "Imperial Bow" "Maraketh Bow" "Harbinger Bow" "Imperial Claw" "Gemini Claw" "Ambusher" "Platinum Kris" "Imperial Skean" "Sai" "Auric Mace" "Nightmare Mace" "Behemoth Mace" "Piledriver" "Meatgrinder" "Coronal Maul" "Opal Sceptre" "Void Sceptre" "Sambar Sceptre" "Vaal Sceptre" "Lathi" "Eclipse Staff" "Maelström Staff" "Judgement Staff" "Corsair Sword" "Eternal Sword" "Tiger Hook" "Harpy Rapier" "Spiraled Foil" "Jewelled Foil" "Reaver Sword" "Exquisite Blade" "Imbued Wand" "Opal Wand" "Prophecy Wand" "Profane Wand" "Royal Burgonet" "Eternal Burgonet" "Sinner Tricorne" "Lion Pelt" "Hubris Circlet" "Pig-Faced Bascinet" "Nightmare Bascinet" "Praetor Crown" "Deicide Mask" "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Vaal Regalia" "Full Dragonscale" "Triumphant Lamellar" "Saintly Chainmail" "Sadist Garb" "Carnal Armour" "Vaal Greaves" "Titan Greaves" "Stealth Boots" "Slink Boots" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Vaal Gauntlets" "Titan Gauntlets" "Stealth Gloves" "Slink Gloves" "Sorcerer Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Colossal Tower Shield" "Fossilised Spirit Shield" "Harmonic Spirit Shield" "Titanium Spirit Shield" "Spike-Point Arrow Quiver" "Broadhead Arrow Quiver"
     ItemLevel >= 60

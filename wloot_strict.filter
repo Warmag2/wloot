@@ -428,28 +428,28 @@ Hide
     SetBorderColor 120 220 50
     SetFontSize 36
 Show
-    BaseType "Strong Steel Net"
+    BaseType "Strong Steel Net" "Seed"
     SetTextColor 130 230 60
     SetBackgroundColor 52 80 31
     SetBorderColor 130 230 60
     SetFontSize 40
     PlayAlertSound 12 120
 Show
-    BaseType "Thaumaturgical Net"
+    BaseType "Thaumaturgical Net" "Grain"
     SetTextColor 140 240 70
     SetBackgroundColor 62 94 42
     SetBorderColor 140 240 70
     SetFontSize 42
     PlayAlertSound 16 130
 Show
-    BaseType "Necromancy Net"
+    BaseType "Necromancy Net" "Bulb"
     SetTextColor 150 250 90
     SetBackgroundColor 62 94 42
     SetBorderColor 150 250 90
     SetFontSize 42
     PlayAlertSound 16 140
 Show
-    BaseType "Bestiary Orb" "Imprinted Bestiary Orb" "Imprint"
+    BaseType "Bestiary Orb" "Imprinted Bestiary Orb" "Imprint" "Thornfruit"
     SetTextColor 160 255 110
     SetBackgroundColor 62 94 42
     SetBorderColor 160 255 110

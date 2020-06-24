@@ -19,7 +19,7 @@ Hide
 # Strict
 Show
     Class Currency
-    BaseType "Scroll of Wisdom" "Binding Shard"
+    BaseType "Scroll of Wisdom" "Portal Scroll"
     SetTextColor 219 190 147 200
     SetBackgroundColor 24 18 14 144
     SetFontSize 36
@@ -27,7 +27,7 @@ Show
 # MultiShit-tier currency
 Show
     Class Currency
-    BaseType "Armourer's Scrap" "Portal Scroll" "Alteration Shard" "Alchemy Shard" "Blacksmith's Whetstone" "Orb of Augmentation" "Orb of Transmutation" "Engineer's Shard"
+    BaseType "Armourer's Scrap" "Alteration Shard" "Alchemy Shard" "Binding Shard" "Blacksmith's Whetstone" "Orb of Augmentation" "Orb of Transmutation" "Engineer's Shard"
     SetTextColor 219 190 147 200
     SetBackgroundColor 24 18 14 160
     SetFontSize 38
@@ -338,6 +338,140 @@ Show
 
 
 ########################################################################
+### Seeds  #############################################################
+########################################################################
+
+Show
+    Class Currency
+    BaseType "Wild Ursaling Grain" "Wild Hellion Grain" "Wild Thornwolf Grain" "Wild Ape Grain" "Wild Hatchling Grain"
+    SetTextColor 208 0 208
+    SetBackgroundColor 64 0 64
+    SetBorderColor 208 0 208
+    SetFontSize 36
+    PlayAlertSound 15 125
+    MinimapIcon 2 Red Diamond
+
+Show
+    Class Currency
+    BaseType "Vivid Arachnid Grain" "Vivid Weta Grain" "Vivid Leech Grain" "Vivid Scorpion Grain" "Vivid Thornweaver Grain"
+    SetTextColor 208 177 83
+    SetBackgroundColor 63 54 26
+    SetBorderColor 208 177 83
+    SetFontSize 36
+    PlayAlertSound 15 125
+    MinimapIcon 2 Red Diamond
+
+Show
+    Class Currency
+    BaseType "Primal Rhoa Grain" "Primal Dustspitter Grain" "Primal Feasting Horror Grain" "Primal Maw Grain" "Primal Cleaveling Grain"
+    SetTextColor 0 208 208
+    SetBackgroundColor 0 64 64
+    SetBorderColor 0 208 208
+    SetFontSize 36
+    PlayAlertSound 15 125
+    MinimapIcon 2 Red Diamond
+
+Show
+    Class Currency
+    BaseType "Wild Bristlebeast Seed" "Wild Snap Hound Seed" "Wild Homunculus Seed" "Wild Chieftain Seed" "Wild Spikeback Seed"
+    SetTextColor 224 0 224
+    SetBackgroundColor 80 0 80
+    SetBorderColor 224 0 224
+    SetFontSize 38
+    PlayAlertSound 15 150
+    MinimapIcon 1 Red Diamond
+
+Show
+    Class Currency
+    BaseType "Vivid Razorleg Seed" "Vivid Sapsucker Seed" "Vivid Parasite Seed" "Vivid Striketail Seed" "Vivid Nestback Seed"
+    SetTextColor 224 190 90
+    SetBackgroundColor 80 68 32
+    SetBorderColor 224 190 90
+    SetFontSize 38
+    PlayAlertSound 15 150
+    MinimapIcon 1 Red Diamond
+
+Show
+    Class Currency
+    BaseType "Primal Rhex Seed" "Primal Dustcrab Seed" "Primal Viper Seed" "Primal Chimeral Seed" "Primal Scrabbler Seed"
+    SetTextColor 0 224 224
+    SetBackgroundColor 0 80 80
+    SetBorderColor 0 224 224
+    SetFontSize 38
+    PlayAlertSound 15 150
+    MinimapIcon 1 Red Diamond
+
+Show
+    Class Currency
+    BaseType "Wild Bristle Matron Bulb" "Wild Hellion Alpha Bulb" "Wild Thornmaw Bulb" "Wild Brambleback Bulb" "Wild Infestation Queen Bulb"
+    SetTextColor 240 0 240
+    SetBackgroundColor 96 0 96
+    SetBorderColor 240 0 240
+    SetFontSize 40
+    PlayAlertSound 15 175
+    MinimapIcon 0 Red Diamond
+
+Show
+    Class Currency
+    BaseType "Vivid Whipleg Bulb" "Vivid Watcher Bulb" "Vivid Vulture Bulb" "Vivid Abberarach Bulb" "Vivid Devourer Bulb"
+    SetTextColor 240 204 96
+    SetBackgroundColor 96 82 39
+    SetBorderColor 240 204 96
+    SetFontSize 40
+    PlayAlertSound 15 175
+    MinimapIcon 0 Red Diamond
+
+Show
+    Class Currency
+    BaseType "Primal Rhex Matriarch Bulb" "Primal Crushclaw Bulb" "Primal Blisterlord Bulb" "Primal Cystcaller Bulb" "Primal Reborn Bulb"
+    SetTextColor 0 240 240
+    SetBackgroundColor 0 96 96
+    SetBorderColor 0 240 240
+    SetFontSize 40
+    PlayAlertSound 15 175
+    MinimapIcon 0 Red Diamond
+
+Show
+    Class Currency
+    BaseType "Wild Thornfruit"
+    SetTextColor 255 0 255
+    SetBackgroundColor 112 0 112
+    SetBorderColor 255 0 255
+    SetFontSize 42
+    PlayAlertSound 15 200
+    MinimapIcon 0 Red Diamond
+
+Show
+    Class Currency
+    BaseType "Vivid Scalefruit"
+    SetTextColor 255 217 102
+    SetBackgroundColor 112 95 45
+    SetBorderColor 255 217 102
+    SetFontSize 42
+    PlayAlertSound 15 200
+    MinimapIcon 0 Red Diamond
+
+Show
+    Class Currency
+    BaseType "Primal Blisterfruit"
+    SetTextColor 0 255 255
+    SetBackgroundColor 0 112 112
+    SetBorderColor 0 255 255
+    SetFontSize 42
+    PlayAlertSound 15 200
+    MinimapIcon 0 Red Diamond
+
+Show
+    Class Currency
+    BaseType "Seed" "Grain" "Bulb"
+    SetTextColor 255 0 0
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 0 0
+    SetFontSize 42
+    PlayAlertSound 15 100
+    MinimapIcon 0 Red Diamond
+
+########################################################################
 ### Misc. League-specific items  #######################################
 ########################################################################
 
@@ -422,37 +556,8 @@ Show
     PlayEffect Red
 
 # Bestiary league items
-# Strict
 Show
-    Class Currency
-    BaseType "Simple Rope Net" "Reinforced Rope Net" "Strong Rope Net" "Simple Iron Net" "Reinforced Iron Net" "Strong Iron Net" "Simple Steel Net" "Reinforced Steel Net"
-    SetTextColor 120 220 50
-    SetBackgroundColor 42 64 22
-    SetBorderColor 120 220 50
-    SetFontSize 36
-Show
-    BaseType "Strong Steel Net" "Seed"
-    SetTextColor 130 230 60
-    SetBackgroundColor 52 80 31
-    SetBorderColor 130 230 60
-    SetFontSize 40
-    PlayAlertSound 12 120
-Show
-    BaseType "Thaumaturgical Net" "Grain"
-    SetTextColor 140 240 70
-    SetBackgroundColor 62 94 42
-    SetBorderColor 140 240 70
-    SetFontSize 42
-    PlayAlertSound 16 130
-Show
-    BaseType "Necromancy Net" "Bulb"
-    SetTextColor 150 250 90
-    SetBackgroundColor 62 94 42
-    SetBorderColor 150 250 90
-    SetFontSize 42
-    PlayAlertSound 16 140
-Show
-    BaseType "Bestiary Orb" "Imprinted Bestiary Orb" "Imprint" "Thornfruit"
+    BaseType "Bestiary Orb" "Imprinted Bestiary Orb" "Imprint"
     SetTextColor 160 255 110
     SetBackgroundColor 62 94 42
     SetBorderColor 160 255 110

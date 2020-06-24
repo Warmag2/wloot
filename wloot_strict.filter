@@ -341,7 +341,7 @@ Show
 
 Show
     Class "Harvest Seed"
-    BaseType "Wild Bristlebeast Grain" "Wild Chieftain Grain" "Wild Homunculus Grain" "Wild Snap Hound Grain" "Wild Spikeback Grain"
+    BaseType "Wild Ape Seed" "Wild Hatchling Seed" "Wild Hellion Seed" "Wild Thornwolf Seed" "Wild Ursaling Seed"
     SetTextColor 208 0 208
     SetBackgroundColor 64 0 64
     SetBorderColor 208 0 208
@@ -351,7 +351,7 @@ Show
 
 Show
     Class "Harvest Seed"
-    BaseType "Vivid Nestback Grain" "Vivid Parasite Grain" "Vivid Razorleg Grain" "Vivid Sapsucker Grain" "Vivid Striketail Grain"
+    BaseType "Vivid Arachnid Seed" "Vivid Leech Seed" "Vivid Scorpion Seed" "Vivid Thornweaver Seed" "Vivid Weta Seed"
     SetTextColor 208 177 83
     SetBackgroundColor 63 54 26
     SetBorderColor 208 177 83
@@ -361,7 +361,7 @@ Show
 
 Show
     Class "Harvest Seed"
-    BaseType "Primal Chimeral Grain" "Primal Dustcrab Grain" "Primal Rhex Grain" "Primal Scrabbler Grain" "Primal Viper Grain"
+    BaseType "Primal Cleaveling Seed" "Primal Dustspitter Seed" "Primal Feasting Horror Seed" "Primal Maw Seed" "Primal Rhoa Seed"
     SetTextColor 0 208 208
     SetBackgroundColor 0 64 64
     SetBorderColor 0 208 208
@@ -371,7 +371,7 @@ Show
 
 Show
     Class "Harvest Seed"
-    BaseType "Wild Ape Seed" "Wild Hatchling Seed" "Wild Hellion Seed" "Wild Thornwolf Seed" "Wild Ursaling Seed"
+    BaseType "Wild Bristlebeast Grain" "Wild Chieftain Grain" "Wild Homunculus Grain" "Wild Snap Hound Grain" "Wild Spikeback Grain"
     SetTextColor 224 0 224
     SetBackgroundColor 80 0 80
     SetBorderColor 224 0 224
@@ -381,7 +381,7 @@ Show
 
 Show
     Class "Harvest Seed"
-    BaseType "Vivid Arachnid Seed" "Vivid Leech Seed" "Vivid Scorpion Seed" "Vivid Thornweaver Seed" "Vivid Weta Seed"
+    BaseType "Vivid Nestback Grain" "Vivid Parasite Grain" "Vivid Razorleg Grain" "Vivid Sapsucker Grain" "Vivid Striketail Grain"
     SetTextColor 224 190 90
     SetBackgroundColor 80 68 32
     SetBorderColor 224 190 90
@@ -391,7 +391,7 @@ Show
 
 Show
     Class "Harvest Seed"
-    BaseType "Primal Cleaveling Seed" "Primal Dustspitter Seed" "Primal Feasting Horror Seed" "Primal Maw Seed" "Primal Rhoa Seed"
+    BaseType "Primal Chimeral Grain" "Primal Dustcrab Grain" "Primal Rhex Grain" "Primal Scrabbler Grain" "Primal Viper Grain"
     SetTextColor 0 224 224
     SetBackgroundColor 0 80 80
     SetBorderColor 0 224 224

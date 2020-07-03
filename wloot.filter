@@ -492,7 +492,7 @@ Show
     SetBorderColor 128 255 128
     SetFontSize 38
     PlayAlertSound 15 150
-    MinimapIcon 0 Green Raindrop
+    MinimapIcon 1 Green Raindrop
     PlayEffect Green
 
 Show

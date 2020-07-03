@@ -486,6 +486,17 @@ Show
 
 Show
     Class "Harvest Seed"
+    BaseType "Bud"
+    SetTextColor 128 255 128
+    SetBackgroundColor 56 112 56
+    SetBorderColor 128 255 128
+    SetFontSize 38
+    PlayAlertSound 15 150
+    MinimapIcon 0 Green Raindrop
+    PlayEffect Green
+
+Show
+    Class "Harvest Seed"
     BaseType "Seed" "Grain" "Bulb"
     SetTextColor 255 0 0
     SetBackgroundColor 0 0 0

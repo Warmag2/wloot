@@ -485,8 +485,7 @@ Show
     PlayEffect Green
 
 Show
-    Class "Harvest Seed"
-    BaseType "Bud"
+    Class "Seed Enhancer"
     SetTextColor 128 255 128
     SetBackgroundColor 56 112 56
     SetBorderColor 128 255 128

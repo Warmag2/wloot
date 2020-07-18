@@ -579,8 +579,8 @@ Show
     SetBorderColor 240 180 240
     SetTextColor 255 178 135
     PlayAlertSound 8 150
-    MinimapIcon 0 White Square
-    PlayEffect White
+    MinimapIcon 0 Red Square
+    PlayEffect Red
 
 # Leaguestones
 Show

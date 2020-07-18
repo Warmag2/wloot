@@ -196,24 +196,24 @@ Show
 Show
     Class Currency
     BaseType "Fertile Catalyst" "Prismatic Catalyst" "Tempering Catalyst"
-    SetTextColor 230 234 177
-    SetBackgroundColor 112 114 64
-    SetBorderColor 230 234 177
+    SetTextColor 150 250 90
+    SetBackgroundColor 62 94 42
+    SetBorderColor 150 250 90
     SetFontSize 42
     PlayAlertSound 16 150
-    MinimapIcon 0 Yellow Cross
-    PlayEffect Yellow
+    MinimapIcon 0 Cyan Cross
+    PlayEffect Cyan
 
 Show
     Class Currency
     BaseType "Abrasive Catalyst" "Intrinsic Catalyst" "Imbued Catalyst" "Turbulent Catalyst" "Catalyst"
-    SetTextColor 225 225 150
-    SetBackgroundColor 96 102 56
-    SetBorderColor 225 225 150
+    SetTextColor 160 255 110
+    SetBackgroundColor 62 94 42
+    SetBorderColor 160 255 110
     SetFontSize 40
     PlayAlertSound 16 100
-    MinimapIcon 1 Yellow Cross
-    PlayEffect Yellow
+    MinimapIcon 1 Cyan Cross
+    PlayEffect Cyan
 
 
 ########################################################################
@@ -228,8 +228,8 @@ Show
     SetTextColor 255 115 185
     SetFontSize 42
     PlayAlertSound 9 120
-    MinimapIcon 0 Purple Circle
-    PlayEffect Purple
+    MinimapIcon 0 Pink Circle
+    PlayEffect Pink
 
 Show
     Class Currency
@@ -239,8 +239,8 @@ Show
     SetTextColor 255 115 185
     SetFontSize 42
     PlayAlertSound 9 100
-    MinimapIcon 1 Purple Circle
-    PlayEffect Purple
+    MinimapIcon 1 Pink Circle
+    PlayEffect Pink
 
 ########################################################################
 ### Oils ###############################################################
@@ -598,11 +598,12 @@ Show
 Show
     Class Incubator
     SetFontSize 42
-    SetBackgroundColor 90 20 0
-    SetBorderColor 255 80 0
-    SetTextColor 255 178 135
-    MinimapIcon 1 Red Circle
-    PlayEffect Red
+    SetTextColor 160 255 110
+    SetBackgroundColor 62 94 42
+    SetBorderColor 160 255 110
+    PlayAlertSound 15 150
+    MinimapIcon 1 Cyan Circle
+    PlayEffect Cyan
 
 # Talismans
 Show
@@ -637,23 +638,23 @@ Show
 
 Show
     BaseType "Stone of Passage"
-    SetTextColor 150 250 90
-    SetBackgroundColor 62 94 42
-    SetBorderColor 150 250 90
+    SetBackgroundColor 50 0 40
+    SetBorderColor 225 96 180
+    SetTextColor 225 96 180
     SetFontSize 42
     PlayAlertSound 15 140
-    MinimapIcon 0 Cyan UpsideDownHouse
-    PlayEffect Cyan
+    MinimapIcon 0 Purple Square
+    PlayEffect Purple
 
 Show
     BaseType "Flashpowder Keg"
-    SetTextColor 160 255 110
-    SetBackgroundColor 62 94 42
-    SetBorderColor 160 255 110
+    SetBackgroundColor 50 0 40
+    SetBorderColor 225 96 180
+    SetTextColor 225 96 180
     PlayAlertSound 15 150
     SetFontSize 45
-    MinimapIcon 0 Cyan UpsideDownHouse
-    PlayEffect Cyan
+    MinimapIcon 0 Purple Square
+    PlayEffect Purple
 
 ########################################################################
 ### League-specific and currency catch-all block #######################
@@ -826,8 +827,8 @@ Show
     SetTextColor 0 0 0
     SetFontSize 36
     PlayAlertSound 13 130
-    MinimapIcon 0 White Square
-    PlayEffect White
+    MinimapIcon 0 Yellow Square
+    PlayEffect Yellow
 
 Show
     Class "Map Fragment"
@@ -837,8 +838,8 @@ Show
     SetTextColor 0 0 0
     SetFontSize 38
     PlayAlertSound 13 140
-    MinimapIcon 0 White Square
-    PlayEffect White
+    MinimapIcon 0 Yellow Square
+    PlayEffect Yellow
 
 Show
     Class "Map Fragment"
@@ -848,8 +849,8 @@ Show
     SetTextColor 0 0 0
     SetFontSize 40
     PlayAlertSound 13 150
-    MinimapIcon 0 White Square
-    PlayEffect White
+    MinimapIcon 0 Yellow Square
+    PlayEffect Yellow
 
 # Map Fragments
 Show
@@ -859,8 +860,8 @@ Show
     SetTextColor 0 0 0
     SetFontSize 40
     PlayAlertSound 11 150
-    MinimapIcon 0 White Square
-    PlayEffect White
+    MinimapIcon 0 Purple Square
+    PlayEffect Purple
 
 ########################################################################
 ### Labyrinth items ####################################################
@@ -871,8 +872,9 @@ Show
     SetFontSize 40
     SetBackgroundColor 50 0 40
     SetBorderColor 225 96 180
-    MinimapIcon 0 Red Square
-    PlayEffect Red
+    SetTextColor 225 96 180
+    MinimapIcon 0 Purple Square
+    PlayEffect Purple
 
 ########################################################################
 ### Links ##############################################################

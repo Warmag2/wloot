@@ -148,8 +148,8 @@ Show
     SetBorderColor 120 230 190
     SetFontSize 42
     PlayAlertSound 8 120
-    MinimapIcon 1 Green Kite
-    PlayEffect Green
+    MinimapIcon 1 Cyan Kite
+    PlayEffect Cyan
 
 ########################################################################
 ### Delve currency #####################################################
@@ -164,8 +164,8 @@ Show
     SetBorderColor 120 230 190
     SetFontSize 42
     PlayAlertSound 5 120
-    MinimapIcon 0 Green Kite
-    PlayEffect Green
+    MinimapIcon 0 Cyan Kite
+    PlayEffect Cyan
 
 Show
     Class Currency
@@ -175,8 +175,8 @@ Show
     SetBorderColor 120 230 190
     SetFontSize 42
     PlayAlertSound 8 120
-    MinimapIcon 1 Green Kite
-    PlayEffect Green
+    MinimapIcon 1 Cyan Kite
+    PlayEffect Cyan
 
 Hide
     Class Currency
@@ -253,8 +253,8 @@ Show
     SetBorderColor 123 133 109
     SetTextColor 236 255 208
     PlayAlertSound 8 80
-    MinimapIcon 2 Green Kite
-    PlayEffect Green
+    MinimapIcon 2 Cyan Kite
+    PlayEffect Cyan
 
 Show
     Class Currency
@@ -264,8 +264,8 @@ Show
     SetBorderColor 133 143 117
     SetTextColor 236 255 208
     PlayAlertSound 8 80
-    MinimapIcon 2 Green Kite
-    PlayEffect Green
+    MinimapIcon 2 Cyan Kite
+    PlayEffect Cyan
 
 Show
     Class Currency
@@ -275,8 +275,8 @@ Show
     SetBorderColor 142 253 125
     SetTextColor 236 255 208
     PlayAlertSound 8 80
-    MinimapIcon 2 Green Kite
-    PlayEffect Green
+    MinimapIcon 2 Cyan Kite
+    PlayEffect Cyan
 
 Show
     Class Currency
@@ -286,8 +286,8 @@ Show
     SetBorderColor 152 164 134
     SetTextColor 236 255 208
     PlayAlertSound 8 80
-    MinimapIcon 2 Green Kite
-    PlayEffect Green
+    MinimapIcon 2 Cyan Kite
+    PlayEffect Cyan
 
 Show
     Class Currency
@@ -297,8 +297,8 @@ Show
     SetBorderColor 161 174 142
     SetTextColor 236 255 208
     PlayAlertSound 8 80
-    MinimapIcon 2 Green Kite
-    PlayEffect Green
+    MinimapIcon 2 Cyan Kite
+    PlayEffect Cyan
 
 Show
     Class Currency
@@ -308,8 +308,8 @@ Show
     SetBorderColor 170 184 150
     SetTextColor 236 255 208
     PlayAlertSound 8 80
-    MinimapIcon 1 Green Kite
-    PlayEffect Green
+    MinimapIcon 1 Cyan Kite
+    PlayEffect Cyan
 
 Show
     Class Currency
@@ -319,8 +319,8 @@ Show
     SetBorderColor 180 194 159
     SetTextColor 236 255 208
     PlayAlertSound 8 80
-    MinimapIcon 1 Green Kite
-    PlayEffect Green
+    MinimapIcon 1 Cyan Kite
+    PlayEffect Cyan
 
 Show
     Class Currency
@@ -330,8 +330,8 @@ Show
     SetBorderColor 189 204 167
     SetTextColor 236 255 208
     PlayAlertSound 8 80
-    MinimapIcon 1 Green Kite
-    PlayEffect Green
+    MinimapIcon 1 Cyan Kite
+    PlayEffect Cyan
 
 Show
     Class Currency
@@ -341,8 +341,8 @@ Show
     SetBorderColor 199 215 175
     SetTextColor 236 255 208
     PlayAlertSound 8 80
-    MinimapIcon 1 Green Kite
-    PlayEffect Green
+    MinimapIcon 1 Cyan Kite
+    PlayEffect Cyan
 
 Show
     Class Currency
@@ -352,8 +352,8 @@ Show
     SetBorderColor 208 225 184
     SetTextColor 236 255 208
     PlayAlertSound 8 80
-    MinimapIcon 1 Green Kite
-    PlayEffect Green
+    MinimapIcon 1 Cyan Kite
+    PlayEffect Cyan
 
 Show
     Class Currency
@@ -363,8 +363,8 @@ Show
     SetBorderColor 218 235 192
     SetTextColor 236 255 208
     PlayAlertSound 8 80
-    MinimapIcon 0 Green Kite
-    PlayEffect Green
+    MinimapIcon 0 Cyan Kite
+    PlayEffect Cyan
 
 Show
     Class Currency
@@ -374,8 +374,8 @@ Show
     SetBorderColor 227 245 200
     SetTextColor 236 255 208
     PlayAlertSound 8 80
-    MinimapIcon 0 Green Kite
-    PlayEffect Green
+    MinimapIcon 0 Cyan Kite
+    PlayEffect Cyan
 
 Show
     Class Currency
@@ -385,8 +385,8 @@ Show
     SetBorderColor 236 255 208
     SetTextColor 236 255 208
     PlayAlertSound 8 80
-    MinimapIcon 0 Green Kite
-    PlayEffect Green
+    MinimapIcon 0 Cyan Kite
+    PlayEffect Cyan
 
 ########################################################################
 ### Seeds  #############################################################

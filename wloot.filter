@@ -640,7 +640,7 @@ Show
     BaseType "Stone of Passage"
     SetBackgroundColor 50 0 40
     SetBorderColor 225 96 180
-    SetTextColor 225 96 180
+    SetTextColor 255 116 200
     SetFontSize 42
     PlayAlertSound 15 140
     MinimapIcon 0 Purple Square
@@ -650,7 +650,7 @@ Show
     BaseType "Flashpowder Keg"
     SetBackgroundColor 50 0 40
     SetBorderColor 225 96 180
-    SetTextColor 225 96 180
+    SetTextColor 255 116 200
     PlayAlertSound 15 150
     SetFontSize 45
     MinimapIcon 0 Purple Square
@@ -872,7 +872,7 @@ Show
     SetFontSize 40
     SetBackgroundColor 50 0 40
     SetBorderColor 225 96 180
-    SetTextColor 225 96 180
+    SetTextColor 255 116 200
     MinimapIcon 0 Purple Square
     PlayEffect Purple
 

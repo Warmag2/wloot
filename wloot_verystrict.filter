@@ -16,8 +16,7 @@ Hide
     SetFontSize 34
 
 # Shit-tier currency
-# Strict
-Show
+Hide
     Class Currency
     BaseType "Scroll of Wisdom" "Portal Scroll"
     SetTextColor 219 190 147 200
@@ -179,8 +178,7 @@ Show
     MinimapIcon 1 Green Kite
     PlayEffect Green
 
-# Strict
-Show
+Hide
     Class Currency
     BaseType "Alchemical Resonator"
     SetTextColor 120 230 190
@@ -692,8 +690,7 @@ Show
     SetFontSize 40
     PlayAlertSound 15 100
 
-# Strict
-Show
+Hide
     Rarity < Rare
     Class Jewel
     SetBackgroundColor 34 34 64
@@ -1126,8 +1123,7 @@ Show
     PlayAlertSound 14 100
 
 # Rare chromatic Items with good bases
-# VeryStrict
-Show
+Hide
     Rarity = Rare
     SocketGroup "RGB"
     BaseType "Siege Axe" "Vaal Hatchet" "Runic Hatchet" "Eye Gouger" "Imperial Claw" "Terror Claw" "Gemini Claw" "Ambusher" "Platinum Kris" "Imperial Skean" "Sai" "Legion Hammer" "Nightmare Mace" "Behemoth Mace" "Opal Sceptre" "Void Sceptre" "Sambar Sceptre" "Corsair Sword" "Eternal Sword" "Tiger Hook" "Spiraled Foil" "Jewelled Foil" "Dragoon Sword" "Imbued Wand" "Opal Wand" "Profane Wand" "Royal Burgonet" "Eternal Burgonet" "Sinner Tricorne" "Lion Pelt" "Hubris Circlet" "Pig-Faced Bascinet" "Nightmare Bascinet" "Prophet Crown" "Praetor Crown" "Vaal Mask" "Deicide Mask" "Sacrificial Garb" "Vaal Greaves" "Titan Greaves" "Stealth Boots" "Slink Boots" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Vaal Gauntlets" "Titan Gauntlets" "Stealth Gloves" "Slink Gloves" "Sorcerer Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Crusader Buckler" "Imperial Buckler" "Fossilised Spirit Shield" "Harmonic Spirit Shield" "Titanium Spirit Shield" "Despot Axe" "Fleshripper" "Thicket Bow" "Imperial Bow" "Harbinger Bow" "Reaver Sword" "Lion Sword" "Exquisite Blade" "Piledriver" "Meatgrinder" "Coronal Maul" "Maelström Staff" "Judgement Staff" "Eclipse Staff" "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Vaal Regalia" "Full Dragonscale" "Triumphant Lamellar" "Saint's Hauberk" "Saintly Chainmail" "Sadist Garb" "Carnal Armour" "Spike-Point Arrow Quiver" "Broadhead Arrow Quiver"
@@ -1135,8 +1131,7 @@ Show
     SetBorderColor 220 0 0
 
 # Rare chromatic Items with Tier 2 bases
-# Strict
-Show
+Hide
     Rarity = Rare
     SocketGroup "RGB"
     BaseType "Hydrascale Boots" "Legion Boots" "Assassin's Boots" "Hydrascale Gauntlets" "Legion Gloves" "Assassin's Mitts"
@@ -1154,16 +1149,14 @@ Show
     SetFontSize 36
 
 # Small chromatic items
-# Strict
-Show
+Hide
     Width <= 1
     SocketGroup "RGB"
     SetBackgroundColor 33 30 26
     SetBorderColor 220 0 0
 
 # Small chromatic items
-# Strict
-Show
+Hide
     Height <= 2
     Width = 2
     SocketGroup "RGB"
@@ -1171,15 +1164,13 @@ Show
     SetBorderColor 220 0 0
 
 # Other chromatic items
-# Strict
-Show
+Hide
     SocketGroup "RGB"
     SetBackgroundColor 33 30 26
     SetBorderColor 220 0 0
 
 # Chaos recipe qualified good bases
-# VeryStrict
-Show
+Hide
     Rarity = Rare
     BaseType "Siege Axe" "Vaal Hatchet" "Runic Hatchet" "Eye Gouger" "Imperial Claw" "Terror Claw" "Gemini Claw" "Ambusher" "Platinum Kris" "Imperial Skean" "Sai" "Legion Hammer" "Nightmare Mace" "Behemoth Mace" "Opal Sceptre" "Void Sceptre" "Sambar Sceptre" "Corsair Sword" "Eternal Sword" "Tiger Hook" "Spiraled Foil" "Jewelled Foil" "Dragoon Sword" "Imbued Wand" "Opal Wand" "Profane Wand" "Royal Burgonet" "Eternal Burgonet" "Sinner Tricorne" "Lion Pelt" "Hubris Circlet" "Pig-Faced Bascinet" "Nightmare Bascinet" "Prophet Crown" "Praetor Crown" "Vaal Mask" "Deicide Mask" "Sacrificial Garb" "Vaal Greaves" "Titan Greaves" "Stealth Boots" "Slink Boots" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Vaal Gauntlets" "Titan Gauntlets" "Stealth Gloves" "Slink Gloves" "Sorcerer Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Crusader Buckler" "Imperial Buckler" "Fossilised Spirit Shield" "Harmonic Spirit Shield" "Titanium Spirit Shield" "Despot Axe" "Fleshripper" "Thicket Bow" "Imperial Bow" "Harbinger Bow" "Reaver Sword" "Lion Sword" "Exquisite Blade" "Piledriver" "Meatgrinder" "Coronal Maul" "Maelström Staff" "Judgement Staff" "Eclipse Staff" "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Vaal Regalia" "Full Dragonscale" "Triumphant Lamellar" "Saint's Hauberk" "Saintly Chainmail" "Sadist Garb" "Carnal Armour" "Spike-Point Arrow Quiver" "Broadhead Arrow Quiver"
     ItemLevel >= 60
@@ -1189,8 +1180,7 @@ Show
     SetFontSize 36
 
 # Chaos recipe qualified Tier 2 bases
-# Strict
-Show
+Hide
     Rarity = Rare
     BaseType "Hydrascale Boots" "Legion Boots" "Assassin's Boots" "Hydrascale Gauntlets" "Legion Gloves" "Assassin's Mitts"
     ItemLevel >= 60
@@ -1231,16 +1221,14 @@ Show
     PlayAlertSound 14 150
 
 # All other chaos recipe qualified rares
-# Strict
-Show
+Hide
     Rarity = Rare
     ItemLevel >= 60
     SetTextColor 220 220 50
     SetBorderColor 220 220 50
 
 # Fade all other rares not listed above
-# Strict
-Show
+Hide
     Rarity = Rare
     SetTextColor 254 254 118 200
     SetBackgroundColor 0 0 0 144
@@ -1251,29 +1239,25 @@ Show
 ########################################################################
 
 # Glassblower's Baubles
-# Strict
-Show
+Hide
     Class Flasks
     Quality >= 5
     SetBackgroundColor 33 30 26
     SetBorderColor 138 129 109
 
 # Useful Flasks
-# Strict
-Show
+Hide
     Class "Utility Flasks"
 
 # Chisel Recipe (20% Hammer + Any Endgame Map)
-# Strict
-Show
+Hide
     Rarity = Normal
     BaseType "Gavel" "Stone Hammer" "Rock Breaker"
     SetBackgroundColor 33 30 26
     SetBorderColor 138 129 109
 
 # Chisel Recipe (20% Hammer + Any Endgame Map)
-# Strict
-Show
+Hide
     Quality >= 12
     Rarity = Magic
     BaseType "Gavel" "Stone Hammer" "Rock Breaker"

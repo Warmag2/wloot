@@ -32,14 +32,14 @@ filtering implemented at the moment - currently only for Divination Cards.
 #### Items shown as good bases
 
 "Siege Axe" "Vaal Hatchet" "Runic Hatchet"
-"Ezomyte Axe" "Vaal Axe" "Fleshripper"
+"Despot Axe" "Fleshripper"
 "Thicket Bow" "Imperial Bow" "Harbinger Bow"
 "Eye Gouger" "Imperial Claw" "Terror Claw" "Gemini Claw"
 "Ambusher" "Platinum Kris" "Imperial Skean" "Sai"
 "Legion Hammer" "Nightmare Mace" "Behemoth Mace"
 "Opal Sceptre" "Void Sceptre" "Sambar Sceptre"
-"Piledriver" "Meatgrinder" "Terror Maul" "Coronal Maul"
-"Lathi" "Judgement Staff" "Eclipse Staff"
+"Piledriver" "Meatgrinder" "Coronal Maul"
+"Maelström Staff" "Judgement Staff" "Eclipse Staff"
 "Corsair Sword" "Eternal Sword" "Tiger Hook"
 "Spiraled Foil" "Jewelled Foil" "Dragoon Sword"
 "Reaver Sword" "Lion Sword" "Exquisite Blade"

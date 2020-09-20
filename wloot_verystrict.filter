@@ -721,7 +721,7 @@ Hide
 # Good Divination Cards
 Show
     Class Card
-    BaseType == "Bowyer's Dream" "Chaotic Disposition" "A Dab of Ink" "Emperor of Purity" "Left to Fate" "Perfection" "The Saint's Treasure" "The Breach" "The Cartographer" "The Dapper Prodigy" "The Demon" "The Dreamer" "The Ethereal" "The Hale Heart" "The Hoarder" "The Jeweller's Boon" "The Obscured" "The Polymath" "The Risk" "The Thaumaturgist" "The Throne" "The Undisputed" "The Valley of Steel Boxes" "The Vast" "The Void" "Time-Lost Relic" "The Wilted Rose" "The Price of Protection" "The Twilight Moon" "Abandoned Wealth" "Heterochromia" "House of Mirrors" "Hunter's Reward" "Immortal Resolve" "Last Hope" "Mawr Blaidd" "Pride Before the Fall" "The Spark and the Flame" "The Artist" "The Brittle Emperor" "The Celestial Justicar" "The Celestial Stone" "The Doctor" "The Dragon's Heart" "The Enlightened" "The Fiend" "The Formless Sea" "The Hunger" "The Immortal" "The Iron Bard" "The King's Heart" "The Last One Standing" "The Master" "The Mayor" "The Nurse" "The Offering" "The Professor" "The Queen" "The Saint's Treasure" "The Samurai's Eye" "The Sephirot" "The Spark and the Flame" "The Undaunted" "The Valkyrie" "The Wind" "The Wolf" "The Wolven King's Bite" "The World Eater" "Wealth and Power" "Beauty Through Death" "The Endless Darkness" "Boon of the First Ones"
+    BaseType == "Bowyer's Dream" "Chaotic Disposition" "A Dab of Ink" "Emperor of Purity" "Left to Fate" "Perfection" "The Saint's Treasure" "The Breach" "The Cartographer" "The Dapper Prodigy" "The Demon" "The Dreamer" "The Ethereal" "The Hale Heart" "The Hoarder" "The Jeweller's Boon" "The Obscured" "The Polymath" "The Risk" "The Thaumaturgist" "The Throne" "The Undisputed" "The Valley of Steel Boxes" "The Vast" "The Void" "Time-Lost Relic" "The Wilted Rose" "The Price of Protection" "The Twilight Moon" "Abandoned Wealth" "Heterochromia" "House of Mirrors" "Hunter's Reward" "Immortal Resolve" "Last Hope" "Mawr Blaidd" "Pride Before the Fall" "The Spark and the Flame" "The Artist" "The Brittle Emperor" "The Celestial Justicar" "The Celestial Stone" "The Doctor" "The Dragon's Heart" "The Enlightened" "The Fiend" "The Formless Sea" "The Hunger" "The Immortal" "The Iron Bard" "The King's Heart" "The Last One Standing" "The Master" "The Mayor" "The Nurse" "The Offering" "The Professor" "The Queen" "The Saint's Treasure" "The Samurai's Eye" "The Sephirot" "The Spark and the Flame" "The Undaunted" "The Valkyrie" "The Wind" "The Wolf" "The Wolven King's Bite" "The World Eater" "Wealth and Power" "Beauty Through Death" "The Endless Darkness" "Boon of the First Ones" "Brother's Stash"
     SetBackgroundColor 0 68 93
     SetBorderColor 0 187 255
     SetFontSize 40
@@ -954,6 +954,15 @@ Show
     PlayAlertSound 6 80
     MinimapIcon 1 Brown Star
     PlayEffect Brown
+    
+Show
+    Replica True
+    SetTextColor 255 128 255
+    SetBorderColor 255 128 255
+    SetFontSize 45
+    PlayAlertSound 5 200
+    MinimapIcon 0 Brown Star
+    PlayEffect Brown    
 
 ########################################################################
 ### Enchanted items ####################################################
@@ -1290,6 +1299,14 @@ Show
 ### Gems ###############################################################
 ########################################################################
 
+# Heist Gems
+Show
+    Class Gem
+    AlternateQuality True
+    SetBackgroundColor 0 96 96
+    SetBorderColor 0 128 128
+    SetFontSize 42
+
 # Awakened Gems
 Show
     Class Gem
@@ -1348,6 +1365,51 @@ Hide
 Show
     Class "Quest Items" "Pantheon Soul"
     MinimapIcon 0 Green Circle
+
+########################################################################
+### Heist placeholder block ############################################
+########################################################################
+
+Show
+    Class Trinket
+    MinimapIcon 0 Green Triangle
+
+Show
+    Class Heist Target
+    MinimapIcon 0 Green Square
+
+Show
+    Class Contract
+    MinimapIcon 0 Green Pentagon
+
+Show
+    Class Blueprint
+    MinimapIcon 0 Green Hexagon
+
+Show
+    Class Heist
+    MinimapIcon 0 Green Pentagon
+    
+# Heist currency
+Show
+    Class Stackable Currency
+    BaseType "Prime Regrading Lens" "Secondary Regrading Lens" "Tempering Orb" "Tailoring Orb" "Rogue's Marker"
+    SetTextColor 240 224 187
+    SetBackgroundColor 100 40 0
+    SetBorderColor 230 214 177
+    SetFontSize 42
+    PlayAlertSound 13 150
+    MinimapIcon 1 Orange Diamond
+    PlayEffect Orange
+
+# Heist bases
+Show
+    BaseType "Assembler Wand" "Congregator Wand" "Accumulator Wand" "Hollowpoint Dagger" "Pressurised Dagger" "Pneumatic Dagger" "Flickerflame Blade" "Flashfire Blade" "Infernal Blade" "Shadow Fangs" "Malign Fangs" "Void Fangs" "Maltreatment Axe" "Disapprobation Axe" "Psychotic Axe" "Fickle Spiritblade" "Capricious Spiritblade" "Anarchic Spiritblade" "Flare Mace" "Crack Mace" "Boom Mace" "Oscillating Sceptre" "Stabilising Sceptre" "Alternating Sceptre" "Hedron Bow" "Foundry Bow" "Solarine Bow" "Transformer Staff" "Reciprocation Staff" "Battery Staff" "Capacity Rod" "Potentiality Rod" "Eventuality Rod" "Prime Cleaver" "Honed Cleaver" "Apex Cleaver" "Rebuking Blade" "Blasting Blade" "Banishing Blade" "Blunt Force Condenser" "Crushing Force Magnifier" "Impact Force Propagator" "Exhausting Spirit Shield" "Subsuming Spirit Shield" "Transfer-attuned Spirit Shield" "Endothermic Buckler" "Polar Buckler" "Cold-attuned Buckler" "Exothermic Tower Shield" "Magmatic Tower Shield" "Heat-attuned Tower Shield" "Micro-Distillery Belt" "Mechalarm Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring"
+    SetTextColor 240 240 48
+    SetBackgroundColor 100 40 0
+    SetBorderColor 0 220 0
+    SetFontSize 42
+    MinimapIcon 0 Orange Cross
 
 ########################################################################
 ### End ################################################################

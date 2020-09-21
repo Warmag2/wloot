@@ -135,6 +135,18 @@ Show
     MinimapIcon 1 Yellow Diamond
     PlayEffect Yellow
 
+# Heist currency
+Show
+    Class Currency
+    BaseType "Prime Regrading Lens" "Secondary Regrading Lens" "Tempering Orb" "Tailoring Orb" "Rogue's Marker"
+    SetTextColor 240 224 187
+    SetBackgroundColor 100 40 0
+    SetBorderColor 230 214 177
+    SetFontSize 42
+    PlayAlertSound 13 150
+    MinimapIcon 1 Orange Hexagon
+    PlayEffect Orange
+
 ########################################################################
 ### Essences ###########################################################
 ########################################################################
@@ -654,6 +666,30 @@ Show
     MinimapIcon 0 Purple Square
     PlayEffect Purple
 
+Show
+    Class Contract
+    SetFontSize 40
+    SetBackgroundColor 100 40 0
+    PlayAlertSound 2 100
+    MinimapIcon 1 White Square
+    PlayEffect White
+
+Show
+    Class Trinket
+    MinimapIcon 0 Green Triangle
+
+Show
+    Class Heist Target
+    MinimapIcon 0 Green Square
+
+Show
+    Class Blueprint
+    MinimapIcon 0 Green Hexagon
+
+Show
+    Class Heist
+    MinimapIcon 0 Green Pentagon
+
 ########################################################################
 ### League-specific and currency catch-all block #######################
 ########################################################################
@@ -1133,6 +1169,15 @@ Show
     SetFontSize 42
     PlayAlertSound 14 100
 
+# Heist bases
+Show
+    BaseType "Assembler Wand" "Congregator Wand" "Accumulator Wand" "Hollowpoint Dagger" "Pressurised Dagger" "Pneumatic Dagger" "Flickerflame Blade" "Flashfire Blade" "Infernal Blade" "Shadow Fangs" "Malign Fangs" "Void Fangs" "Maltreatment Axe" "Disapprobation Axe" "Psychotic Axe" "Fickle Spiritblade" "Capricious Spiritblade" "Anarchic Spiritblade" "Flare Mace" "Crack Mace" "Boom Mace" "Oscillating Sceptre" "Stabilising Sceptre" "Alternating Sceptre" "Hedron Bow" "Foundry Bow" "Solarine Bow" "Transformer Staff" "Reciprocation Staff" "Battery Staff" "Capacity Rod" "Potentiality Rod" "Eventuality Rod" "Prime Cleaver" "Honed Cleaver" "Apex Cleaver" "Rebuking Blade" "Blasting Blade" "Banishing Blade" "Blunt Force Condenser" "Crushing Force Magnifier" "Impact Force Propagator" "Exhausting Spirit Shield" "Subsuming Spirit Shield" "Transfer-attuned Spirit Shield" "Endothermic Buckler" "Polar Buckler" "Cold-attuned Buckler" "Exothermic Tower Shield" "Magmatic Tower Shield" "Heat-attuned Tower Shield" "Micro-Distillery Belt" "Mechalarm Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring"
+    SetTextColor 240 240 48
+    SetBackgroundColor 100 40 0
+    SetBorderColor 0 220 0
+    SetFontSize 42
+    MinimapIcon 0 Orange Cross
+
 # Rare chromatic Items with good bases
 Hide
     Rarity = Rare
@@ -1365,51 +1410,6 @@ Hide
 Show
     Class "Quest Items" "Pantheon Soul"
     MinimapIcon 0 Green Circle
-
-########################################################################
-### Heist placeholder block ############################################
-########################################################################
-
-Show
-    Class Trinket
-    MinimapIcon 0 Green Triangle
-
-Show
-    Class Heist Target
-    MinimapIcon 0 Green Square
-
-Show
-    Class Contract
-    MinimapIcon 0 Green Pentagon
-
-Show
-    Class Blueprint
-    MinimapIcon 0 Green Hexagon
-
-Show
-    Class Heist
-    MinimapIcon 0 Green Pentagon
-    
-# Heist currency
-Show
-    Class Stackable Currency
-    BaseType "Prime Regrading Lens" "Secondary Regrading Lens" "Tempering Orb" "Tailoring Orb" "Rogue's Marker"
-    SetTextColor 240 224 187
-    SetBackgroundColor 100 40 0
-    SetBorderColor 230 214 177
-    SetFontSize 42
-    PlayAlertSound 13 150
-    MinimapIcon 1 Orange Diamond
-    PlayEffect Orange
-
-# Heist bases
-Show
-    BaseType "Assembler Wand" "Congregator Wand" "Accumulator Wand" "Hollowpoint Dagger" "Pressurised Dagger" "Pneumatic Dagger" "Flickerflame Blade" "Flashfire Blade" "Infernal Blade" "Shadow Fangs" "Malign Fangs" "Void Fangs" "Maltreatment Axe" "Disapprobation Axe" "Psychotic Axe" "Fickle Spiritblade" "Capricious Spiritblade" "Anarchic Spiritblade" "Flare Mace" "Crack Mace" "Boom Mace" "Oscillating Sceptre" "Stabilising Sceptre" "Alternating Sceptre" "Hedron Bow" "Foundry Bow" "Solarine Bow" "Transformer Staff" "Reciprocation Staff" "Battery Staff" "Capacity Rod" "Potentiality Rod" "Eventuality Rod" "Prime Cleaver" "Honed Cleaver" "Apex Cleaver" "Rebuking Blade" "Blasting Blade" "Banishing Blade" "Blunt Force Condenser" "Crushing Force Magnifier" "Impact Force Propagator" "Exhausting Spirit Shield" "Subsuming Spirit Shield" "Transfer-attuned Spirit Shield" "Endothermic Buckler" "Polar Buckler" "Cold-attuned Buckler" "Exothermic Tower Shield" "Magmatic Tower Shield" "Heat-attuned Tower Shield" "Micro-Distillery Belt" "Mechalarm Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring"
-    SetTextColor 240 240 48
-    SetBackgroundColor 100 40 0
-    SetBorderColor 0 220 0
-    SetFontSize 42
-    MinimapIcon 0 Orange Cross
 
 ########################################################################
 ### End ################################################################

@@ -19,7 +19,7 @@ Hide
 # Strict
 Show
     Class Currency
-    BaseType "Scroll of Wisdom" "Portal Scroll"
+    BaseType "Scroll of Wisdom"
     SetTextColor 219 190 147 200
     SetBackgroundColor 24 18 14 144
     SetFontSize 36
@@ -27,7 +27,7 @@ Show
 # MultiShit-tier currency
 Show
     Class Currency
-    BaseType "Armourer's Scrap" "Alteration Shard" "Alchemy Shard" "Binding Shard" "Blacksmith's Whetstone" "Engineer's Shard" "Orb of Augmentation" "Orb of Transmutation"
+    BaseType "Portal Scroll" "Armourer's Scrap" "Alteration Shard" "Alchemy Shard" "Binding Shard" "Blacksmith's Whetstone" "Engineer's Shard" "Orb of Augmentation" "Orb of Transmutation"
     SetTextColor 219 190 147 200
     SetBackgroundColor 24 18 14 160
     SetFontSize 38
@@ -686,7 +686,12 @@ Show
 
 Show
     Class Blueprint
-    MinimapIcon 0 Green Hexagon
+    SetFontSize 44
+    SetBackgroundColor 0 40 100
+    PlayAlertSound 2 100
+    MinimapIcon 1 White Hexagon
+    PlayEffect White
+
 
 Show
     Class Heist

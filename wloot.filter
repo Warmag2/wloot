@@ -67,7 +67,7 @@ Show
 # High-tier currency
 Show
     Class Currency
-    BaseType "Sextant" "Cartographer's Seal" "Unshaping Orb" "Delirium Orb"
+    BaseType "Sextant" "Cartographer's Seal" "Unshaping Orb" "Delirium Orb" "Orb of Unmaking" "Maven's Orb" "Ritual Splinter" "Ritual Vessel" "Crescent Splinter" "Veiled Chaos Orb"
     SetTextColor 240 224 187
     SetBackgroundColor 112 86 64
     SetBorderColor 230 214 177
@@ -207,7 +207,7 @@ Show
 # Catalysts
 Show
     Class Currency
-    BaseType "Fertile Catalyst" "Prismatic Catalyst" "Tempering Catalyst"
+    BaseType "Fertile Catalyst" "Prismatic Catalyst" "Tempering Catalyst" "Noxious Catalyst" "Accelerating Catalyst" "Unstable Catalyst"
     SetTextColor 150 250 90
     SetBackgroundColor 62 94 42
     SetBorderColor 150 250 90
@@ -393,7 +393,7 @@ Show
 
 Show
     Class Currency
-    BaseType "Golden Oil"
+    BaseType "Golden Oil" "Tainted Oil"
     SetFontSize 42
     SetBackgroundColor 170 184 150
     SetBorderColor 236 255 208
@@ -402,162 +402,6 @@ Show
     MinimapIcon 0 Cyan Kite
     PlayEffect Cyan
 
-########################################################################
-### Seeds  #############################################################
-########################################################################
-
-Show
-    Class "Harvest Seed"
-    BaseType "Wild Ape Seed" "Wild Hatchling Seed" "Wild Hellion Seed" "Wild Thornwolf Seed" "Wild Ursaling Seed"
-    SetTextColor 208 0 208
-    SetBackgroundColor 64 0 64
-    SetBorderColor 208 0 208
-    SetFontSize 36
-    PlayAlertSound 15 125
-    MinimapIcon 2 Green Raindrop
-    PlayEffect Green
-
-Show
-    Class "Harvest Seed"
-    BaseType "Vivid Arachnid Seed" "Vivid Leech Seed" "Vivid Scorpion Seed" "Vivid Thornweaver Seed" "Vivid Weta Seed"
-    SetTextColor 208 177 83
-    SetBackgroundColor 63 54 26
-    SetBorderColor 208 177 83
-    SetFontSize 36
-    PlayAlertSound 15 125
-    MinimapIcon 2 Green Raindrop
-    PlayEffect Green
-
-Show
-    Class "Harvest Seed"
-    BaseType "Primal Cleaveling Seed" "Primal Dustspitter Seed" "Primal Feasting Horror Seed" "Primal Maw Seed" "Primal Rhoa Seed"
-    SetTextColor 0 208 208
-    SetBackgroundColor 0 64 64
-    SetBorderColor 0 208 208
-    SetFontSize 36
-    PlayAlertSound 15 125
-    MinimapIcon 2 Green Raindrop
-    PlayEffect Green
-
-Show
-    Class "Harvest Seed"
-    BaseType "Wild Bristlebeast Grain" "Wild Chieftain Grain" "Wild Homunculus Grain" "Wild Snap Hound Grain" "Wild Spikeback Grain"
-    SetTextColor 224 0 224
-    SetBackgroundColor 80 0 80
-    SetBorderColor 224 0 224
-    SetFontSize 38
-    PlayAlertSound 15 150
-    MinimapIcon 1 Green Raindrop
-    PlayEffect Green
-
-Show
-    Class "Harvest Seed"
-    BaseType "Vivid Nestback Grain" "Vivid Parasite Grain" "Vivid Razorleg Grain" "Vivid Sapsucker Grain" "Vivid Striketail Grain"
-    SetTextColor 224 190 90
-    SetBackgroundColor 80 68 32
-    SetBorderColor 224 190 90
-    SetFontSize 38
-    PlayAlertSound 15 150
-    MinimapIcon 1 Green Raindrop
-    PlayEffect Green
-
-Show
-    Class "Harvest Seed"
-    BaseType "Primal Chimeral Grain" "Primal Dustcrab Grain" "Primal Rhex Grain" "Primal Scrabbler Grain" "Primal Viper Grain"
-    SetTextColor 0 224 224
-    SetBackgroundColor 0 80 80
-    SetBorderColor 0 224 224
-    SetFontSize 38
-    PlayAlertSound 15 150
-    MinimapIcon 1 Green Raindrop
-    PlayEffect Green
-
-Show
-    Class "Harvest Seed"
-    BaseType "Wild Brambleback Bulb" "Wild Bristle Matron Bulb" "Wild Hellion Alpha Bulb" "Wild Infestation Queen Bulb" "Wild Thornmaw Bulb"
-    SetTextColor 240 0 240
-    SetBackgroundColor 96 0 96
-    SetBorderColor 240 0 240
-    SetFontSize 40
-    PlayAlertSound 15 175
-    MinimapIcon 0 Green Raindrop
-    PlayEffect Green
-
-Show
-    Class "Harvest Seed"
-    BaseType "Vivid Abberarach Bulb" "Vivid Devourer Bulb" "Vivid Vulture Bulb" "Vivid Watcher Bulb" "Vivid Whipleg Bulb"
-    SetTextColor 240 204 96
-    SetBackgroundColor 96 82 39
-    SetBorderColor 240 204 96
-    SetFontSize 40
-    PlayAlertSound 15 175
-    MinimapIcon 0 Green Raindrop
-    PlayEffect Green
-
-Show
-    Class "Harvest Seed"
-    BaseType "Primal Blisterlord Bulb" "Primal Crushclaw Bulb" "Primal Cystcaller Bulb" "Primal Reborn Bulb" "Primal Rhex Matriarch Bulb"
-    SetTextColor 0 240 240
-    SetBackgroundColor 0 96 96
-    SetBorderColor 0 240 240
-    SetFontSize 40
-    PlayAlertSound 15 175
-    MinimapIcon 0 Green Raindrop
-    PlayEffect Green
-
-Show
-    Class "Harvest Seed"
-    BaseType "Wild Thornfruit"
-    SetTextColor 255 0 255
-    SetBackgroundColor 112 0 112
-    SetBorderColor 255 0 255
-    SetFontSize 42
-    PlayAlertSound 15 200
-    MinimapIcon 0 Green Raindrop
-    PlayEffect Green
-
-Show
-    Class "Harvest Seed"
-    BaseType "Vivid Scalefruit"
-    SetTextColor 255 217 102
-    SetBackgroundColor 112 95 45
-    SetBorderColor 255 217 102
-    SetFontSize 42
-    PlayAlertSound 15 200
-    MinimapIcon 0 Green Raindrop
-    PlayEffect Green
-
-Show
-    Class "Harvest Seed"
-    BaseType "Primal Blisterfruit"
-    SetTextColor 0 255 255
-    SetBackgroundColor 0 112 112
-    SetBorderColor 0 255 255
-    SetFontSize 42
-    PlayAlertSound 15 200
-    MinimapIcon 0 Green Raindrop
-    PlayEffect Green
-
-Show
-    Class "Seed Enhancer"
-    SetTextColor 128 255 128
-    SetBackgroundColor 56 112 56
-    SetBorderColor 128 255 128
-    SetFontSize 38
-    PlayAlertSound 15 150
-    MinimapIcon 1 Green Raindrop
-    PlayEffect Green
-
-Show
-    Class "Harvest Seed"
-    BaseType "Seed" "Grain" "Bulb"
-    SetTextColor 255 0 0
-    SetBackgroundColor 0 0 0
-    SetBorderColor 255 0 0
-    SetFontSize 42
-    PlayAlertSound 15 100
-    MinimapIcon 0 Green Raindrop
-    PlayEffect Green
 
 ########################################################################
 ### Misc. League-specific items  #######################################
@@ -884,7 +728,7 @@ Show
 
 Show
     Class "Map Fragment"
-    BaseType "Gilded"
+    BaseType "Gilded" "Winged"
     SetBackgroundColor 255 255 224 212
     SetBorderColor 240 240 164
     SetTextColor 0 0 0
@@ -1208,7 +1052,7 @@ Show
 Show
     Rarity = Rare
     SocketGroup "RGB"
-    BaseType "Bone Helmet" "Convoking Wand" "Fingerless Silk Gloves" "Gripped Gloves" "Sacrificial Garb" "Spiked Gloves" "Two-Toned Boots"
+    BaseType "Bone Helmet" "Convoking Wand" "Fingerless Silk Gloves" "Gripped Gloves" "Sacrificial Garb" "Spiked Gloves" "Two-Toned Boots" "Grasping Mail" "Seaglass Amulet" "Blessed Boots" "Apothecary's Gloves" "Artillery Quiver" "Iolite Ring"
     SetTextColor 255 255 48
     SetBackgroundColor 128 96 0
     SetBorderColor 220 0 0
@@ -1263,7 +1107,7 @@ Show
 # Rare jewellry with special bases
 Show
     Rarity = Rare
-    BaseType "Blue Pearl Amulet" "Cerulean Ring" "Crystal Belt" "Marble Amulet" "Opal Ring" "Steel Ring" "Stygian Vise" "Vanguard Belt" "Vermillion Ring"
+    BaseType "Blue Pearl Amulet" "Cerulean Ring" "Crystal Belt" "Marble Amulet" "Opal Ring" "Steel Ring" "Stygian Vise" "Vanguard Belt" "Vermillion Ring" "Iolite Ring"
     ItemLevel >= 60
     SetTextColor 255 255 48
     SetBackgroundColor 128 96 0
@@ -1284,7 +1128,7 @@ Show
 # Chaos recipe qualified special bases
 Show
     Rarity = Rare
-    BaseType "Bone Helmet" "Convoking Wand" "Fingerless Silk Gloves" "Gripped Gloves" "Sacrificial Garb" "Spiked Gloves" "Two-Toned Boots"
+    BaseType "Bone Helmet" "Convoking Wand" "Fingerless Silk Gloves" "Gripped Gloves" "Sacrificial Garb" "Spiked Gloves" "Two-Toned Boots" "Grasping Mail" "Seaglass Amulet" "Blessed Boots" "Apothecary's Gloves" "Artillery Quiver" "Iolite Ring"
     SetTextColor 255 255 48
     SetBackgroundColor 96 64 0
     SetBorderColor 230 180 0

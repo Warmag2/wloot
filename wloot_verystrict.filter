@@ -135,10 +135,33 @@ Show
     MinimapIcon 1 Yellow Diamond
     PlayEffect Yellow
 
+# Harvest currency
+Show
+    Class Currency
+    BaseType "Lifeforce"
+    SetFontSize 40
+    SetTextColor 150 255 200
+    SetBackgroundColor 25 100 50
+    SetBorderColor 140 250 190
+    PlayAlertSound 9 120
+    MinimapIcon 1 Green Kite
+    PlayEffect Green
+
 # Heist currency
 Show
     Class Currency
-    BaseType "Prime Regrading Lens" "Secondary Regrading Lens" "Tempering Orb" "Tailoring Orb" "Rogue's Marker"
+    BaseType "Rogue's Marker"
+    SetTextColor 230 216 180
+    SetBackgroundColor 100 40 0
+    SetBorderColor 220 202 170
+    SetFontSize 40
+    PlayAlertSound 13 100
+    MinimapIcon 1 Orange Hexagon
+    PlayEffect Orange
+
+Show
+    Class Currency
+    BaseType "Prime Regrading Lens" "Secondary Regrading Lens" "Tempering Orb" "Tailoring Orb"
     SetTextColor 240 224 187
     SetBackgroundColor 100 40 0
     SetBorderColor 230 214 177
@@ -176,7 +199,7 @@ Show
     SetBorderColor 120 230 190
     SetFontSize 42
     PlayAlertSound 5 120
-    MinimapIcon 0 Cyan Kite
+    MinimapIcon 0 Yellow Kite
     PlayEffect Cyan
 
 Show
@@ -187,7 +210,7 @@ Show
     SetBorderColor 120 230 190
     SetFontSize 42
     PlayAlertSound 8 120
-    MinimapIcon 1 Cyan Kite
+    MinimapIcon 1 Yellow Kite
     PlayEffect Cyan
 
 Hide
@@ -196,7 +219,7 @@ Hide
     SetTextColor 120 230 190
     SetBackgroundColor 32 64 42
     SetBorderColor 120 230 190
-    SetFontSize 42
+    SetFontSize 40
 
 ########################################################################
 ### Metamorph currency #################################################
@@ -211,7 +234,7 @@ Show
     SetBorderColor 150 250 90
     SetFontSize 42
     PlayAlertSound 16 150
-    MinimapIcon 0 Cyan Cross
+    MinimapIcon 0 Yellow Cross
     PlayEffect Cyan
 
 Show
@@ -222,7 +245,7 @@ Show
     SetBorderColor 160 255 110
     SetFontSize 40
     PlayAlertSound 16 100
-    MinimapIcon 1 Cyan Cross
+    MinimapIcon 1 Yellow Cross
     PlayEffect Cyan
 
 
@@ -264,7 +287,7 @@ Show
     SetBackgroundColor 57 62 50
     SetBorderColor 123 133 109
     SetTextColor 236 255 208
-    PlayAlertSound 8 80
+    PlayAlertSound 9 80
     MinimapIcon 2 Cyan Kite
     PlayEffect Cyan
 
@@ -275,7 +298,7 @@ Show
     SetBackgroundColor 67 72 59
     SetBorderColor 133 143 117
     SetTextColor 236 255 208
-    PlayAlertSound 8 80
+    PlayAlertSound 9 80
     MinimapIcon 2 Cyan Kite
     PlayEffect Cyan
 
@@ -286,7 +309,7 @@ Show
     SetBackgroundColor 76 82 67
     SetBorderColor 142 253 125
     SetTextColor 236 255 208
-    PlayAlertSound 8 80
+    PlayAlertSound 9 80
     MinimapIcon 2 Cyan Kite
     PlayEffect Cyan
 
@@ -297,7 +320,7 @@ Show
     SetBackgroundColor 85 92 75
     SetBorderColor 152 164 134
     SetTextColor 236 255 208
-    PlayAlertSound 8 80
+    PlayAlertSound 9 80
     MinimapIcon 2 Cyan Kite
     PlayEffect Cyan
 
@@ -308,7 +331,7 @@ Show
     SetBackgroundColor 95 102 84
     SetBorderColor 161 174 142
     SetTextColor 236 255 208
-    PlayAlertSound 8 80
+    PlayAlertSound 9 80
     MinimapIcon 2 Cyan Kite
     PlayEffect Cyan
 
@@ -319,7 +342,7 @@ Show
     SetBackgroundColor 104 113 92
     SetBorderColor 170 184 150
     SetTextColor 236 255 208
-    PlayAlertSound 8 80
+    PlayAlertSound 9 80
     MinimapIcon 1 Cyan Kite
     PlayEffect Cyan
 
@@ -330,7 +353,7 @@ Show
     SetBackgroundColor 114 123 100
     SetBorderColor 180 194 159
     SetTextColor 236 255 208
-    PlayAlertSound 8 80
+    PlayAlertSound 9 80
     MinimapIcon 1 Cyan Kite
     PlayEffect Cyan
 
@@ -341,7 +364,7 @@ Show
     SetBackgroundColor 123 133 109
     SetBorderColor 189 204 167
     SetTextColor 236 255 208
-    PlayAlertSound 8 80
+    PlayAlertSound 9 80
     MinimapIcon 1 Cyan Kite
     PlayEffect Cyan
 
@@ -352,7 +375,7 @@ Show
     SetBackgroundColor 133 143 117
     SetBorderColor 199 215 175
     SetTextColor 236 255 208
-    PlayAlertSound 8 80
+    PlayAlertSound 9 80
     MinimapIcon 1 Cyan Kite
     PlayEffect Cyan
 
@@ -363,7 +386,7 @@ Show
     SetBackgroundColor 142 253 125
     SetBorderColor 208 225 184
     SetTextColor 236 255 208
-    PlayAlertSound 8 80
+    PlayAlertSound 9 90
     MinimapIcon 1 Cyan Kite
     PlayEffect Cyan
 
@@ -374,7 +397,7 @@ Show
     SetBackgroundColor 152 164 134
     SetBorderColor 218 235 192
     SetTextColor 236 255 208
-    PlayAlertSound 8 80
+    PlayAlertSound 9 100
     MinimapIcon 0 Cyan Kite
     PlayEffect Cyan
 
@@ -385,7 +408,7 @@ Show
     SetBackgroundColor 161 174 142
     SetBorderColor 227 245 200
     SetTextColor 236 255 208
-    PlayAlertSound 8 80
+    PlayAlertSound 9 110
     MinimapIcon 0 Cyan Kite
     PlayEffect Cyan
 
@@ -396,166 +419,9 @@ Show
     SetBackgroundColor 170 184 150
     SetBorderColor 236 255 208
     SetTextColor 236 255 208
-    PlayAlertSound 8 80
+    PlayAlertSound 9 120
     MinimapIcon 0 Cyan Kite
     PlayEffect Cyan
-
-########################################################################
-### Seeds  #############################################################
-########################################################################
-
-Show
-    Class "Harvest Seed"
-    BaseType "Wild Ape Seed" "Wild Hatchling Seed" "Wild Hellion Seed" "Wild Thornwolf Seed" "Wild Ursaling Seed"
-    SetTextColor 208 0 208
-    SetBackgroundColor 64 0 64
-    SetBorderColor 208 0 208
-    SetFontSize 36
-    PlayAlertSound 15 125
-    MinimapIcon 2 Green Raindrop
-    PlayEffect Green
-
-Show
-    Class "Harvest Seed"
-    BaseType "Vivid Arachnid Seed" "Vivid Leech Seed" "Vivid Scorpion Seed" "Vivid Thornweaver Seed" "Vivid Weta Seed"
-    SetTextColor 208 177 83
-    SetBackgroundColor 63 54 26
-    SetBorderColor 208 177 83
-    SetFontSize 36
-    PlayAlertSound 15 125
-    MinimapIcon 2 Green Raindrop
-    PlayEffect Green
-
-Show
-    Class "Harvest Seed"
-    BaseType "Primal Cleaveling Seed" "Primal Dustspitter Seed" "Primal Feasting Horror Seed" "Primal Maw Seed" "Primal Rhoa Seed"
-    SetTextColor 0 208 208
-    SetBackgroundColor 0 64 64
-    SetBorderColor 0 208 208
-    SetFontSize 36
-    PlayAlertSound 15 125
-    MinimapIcon 2 Green Raindrop
-    PlayEffect Green
-
-Show
-    Class "Harvest Seed"
-    BaseType "Wild Bristlebeast Grain" "Wild Chieftain Grain" "Wild Homunculus Grain" "Wild Snap Hound Grain" "Wild Spikeback Grain"
-    SetTextColor 224 0 224
-    SetBackgroundColor 80 0 80
-    SetBorderColor 224 0 224
-    SetFontSize 38
-    PlayAlertSound 15 150
-    MinimapIcon 1 Green Raindrop
-    PlayEffect Green
-
-Show
-    Class "Harvest Seed"
-    BaseType "Vivid Nestback Grain" "Vivid Parasite Grain" "Vivid Razorleg Grain" "Vivid Sapsucker Grain" "Vivid Striketail Grain"
-    SetTextColor 224 190 90
-    SetBackgroundColor 80 68 32
-    SetBorderColor 224 190 90
-    SetFontSize 38
-    PlayAlertSound 15 150
-    MinimapIcon 1 Green Raindrop
-    PlayEffect Green
-
-Show
-    Class "Harvest Seed"
-    BaseType "Primal Chimeral Grain" "Primal Dustcrab Grain" "Primal Rhex Grain" "Primal Scrabbler Grain" "Primal Viper Grain"
-    SetTextColor 0 224 224
-    SetBackgroundColor 0 80 80
-    SetBorderColor 0 224 224
-    SetFontSize 38
-    PlayAlertSound 15 150
-    MinimapIcon 1 Green Raindrop
-    PlayEffect Green
-
-Show
-    Class "Harvest Seed"
-    BaseType "Wild Brambleback Bulb" "Wild Bristle Matron Bulb" "Wild Hellion Alpha Bulb" "Wild Infestation Queen Bulb" "Wild Thornmaw Bulb"
-    SetTextColor 240 0 240
-    SetBackgroundColor 96 0 96
-    SetBorderColor 240 0 240
-    SetFontSize 40
-    PlayAlertSound 15 175
-    MinimapIcon 0 Green Raindrop
-    PlayEffect Green
-
-Show
-    Class "Harvest Seed"
-    BaseType "Vivid Abberarach Bulb" "Vivid Devourer Bulb" "Vivid Vulture Bulb" "Vivid Watcher Bulb" "Vivid Whipleg Bulb"
-    SetTextColor 240 204 96
-    SetBackgroundColor 96 82 39
-    SetBorderColor 240 204 96
-    SetFontSize 40
-    PlayAlertSound 15 175
-    MinimapIcon 0 Green Raindrop
-    PlayEffect Green
-
-Show
-    Class "Harvest Seed"
-    BaseType "Primal Blisterlord Bulb" "Primal Crushclaw Bulb" "Primal Cystcaller Bulb" "Primal Reborn Bulb" "Primal Rhex Matriarch Bulb"
-    SetTextColor 0 240 240
-    SetBackgroundColor 0 96 96
-    SetBorderColor 0 240 240
-    SetFontSize 40
-    PlayAlertSound 15 175
-    MinimapIcon 0 Green Raindrop
-    PlayEffect Green
-
-Show
-    Class "Harvest Seed"
-    BaseType "Wild Thornfruit"
-    SetTextColor 255 0 255
-    SetBackgroundColor 112 0 112
-    SetBorderColor 255 0 255
-    SetFontSize 42
-    PlayAlertSound 15 200
-    MinimapIcon 0 Green Raindrop
-    PlayEffect Green
-
-Show
-    Class "Harvest Seed"
-    BaseType "Vivid Scalefruit"
-    SetTextColor 255 217 102
-    SetBackgroundColor 112 95 45
-    SetBorderColor 255 217 102
-    SetFontSize 42
-    PlayAlertSound 15 200
-    MinimapIcon 0 Green Raindrop
-    PlayEffect Green
-
-Show
-    Class "Harvest Seed"
-    BaseType "Primal Blisterfruit"
-    SetTextColor 0 255 255
-    SetBackgroundColor 0 112 112
-    SetBorderColor 0 255 255
-    SetFontSize 42
-    PlayAlertSound 15 200
-    MinimapIcon 0 Green Raindrop
-    PlayEffect Green
-
-Show
-    Class "Seed Enhancer"
-    SetTextColor 128 255 128
-    SetBackgroundColor 56 112 56
-    SetBorderColor 128 255 128
-    SetFontSize 38
-    PlayAlertSound 15 150
-    MinimapIcon 1 Green Raindrop
-    PlayEffect Green
-
-Show
-    Class "Harvest Seed"
-    BaseType "Seed" "Grain" "Bulb"
-    SetTextColor 255 0 0
-    SetBackgroundColor 0 0 0
-    SetBorderColor 255 0 0
-    SetFontSize 42
-    PlayAlertSound 15 100
-    MinimapIcon 0 Green Raindrop
-    PlayEffect Green
 
 ########################################################################
 ### Misc. League-specific items  #######################################
@@ -754,7 +620,7 @@ Show
 # Strict
 Hide
     Class Card
-    BaseType "Carrion Crow" "Struck by Lightning" "The Hermit" "The King's Blade" "Thunderous Skies" "The Sigil" "The Surgeon" "Turn the Other Cheek" "The Metalsmith's Gift" "Dark Temptation" "Death" "Destined to Crumble" "Lantador's Lost Love" "Prosperity" "The Calling" "The Hermit" "The Opulent" "The Scarred Meadow" "The Sigil" "The Surgeon" "The Witch" "The Wolf's Shadow" "Turn the Other Cheek"
+    BaseType "The Calling" "Carrion Crow" "Dark Temptation" "Death" "Destined to Crumble" "The Hermit" "The King's Blade" "Lantador's Lost Love" "The Metalsmith's Gift" "Prosperity" "The Opulent" "The Scarred Meadow" "The Sigil" "Struck by Lightning" "The Surgeon" "Thunderous Skies" "Turn the Other Cheek" "The Witch" "The Wolf's Shadow"
     SetBackgroundColor 0 45 62
     SetBorderColor 0 181 247
     SetFontSize 32
@@ -762,7 +628,7 @@ Hide
 # Good Divination Cards
 Show
     Class Card
-    BaseType == "Bowyer's Dream" "Chaotic Disposition" "A Dab of Ink" "Emperor of Purity" "Left to Fate" "Perfection" "The Saint's Treasure" "The Breach" "The Cartographer" "The Dapper Prodigy" "The Demon" "The Dreamer" "The Ethereal" "The Hale Heart" "The Hoarder" "The Jeweller's Boon" "The Obscured" "The Polymath" "The Risk" "The Thaumaturgist" "The Throne" "The Undisputed" "The Valley of Steel Boxes" "The Vast" "The Void" "Time-Lost Relic" "The Wilted Rose" "The Price of Protection" "The Twilight Moon" "Abandoned Wealth" "Heterochromia" "House of Mirrors" "Hunter's Reward" "Immortal Resolve" "Last Hope" "Mawr Blaidd" "Pride Before the Fall" "The Spark and the Flame" "The Artist" "The Brittle Emperor" "The Celestial Justicar" "The Celestial Stone" "The Doctor" "The Dragon's Heart" "The Enlightened" "The Fiend" "The Formless Sea" "The Hunger" "The Immortal" "The Iron Bard" "The King's Heart" "The Last One Standing" "The Master" "The Mayor" "The Nurse" "The Offering" "The Professor" "The Queen" "The Saint's Treasure" "The Samurai's Eye" "The Sephirot" "The Spark and the Flame" "The Undaunted" "The Valkyrie" "The Wind" "The Wolf" "The Wolven King's Bite" "The World Eater" "Wealth and Power" "Beauty Through Death" "The Endless Darkness" "Boon of the First Ones" "Brother's Stash"
+    BaseType == "Bowyer's Dream" "Chaotic Disposition" "A Dab of Ink" "Emperor of Purity" "Left to Fate" "Perfection" "The Saint's Treasure" "The Breach" "The Cartographer" "The Dapper Prodigy" "The Demon" "The Dreamer" "The Ethereal" "The Hale Heart" "The Hoarder" "The Jeweller's Boon" "The Obscured" "The Polymath" "The Risk" "The Thaumaturgist" "The Throne" "The Undisputed" "The Valley of Steel Boxes" "The Vast" "The Void" "Time-Lost Relic" "The Wilted Rose" "The Price of Protection" "The Twilight Moon" "Abandoned Wealth" "Heterochromia" "House of Mirrors" "Hunter's Reward" "Immortal Resolve" "Last Hope" "Mawr Blaidd" "Pride Before the Fall" "The Spark and the Flame" "The Artist" "The Brittle Emperor" "The Celestial Justicar" "The Celestial Stone" "The Doctor" "The Dragon's Heart" "The Enlightened" "The Fiend" "The Formless Sea" "The Hunger" "The Immortal" "The Rusted Bard" "The King's Heart" "The Last One Standing" "The Master" "The Mayor" "The Nurse" "The Offering" "The Professor" "The Queen" "The Saint's Treasure" "The Samurai's Eye" "The Sephirot" "The Spark and the Flame" "The Undaunted" "The Valkyrie" "The Wind" "The Wolf" "The Wolven King's Bite" "The World Eater" "Wealth and Power" "Beauty Through Death" "The Endless Darkness" "Boon of the First Ones" "Brother's Stash"
     SetBackgroundColor 0 68 93
     SetBorderColor 0 187 255
     SetFontSize 40
@@ -892,7 +758,7 @@ Show
 
 # Map Fragments
 Show
-    Class "Map Fragment" "Labyrinth Map Item" "Atlas Region Upgrade Item"
+    Class "Map Fragment" "Labyrinth Map Item" "Atlas Upgrade Item"
     SetBackgroundColor 160 120 160
     SetBorderColor 240 180 240
     SetTextColor 0 0 0

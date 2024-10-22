@@ -32,62 +32,54 @@ filtering implemented at the moment - currently only for Divination Cards.
 #### Items shown as good bases
 
 "Siege Axe" "Vaal Hatchet" "Runic Hatchet"
-"Despot Axe" "Fleshripper"
-"Thicket Bow" "Imperial Bow" "Harbinger Bow"
 "Eye Gouger" "Imperial Claw" "Terror Claw" "Gemini Claw"
-"Ambusher" "Platinum Kris" "Imperial Skean" "Sai"
+"Ambusher" "Sai"
+"Platinum Kris" "Imperial Skean"
 "Legion Hammer" "Nightmare Mace" "Behemoth Mace"
 "Opal Sceptre" "Void Sceptre" "Sambar Sceptre"
-"Piledriver" "Meatgrinder" "Coronal Maul"
-"Maelström Staff" "Judgement Staff" "Eclipse Staff"
 "Corsair Sword" "Eternal Sword" "Tiger Hook"
 "Spiraled Foil" "Jewelled Foil" "Dragoon Sword"
+"Imbued Wand" "Opal Wand" "Profane Wand"
+"Despot Axe" "Fleshripper"
+"Thicket Bow" "Imperial Bow" "Harbinger Bow"
 "Reaver Sword" "Lion Sword" "Exquisite Blade"
-"Imbued Wand" "Opal Wand" "Prophecy Wand" "Profane Wand"
-"Royal Burgonet" "Eternal Burgonet"
-"Sinner Tricorne" "Lion Pelt"
-"Hubris Circlet"
-"Pig-Faced Bascinet" "Nightmare Bascinet"
-"Prophet Crown" "Praetor Crown"
-"Vaal Mask" "Deicide Mask"
-"Astral Plate" "Glorious Plate"
-"Zodiac Leather" "Assassin's Garb"
-"Vaal Regalia"
-"Full Dragonscale" "Triumphant Lamellar"
-"Saint's Hauberk" "Saintly Chainmail"
-"Sadist Garb" "Carnal Armour"
+"Piledriver" "Meatgrinder" "Coronal Maul"
+"Maelström Staff" "Judgement Staff" "Eclipse Staff"
+"Astral Plate" "Glorious Plate" "Titan Plate" "Legion Plate"
+"Zodiac Leather" "Assassin's Garb" "Supreme Leather" "Astral Leather"
+"Vaal Regalia" "Arcane Vestment" "Nightweave Robe"
+"Full Dragonscale" "Triumphant Lamellar" "Full Wyvernscale" "Marshall's Brigandine"
+"Saint's Hauberk" "Saintly Chainmail" "Grand Ringmail" "Paladin's Hauberk"
+"Sadist Garb" "Carnal Armour" "Sanguine Raiment" "Torturer Garb"
 "Sacrificial Garb"
-"Vaal Greaves" "Titan Greaves"
-"Stealth Boots" "Slink Boots"
-"Sorcerer Boots"
-"Dragonscale Boots"
-"Crusader Boots"
-"Murder Boots"
-"Vaal Gauntlets" "Titan Gauntlets"
-"Stealth Gloves" "Slink Gloves"
-"Sorcerer Gloves"
-"Dragonscale Gauntlets"
-"Crusader Gloves"
-"Murder Mitts"
-"Crusader Buckler" "Imperial Buckler"
-"Fossilised Spirit Shield" "Harmonic Spirit Shield" "Titanium Spirit Shield"
-"Spike-Point Arrow Quiver" "Broadhead Arrow Quiver"
+"Titan Greaves" "Precursor Greaves"
+"Slink Boots" "Harpyskin Boots"
+"Sorcerer Boots" "Sage Slippers"
+"Dragonscale Boots" "Chimerascale Boots"
+"Crusader Boots" "Martyr Boots"
+"Murder Boots" "Infiltrator Boots"
+"Titan Gauntlets" "Precursor Gauntlets"
+"Slink Gloves" "Harpyskin Gloves"
+"Sorcerer Gloves" "Sage Gloves"
+"Dragonscale Gauntlets" "Chimerascale Gauntlets"
+"Crusader Gloves" "Martyr Gloves"
+"Murder Mitts" "Infiltrator Mitts"
+"Royal Burgonet" "Eternal Burgonet" "General's Helmet" "Conqueror's Helmet"
+"Sinner Tricorne" "Lion Pelt" "Dire Pelt" "Grizzly Pelt"
+"Hubris Circlet" "Moonlit Circlet" "Sunfire Circlet"
+"Pig-Faced Bascinet" "Nightmare Bascinet" "Knight Helm" "Conquest Helmet"
+"Prophet Crown" "Praetor Crown" "Faithful Helmet" "Paladin Crown"
+"Vaal Mask" "Deicide Mask" "Jester Mask" "Ancient Mask"
+"Crusader Buckler" "Imperial Buckler" "Fossilised Spirit Shield" "Harmonic Spirit Shield" "Titanium Spirit Shield" "Supreme Spiked Shield" "Archon Kite Shield"
+"Artillery Quiver" "Blazing Arrow Quiver" "Broadhead Arrow Quiver" "Heavy Arrow Quiver" "Primal Arrow Quiver" "Spike-Point Arrow Quiver" "Vile Arrow Quiver"
 
 ### Special bases ###
 
-"Bone Helmet" "Convoking Wand" "Fingerless Silk Gloves" "Gripped Gloves" "Sacrificial Garb" "Spiked Gloves" "Two-Toned Boots"
+"Psychotic Axe" "Void Fangs" "Pneumatic Dagger" "Infernal Blade" "Boom Mace" "Alternating Sceptre" "Anarchic Spiritblade" "Accumulator Wand" "Apex Cleaver" "Solarine Bow" "Impact Force Propagator" "Banishing Blade" "Battery Staff" "Eventuality Rod" "Convoking Wand" "Royal Plate" "Syndicate's Garb" "Twilight Regalia" "Conquest Lamellar" "Sacred Chainmail" "Necrotic Armour" "Brimstone Treads" "Leviathan Greaves" "Stormrider Boots" "Velour Boots" "Dreamquest Slippers" "Warlock Boots" "Wyvernscale Boots" "Paladin Boots" "Fugitive Boots" "Phantom Boots" "Two-Toned Boots" "Spiked Gloves" "Thwarting Gauntlets"  "Leviathan Gauntlets" "Gripped Gloves" "Trapsetter Gloves" "Velour Gloves" "Fingerless Silk Gloves" "Nexus Gloves" "Warlock Gloves" "Wyvernscale Gauntlets" "Apothecary's Gloves" "Paladin Gloves" "Phantom Mitts" "Giantslayer Helmet" "Majestic Pelt" "Lich's Circlet" "Penitent Mask" "Haunted Bascinet" "Bone Helmet" "Archdemon Crown" "Divine Crown" "Blizzard Crown" "Torturer's Mask" "Heat-Attuned Tower Shield"
 
-### Items not shown as good bases but which are regardless decent in their class
+#### Special jewellry bases
 
-"Hydrascale Boots" "Legion Boots" "Assassin's Boots" "Hydrascale Gauntlets" "Legion Gloves" "Assassin's Mitts" "Ezomyte Tower Shield" "Crusader Buckler" "Imperial Buckler" "Cardinal Round Shield" "Champion Kite Shield" "Archon Kite Shield" "Mirrored Spiked Shield" "Supreme Spiked Shield"
-
-#### Items shown as good bases
-
-"Siege Axe" "Runic Hatchet" "Vaal Axe" "Fleshripper" "Thicket Bow" "Imperial Bow" "Maraketh Bow" "Harbinger Bow" "Imperial Claw" "Gemini Claw" "Ambusher" "Platinum Kris" "Imperial Skean" "Sai" "Auric Mace" "Nightmare Mace" "Behemoth Mace" "Piledriver" "Meatgrinder" "Coronal Maul" "Opal Sceptre" "Void Sceptre" "Sambar Sceptre" "Vaal Sceptre" "Lathi" "Eclipse Staff" "Maelström Staff" "Judgement Staff" "Corsair Sword" "Eternal Sword" "Tiger Hook" "Harpy Rapier" "Spiraled Foil" "Jewelled Foil" "Reaver Sword" "Exquisite Blade" "Imbued Wand" "Opal Wand" "Prophecy Wand" "Profane Wand" "Royal Burgonet" "Eternal Burgonet" "Sinner Tricorne" "Lion Pelt" "Hubris Circlet" "Pig-Faced Bascinet" "Nightmare Bascinet" "Praetor Crown" "Deicide Mask" "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Vaal Regalia" "Full Dragonscale" "Triumphant Lamellar" "Saintly Chainmail" "Sadist Garb" "Carnal Armour" "Vaal Greaves" "Titan Greaves" "Stealth Boots" "Slink Boots" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Vaal Gauntlets" "Titan Gauntlets" "Stealth Gloves" "Slink Gloves" "Sorcerer Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Colossal Tower Shield" "Fossilised Spirit Shield" "Harmonic Spirit Shield" "Titanium Spirit Shield" "Spike-Point Arrow Quiver"
-
-#### Items considered special jewellry bases
-
-"Blue Pearl Amulet" "Cerulean Ring" "Crystal Belt" "Marble Amulet" "Opal Ring" "Steel Ring" "Stygian Vise" "Vanguard Belt" "Vermillion Ring"
+"Astrolabe Amulet" "Blue Pearl Amulet" "Focused Amulet" "Marble Amulet" "Seaglass Amulet" "Simplex Amulet" "Bone Ring" "Cerulean Ring" "Cogwork Ring" "Composite Ring" "Geodesic Ring" "Helical Ring" "Iolite Ring" "Manifold Ring" "Nameless Ring" "Penumbra Ring" "Ratcheting Ring" "Shadowed Ring" "Opal Ring" "Steel Ring" "Vermillion Ring" "Crystal Belt" "Golden Obi" "Mechalarm Belt" "Micro-Distillery Belt" "Stygian Vise" "Vanguard Belt"
 
 #### Alert Sounds
 

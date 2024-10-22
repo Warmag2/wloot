@@ -34,7 +34,7 @@ Show
 # Dubious currency
 Show
     Class Currency
-    BaseType "Chromatic Orb" "Glassblower's Bauble" "Jeweller's Orb" "Orb of Chance"
+    BaseType "Chromatic Orb" "Glassblower's Bauble" "Jeweller's Orb" "Orb of Chance" "Lesser Broken Circle Artifact" "Lesser Black Scythe Artifact" "Lesser Order Artifact" "Lesser Sun Artifact"
     SetTextColor 219 190 147
     SetBackgroundColor 48 36 28 176
     SetFontSize 38
@@ -42,7 +42,7 @@ Show
 # Low-tier currency
 Show
     Class Currency
-    BaseType "Cartographer's Chisel" "Engineer's Orb" "Instilling Orb" "Orb of Alchemy" "Orb of Alteration" "Orb of Binding" "Orb of Horizons" "Orb of Scouring"
+    BaseType "Cartographer's Chisel" "Engineer's Orb" "Instilling Orb" "Orb of Alchemy" "Orb of Alteration" "Orb of Binding" "Orb of Horizons" "Orb of Scouring" "Greater Broken Circle Artifact" "Greater Black Scythe Artifact" "Greater Order Artifact" "Greater Sun Artifact"
     SetTextColor 225 195 150
     SetBackgroundColor 64 56 42
     SetBorderColor 225 195 150
@@ -54,7 +54,7 @@ Show
 # Mid-tier currency
 Show
     Class Currency
-    BaseType "Blessed Orb" "Enkindling Orb" "Gemcutter's Prism" "Regal Orb" "Orb of Fusing"
+    BaseType "Blessed Orb" "Enkindling Orb" "Gemcutter's Prism" "Regal Orb" "Orb of Fusing" "Grand Broken Circle Artifact" "Grand Black Scythe Artifact" "Grand Order Artifact" "Grand Sun Artifact"
     SetTextColor 240 224 187
     SetBackgroundColor 96 72 56
     SetBorderColor 230 214 177
@@ -66,7 +66,7 @@ Show
 # High-tier currency
 Show
     Class Currency
-    BaseType "Chaos Orb" "Orb of Regret" "Orb of Unmaking" "Stacked Deck" "Vaal Orb"
+    BaseType "Cartographer's Seal" "Chaos Orb" "Crescent Splinter" "Orb of Regret" "Orb of Unmaking" "Ritual Splinter" "Ritual Vessel" "Stacked Deck" "Unshaping Orb" "Vaal Orb"
     SetTextColor 240 224 187
     SetBackgroundColor 112 86 64
     SetBorderColor 230 214 177
@@ -114,7 +114,7 @@ Show
 # Valid currency shards
 Show
     Class Currency
-    BaseType "Horizon Shard" "Chaos Shard" "Regal Shard"
+    BaseType "Horizon Shard" "Chaos Shard" "Regal Shard" "Exotic Coinage" "Scrap Metal" "Astragali" "Burial Medallion"
     SetTextColor 225 195 150
     SetBackgroundColor 96 72 56
     SetBorderColor 225 195 150
@@ -204,7 +204,7 @@ Show
 
 Show
     Class Currency
-    BaseType "Fossil" "Chaotic Resonator"
+    BaseType "Fossil" "Chaotic Resonator" "Powerful Alchemical Resonator"
     SetTextColor 120 230 190
     SetBackgroundColor 32 64 42
     SetBorderColor 120 230 190
@@ -228,7 +228,7 @@ Hide
 # Catalysts
 Show
     Class Currency
-    BaseType "Fertile Catalyst" "Prismatic Catalyst" "Tempering Catalyst"
+    BaseType "Fertile Catalyst" "Prismatic Catalyst" "Tempering Catalyst" "Noxious Catalyst" "Accelerating Catalyst" "Unstable Catalyst"
     SetTextColor 150 250 90
     SetBackgroundColor 62 94 42
     SetBorderColor 150 250 90
@@ -414,7 +414,7 @@ Show
 
 Show
     Class Currency
-    BaseType "Golden Oil"
+    BaseType "Golden Oil" "Tainted Oil"
     SetFontSize 42
     SetBackgroundColor 170 184 150
     SetBorderColor 236 255 208
@@ -739,7 +739,7 @@ Show
 
 Show
     Class "Map Fragment"
-    BaseType "Gilded"
+    BaseType "Gilded" "Winged"
     SetBackgroundColor 255 255 224 212
     SetBorderColor 240 240 164
     SetTextColor 0 0 0
@@ -769,6 +769,18 @@ Show
     PlayAlertSound 11 130
     MinimapIcon 0 Purple Square
     PlayEffect Purple
+
+# Expedition Logbook
+Show
+    Class Expedition Logbook
+    BaseType "Expedition Logbook"
+    SetTextColor 240 224 187
+    SetBackgroundColor 112 86 64
+    SetBorderColor 230 214 177
+    SetFontSize 42
+    PlayAlertSound 13 150
+    MinimapIcon 1 Yellow Hexagon
+    PlayEffect Yellow
 
 ########################################################################
 ### Labyrinth items ####################################################

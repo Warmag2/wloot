@@ -283,145 +283,145 @@ Show
 Show
     Class Currency
     BaseType "Clear Oil"
-    SetFontSize 32
+    SetFontSize 34
     SetBackgroundColor 57 62 50
     SetBorderColor 123 133 109
     SetTextColor 236 255 208
     PlayAlertSound 9 80
-    MinimapIcon 2 Cyan Kite
-    PlayEffect Cyan
+    MinimapIcon 2 Brown Kite
+    PlayEffect Brown
 
 Show
     Class Currency
     BaseType "Sepia Oil"
-    SetFontSize 33
+    SetFontSize 35
     SetBackgroundColor 67 72 59
     SetBorderColor 133 143 117
     SetTextColor 236 255 208
     PlayAlertSound 9 80
-    MinimapIcon 2 Cyan Kite
-    PlayEffect Cyan
+    MinimapIcon 2 Brown Kite
+    PlayEffect Brown
 
 Show
     Class Currency
     BaseType "Amber Oil"
-    SetFontSize 34
+    SetFontSize 36
     SetBackgroundColor 76 82 67
     SetBorderColor 142 253 125
     SetTextColor 236 255 208
     PlayAlertSound 9 80
-    MinimapIcon 2 Cyan Kite
-    PlayEffect Cyan
+    MinimapIcon 2 Brown Kite
+    PlayEffect Brown
 
 Show
     Class Currency
     BaseType "Verdant Oil"
-    SetFontSize 35
+    SetFontSize 37
     SetBackgroundColor 85 92 75
     SetBorderColor 152 164 134
     SetTextColor 236 255 208
     PlayAlertSound 9 80
-    MinimapIcon 2 Cyan Kite
-    PlayEffect Cyan
+    MinimapIcon 2 Brown Kite
+    PlayEffect Brown
 
 Show
     Class Currency
     BaseType "Teal Oil"
-    SetFontSize 36
+    SetFontSize 38
     SetBackgroundColor 95 102 84
     SetBorderColor 161 174 142
     SetTextColor 236 255 208
     PlayAlertSound 9 80
-    MinimapIcon 2 Cyan Kite
-    PlayEffect Cyan
+    MinimapIcon 2 Brown Kite
+    PlayEffect Brown
 
 Show
     Class Currency
     BaseType "Azure Oil"
-    SetFontSize 37
+    SetFontSize 39
     SetBackgroundColor 104 113 92
     SetBorderColor 170 184 150
     SetTextColor 236 255 208
     PlayAlertSound 9 80
-    MinimapIcon 1 Cyan Kite
-    PlayEffect Cyan
+    MinimapIcon 1 Brown Kite
+    PlayEffect Brown
 
 Show
     Class Currency
     BaseType "Indigo Oil"
-    SetFontSize 38
+    SetFontSize 40
     SetBackgroundColor 114 123 100
     SetBorderColor 180 194 159
     SetTextColor 236 255 208
     PlayAlertSound 9 80
-    MinimapIcon 1 Cyan Kite
-    PlayEffect Cyan
+    MinimapIcon 1 Brown Kite
+    PlayEffect Brown
 
 Show
     Class Currency
     BaseType "Violet Oil"
-    SetFontSize 39
+    SetFontSize 41
     SetBackgroundColor 123 133 109
     SetBorderColor 189 204 167
     SetTextColor 236 255 208
     PlayAlertSound 9 80
-    MinimapIcon 1 Cyan Kite
-    PlayEffect Cyan
+    MinimapIcon 1 Brown Kite
+    PlayEffect Brown
 
 Show
     Class Currency
     BaseType "Crimson Oil"
-    SetFontSize 40
+    SetFontSize 42
     SetBackgroundColor 133 143 117
     SetBorderColor 199 215 175
     SetTextColor 236 255 208
     PlayAlertSound 9 80
-    MinimapIcon 1 Cyan Kite
-    PlayEffect Cyan
+    MinimapIcon 1 Brown Kite
+    PlayEffect Brown
 
 Show
     Class Currency
     BaseType "Black Oil"
-    SetFontSize 41
+    SetFontSize 43
     SetBackgroundColor 142 253 125
     SetBorderColor 208 225 184
     SetTextColor 236 255 208
     PlayAlertSound 9 90
-    MinimapIcon 1 Cyan Kite
-    PlayEffect Cyan
+    MinimapIcon 1 Brown Kite
+    PlayEffect Brown
 
 Show
     Class Currency
     BaseType "Opalescent Oil"
-    SetFontSize 42
+    SetFontSize 44
     SetBackgroundColor 152 164 134
     SetBorderColor 218 235 192
     SetTextColor 236 255 208
     PlayAlertSound 9 100
-    MinimapIcon 0 Cyan Kite
-    PlayEffect Cyan
+    MinimapIcon 0 Brown Kite
+    PlayEffect Brown
 
 Show
     Class Currency
-    BaseType "Silver Oil"
-    SetFontSize 42
+    BaseType "Silver Oil" "Golden Oil"
+    SetFontSize 45
     SetBackgroundColor 161 174 142
     SetBorderColor 227 245 200
     SetTextColor 236 255 208
     PlayAlertSound 9 110
-    MinimapIcon 0 Cyan Kite
-    PlayEffect Cyan
+    MinimapIcon 0 Brown Kite
+    PlayEffect Brown
 
 Show
     Class Currency
-    BaseType "Golden Oil" "Tainted Oil"
-    SetFontSize 42
+    BaseType "Oil Extractor" "Prismatic Oil" "Reflective Oil" "Tainted Oil"
+    SetFontSize 45
     SetBackgroundColor 170 184 150
     SetBorderColor 236 255 208
     SetTextColor 236 255 208
     PlayAlertSound 9 120
-    MinimapIcon 0 Cyan Kite
-    PlayEffect Cyan
+    MinimapIcon 0 Brown Kite
+    PlayEffect Brown
 
 ########################################################################
 ### Misc. League-specific items  #######################################
@@ -438,6 +438,16 @@ Show
     PlayAlertSound 8 150
     MinimapIcon 0 Red Triangle
     PlayEffect Red
+
+Show
+    Class "Breachstones"
+    SetFontSize 45
+    SetTextColor 255 228 190
+    SetBackgroundColor 110 20 0
+    SetBorderColor 248 96 16
+    PlayAlertSound 2 175
+    PlayEffect Red
+    MinimapIcon 0 Red Square
 
 # Delirium currency
 Show
@@ -515,7 +525,7 @@ Show
     SetTextColor 255 255 100
     SetBackgroundColor 96 96 50
     SetBorderColor 240 240 90
-    PlayAlertSound 15 200
+    PlayAlertSound 2 200
     MinimapIcon 0 Brown Square
     PlayEffect Brown
 Show
@@ -918,17 +928,16 @@ Show
     MinimapIcon 0 Purple Square
     PlayEffect Purple
 
-# Expedition Logbook
+# Expedition content
 Show
-    Class Expedition Logbook
-    BaseType "Expedition Logbook"
-    SetTextColor 240 224 187
-    SetBackgroundColor 112 86 64
-    SetBorderColor 230 214 177
-    SetFontSize 42
-    PlayAlertSound 13 150
-    MinimapIcon 1 Yellow Hexagon
-    PlayEffect Yellow
+    Class "Expedition Logbook"
+    SetFontSize 45
+    SetTextColor 192 255 255
+    SetBackgroundColor 16 96 96
+    SetBorderColor 192 255 255
+    PlayAlertSound 15 200
+    MinimapIcon 0 Cyan Square
+    PlayEffect Cyan
 
 ########################################################################
 ### Labyrinth items ####################################################
